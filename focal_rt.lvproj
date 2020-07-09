@@ -67,73 +67,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Testing" Type="Folder">
-			<Item Name="2D Interpolation.vi" Type="VI" URL="../Reference/2D Interpolation.vi"/>
-			<Item Name="Read lines from file 2012NIVerified.vi" Type="VI" URL="../Reference/Read lines from file 2012NIVerified.vi"/>
-		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
-				<Item Name="3D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot/3D Plot.lvclass"/>
-				<Item Name="3D Surface Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface Datatype/3D Surface Datatype.lvclass"/>
-				<Item Name="3D Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface/3D Surface.lvclass"/>
-				<Item Name="3D Surface.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface XCtrl/3D Surface.xctl"/>
-				<Item Name="3DMathPlot Action String.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.ctl"/>
-				<Item Name="3DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.vi"/>
-				<Item Name="3DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Cluster.ctl"/>
-				<Item Name="3DMathPlot Ctrl Act Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Queue.ctl"/>
-				<Item Name="3DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot State Class.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LV3DPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LV3DPointTypeDef.ctl"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
-			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="NI-cRIO-9038-01A42455" Type="RT CompactRIO">
@@ -165,7 +99,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -232,7 +166,6 @@ DirectoryIndex index.htm
 				<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../SubVIs/GenerateUniqueFilename.vi"/>
 				<Item Name="WriteToFile-v1.vi" Type="VI" URL="../SubVIs/WriteToFile-v1.vi"/>
 				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
-				<Item Name="loop_subvi_v2.vi" Type="VI" URL="../../../../../04_labview/03-ctrl-bench/01-motorctrl-v1/loop_subvi_v2.vi"/>
 				<Item Name="WriteToFile-2D.vi" Type="VI" URL="../SubVIs/WriteToFile-2D.vi"/>
 			</Item>
 			<Item Name="Calculations" Type="Folder">
@@ -263,22 +196,10 @@ DirectoryIndex index.htm
 			<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
 			<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="test.vi" Type="VI" URL="../Reference/test.vi"/>
-			<Item Name="ODE-PredatorPrey.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Mathematics/Differential Equations - ODE/ODE-PredatorPrey.vi"/>
-			<Item Name="RT Read Text File.vi" Type="VI" URL="../Reference/RT Read Text File.vi"/>
-			<Item Name="RT Write Text File.vi" Type="VI" URL="../Reference/RT Write Text File.vi"/>
-			<Item Name="replace_string.vi" Type="VI" URL="../Reference/replace_string.vi"/>
-			<Item Name="2DInterpPerfData.vi" Type="VI" URL="../Reference/2DInterpPerfData.vi"/>
-			<Item Name="TestRTApp.vi" Type="VI" URL="../Reference/TestRTApp.vi"/>
-		</Item>
 		<Item Name="RoscoFiles" Type="Folder">
 			<Item Name="Cp_Ct_Cq.IEA15MW.txt" Type="Document" URL="../RoscoFiles/Cp_Ct_Cq.IEA15MW.txt"/>
 		</Item>
 		<Item Name="Versions" Type="Folder">
-			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-			<Item Name="Main_v2.vi" Type="VI" URL="../Main_v2.vi"/>
-			<Item Name="Main_v3.vi" Type="VI" URL="../Main_v3.vi"/>
 			<Item Name="Main_v4.vi" Type="VI" URL="../Main_v4.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -1334,9 +1255,6 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="SharedVars.lvlib" Type="Library" URL="../SharedVars.lvlib"/>
-		<Item Name="focal_web.html" Type="Document" URL="../../../../../../../focal-build-2/focal_web.html"/>
-		<Item Name="focal_web_test.html" Type="Document" URL="../../../../../../../focal-build-2/focal_web_test.html"/>
-		<Item Name="TestRTApp.html" Type="Document" URL="../../../../../../../test-rt-app/TestRTApp.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1379,34 +1297,7 @@ DirectoryIndex index.htm
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="SIM Diagram Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Utility/Implementation/Shared/SIM Diagram Parameters.ctl"/>
-				<Item Name="SIM Continuous Solvers.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Continuous Solvers.ctl"/>
-				<Item Name="SIM Equal Times.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Utility/SIM Equal Times.vi"/>
-				<Item Name="SIM Simulation Registry Error.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Registry.llb/SIM Simulation Registry Error.ctl"/>
-				<Item Name="SIM Discrete state data.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Discrete state data.ctl"/>
-				<Item Name="SIM discrete data.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM discrete data.ctl"/>
-				<Item Name="SIM limit type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM limit type.ctl"/>
-				<Item Name="SIM trigger type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM trigger type.ctl"/>
-				<Item Name="SIM solver state data.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM solver state data.ctl"/>
-				<Item Name="SIM Registry Node Record.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Registry.llb/SIM Registry Node Record.ctl"/>
-				<Item Name="SIM Registry Node Header.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Registry.llb/SIM Registry Node Header.ctl"/>
-				<Item Name="SIM Simulation Registry.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Registry.llb/SIM Simulation Registry.ctl"/>
-				<Item Name="SIM diagram eval stage.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM diagram eval stage.ctl"/>
-				<Item Name="SIM simulation data.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM simulation data.ctl"/>
-				<Item Name="SIM stop (for core).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/SIM Integrator for core.llb/SIM stop (for core).vi"/>
-				<Item Name="SIM Adams Eval Error Core.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/Shared/Solvers/SIM Adams.llb/SIM Adams Eval Error Core.vi"/>
-				<Item Name="SIM Adams Eval Error.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/Shared/Solvers/SIM Adams.llb/SIM Adams Eval Error.vi"/>
-				<Item Name="SIM Generate Adams Coeffs.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/Shared/Solvers/SIM Adams.llb/SIM Generate Adams Coeffs.vi"/>
-				<Item Name="SIM Adams manager.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/Shared/Solvers/SIM Adams.llb/SIM Adams manager.vi"/>
-				<Item Name="SIM comprehensive manager (for core).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/SIM Integrator for core.llb/SIM comprehensive manager (for core).vi"/>
-				<Item Name="SIM Integrator collector (for core) (vector).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/SIM Integrator for core.llb/SIM Integrator collector (for core) (vector).vi"/>
-				<Item Name="SIM Report Error.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Utility/Implementation/SIM Report Error.vi"/>
-				<Item Name="SIM Integrator init (for core) (vector).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/SIM Integrator for core.llb/SIM Integrator init (for core) (vector).vi"/>
-				<Item Name="SIM Integrator distributor (for core) (vector).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/SIM Integrator for core.llb/SIM Integrator distributor (for core) (vector).vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -1422,9 +1313,6 @@ DirectoryIndex index.htm
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="ODE-PredatorPreyRHS.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Mathematics/Differential Equations - ODE/subVIs/ODE-PredatorPreyRHS.vi"/>
-			<Item Name="ODE substitute parameters.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Mathematics/Differential Equations - ODE/subVIs/ODE substitute parameters.vi"/>
-			<Item Name="ode_lv.m" Type="Document" URL="../../../../../../../Documents/LabVIEW Data/ode_lv.m"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FocalRT" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1462,7 +1350,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{66AE19D9-1E9F-4F1F-8331-9119C3FEAACB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9038-01A42455/focal_web_test.html</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Versions/Main_v4.vi</Property>
@@ -1476,55 +1364,6 @@ DirectoryIndex index.htm
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Evergreen Innovations</Property>
 				<Property Name="TgtF_productName" Type="Str">FocalRT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BCEA6D25-A12E-41AF-96A7-B62262B1D1F7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{C99613FC-6348-4845-9E1F-EA54F7DCF8FE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{75D4A4D8-5E9E-495F-8E4B-E8E28E6D0895}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{A4D2A7E1-1ABF-4A85-8799-3079978C8C34}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{7479C17F-09B5-45A4-B96C-C4651C6E7DB3}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].destName" Type="Str">www</Property>
-				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{66AE19D9-1E9F-4F1F-8331-9119C3FEAACB}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9038-01A42455/TestRTApp.html</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Tests/TestRTApp.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Evergreen Innovations</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Evergreen Innovations</Property>
-				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{54621F6E-1353-4ED0-A90A-21C7A6A66684}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
