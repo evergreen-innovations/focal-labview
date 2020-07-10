@@ -2,7 +2,7 @@
 
 ## To use Sourcetree/Github desktop 
 
-Labview provides a Merge and Diff tool which can be integrated with Sourcecontrol GUIs. To do this in Sourcetree, 
+Labview provides a Merge and Diff tool which can be integrated with source control GUIs. To do this in Sourcetree, 
 
 * Download LVMerge and LVDiff shell scripts
 * Place them at C:\Program Files\Git\bin
