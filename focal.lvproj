@@ -1,17 +1,21 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
+	<Property Name="varPersistentID:{021A00B3-72C9-4B97-BC30-875CA531EB23}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Position actual value</Property>
 	<Property Name="varPersistentID:{034A6ED1-F601-404D-BA12-74A7B927FFC5}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/CurrentVSMode</Property>
 	<Property Name="varPersistentID:{08DFBC38-C28D-4DD2-A8C8-7C16C8473F80}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI7</Property>
-	<Property Name="varPersistentID:{0D8643CB-56D8-4DD7-90E6-573345F91BA6}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Receive PDO 7 CST-Control word</Property>
+	<Property Name="varPersistentID:{0D8643CB-56D8-4DD7-90E6-573345F91BA6}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
 	<Property Name="varPersistentID:{0E185664-1613-44B0-ABDC-26FD6521B83D}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/WriteData</Property>
+	<Property Name="varPersistentID:{1B014AE2-C044-4450-91D4-5EFFE04A6BEF}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Position</Property>
+	<Property Name="varPersistentID:{1B517809-534C-4B2F-8514-F987F454AC82}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Digital Inputs</Property>
 	<Property Name="varPersistentID:{1C6CC835-C064-44FF-9BEC-603F4CCDAE06}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI4</Property>
 	<Property Name="varPersistentID:{2A569FD4-73DD-4C2B-B83F-0DDF0F30688C}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/Counter</Property>
 	<Property Name="varPersistentID:{2B3B0513-829F-49D4-B7D8-6D7025B956DB}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI5</Property>
 	<Property Name="varPersistentID:{2EB2F7CD-B4AB-4C57-9433-F296F45E78B5}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI1</Property>
 	<Property Name="varPersistentID:{2FFAE2B0-131C-414F-904A-D699744B0272}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI2</Property>
 	<Property Name="varPersistentID:{334E3698-C403-4627-8877-8C63EC51EA1B}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI2</Property>
-	<Property Name="varPersistentID:{36A89B41-8011-48FE-AC42-B809F01DD708}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Transmit PDO 5-Torque actual value</Property>
+	<Property Name="varPersistentID:{36A89B41-8011-48FE-AC42-B809F01DD708}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
 	<Property Name="varPersistentID:{37945A78-9667-455F-8FBA-B1BB550FAED1}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
+	<Property Name="varPersistentID:{3810838D-F2C6-478D-B844-A3E8034F8D60}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Torque</Property>
 	<Property Name="varPersistentID:{390F7A0F-E682-4A36-AB29-BDD1F3A31C7C}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO7</Property>
 	<Property Name="varPersistentID:{3CC1C2F8-E579-49B5-AC2B-EAF3A06DC247}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/IOSignals</Property>
 	<Property Name="varPersistentID:{3DC8A96F-5BB7-41F7-B50F-4A13B23B6CA2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-BladePitch</Property>
@@ -19,22 +23,24 @@
 	<Property Name="varPersistentID:{4256BDEB-9EA8-4B31-81CF-077A087B872C}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/Filename</Property>
 	<Property Name="varPersistentID:{46619678-7030-4127-98E1-0D759D5CC9EC}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI0</Property>
 	<Property Name="varPersistentID:{53054A91-D7D7-4092-B0AE-F8E1C09762CA}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TimeLoopCounter</Property>
-	<Property Name="varPersistentID:{5534DACF-A1F4-4354-9109-9A2CA5C94685}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Transmit PDO 5-Position loop error</Property>
+	<Property Name="varPersistentID:{5534DACF-A1F4-4354-9109-9A2CA5C94685}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Position loop error</Property>
 	<Property Name="varPersistentID:{56F20DDD-ADEF-40C5-8412-27C81828FF9E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI4</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>
 	<Property Name="varPersistentID:{5D469D96-FDCF-4C74-8111-696F7ED114C0}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenSpeed</Property>
 	<Property Name="varPersistentID:{5F403127-C51D-4374-BB4A-5996D7CABAF6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI0</Property>
 	<Property Name="varPersistentID:{6ADFDFA5-1C61-41FE-B43F-51BEF5F1D66B}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoParams</Property>
-	<Property Name="varPersistentID:{6F5A9C3F-BA37-40BF-91DF-184AEF8CE81C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Transmit PDO 5-Actual motor position</Property>
+	<Property Name="varPersistentID:{6C7C6EE4-77A9-4135-9CFC-81BBC3B624F7}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Velocity</Property>
+	<Property Name="varPersistentID:{6F5A9C3F-BA37-40BF-91DF-184AEF8CE81C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor position</Property>
 	<Property Name="varPersistentID:{6F7CF56C-1665-4A0D-990A-D5D97BBFFE3B}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO1</Property>
-	<Property Name="varPersistentID:{6FAFCF6B-8F47-40E5-96D2-D4EE9B00692F}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Transmit PDO 5-Status word</Property>
+	<Property Name="varPersistentID:{6FAFCF6B-8F47-40E5-96D2-D4EE9B00692F}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
 	<Property Name="varPersistentID:{7544A5D6-1233-4E94-A865-4F6C4764B2F6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI5</Property>
 	<Property Name="varPersistentID:{755839B5-7727-475B-AFA3-BC23A1AF2D5F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO0</Property>
 	<Property Name="varPersistentID:{7A463206-B733-4C1C-BB25-687CB6BA32A3}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI6</Property>
 	<Property Name="varPersistentID:{7D66341A-CC51-4D6B-AA24-425082989D08}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO3</Property>
+	<Property Name="varPersistentID:{80624ED3-FD1A-4750-984D-EE2098D0797F}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Control word</Property>
 	<Property Name="varPersistentID:{8B310AAE-D739-4DA4-8E8E-2B3629E6E9D6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO4</Property>
 	<Property Name="varPersistentID:{8C4BC97E-9580-49F1-9212-7D74B760B1E4}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SwapIn</Property>
-	<Property Name="varPersistentID:{8FDAE062-417F-4748-8AEF-B0F13BF2988A}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Receive PDO 7 CST-Target Torque</Property>
+	<Property Name="varPersistentID:{8FDAE062-417F-4748-8AEF-B0F13BF2988A}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Target Torque</Property>
 	<Property Name="varPersistentID:{9110DA09-B1C8-41CE-B752-C647CA5A65AD}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI4</Property>
 	<Property Name="varPersistentID:{916271D6-0C75-4FBF-98AF-683D7914B395}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI0</Property>
 	<Property Name="varPersistentID:{9174BCD5-354B-471A-8341-E0E1860EE4ED}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI7</Property>
@@ -43,18 +49,23 @@
 	<Property Name="varPersistentID:{A4C41ED4-C9F9-4DDE-9DF6-A38EA7CABD80}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO5</Property>
 	<Property Name="varPersistentID:{B1669A31-1E9C-4801-8AEF-63AB246AE7A6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI1</Property>
 	<Property Name="varPersistentID:{B58B7792-9BAB-41A0-BE39-87C320EA6E6D}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI3</Property>
-	<Property Name="varPersistentID:{B826CDAE-0A2D-42DD-86F7-7B77E69A94E1}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/Device/Transmit PDO 5-Actual motor velocity</Property>
+	<Property Name="varPersistentID:{B826CDAE-0A2D-42DD-86F7-7B77E69A94E1}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor velocity</Property>
 	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-Ta</Property>
 	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed</Property>
+	<Property Name="varPersistentID:{C4EFC91E-D102-47B5-B746-01C2D4363CBA}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Velocity actual value</Property>
 	<Property Name="varPersistentID:{C4FF30A7-A7C7-4B1A-B8B9-4B7D776A1C8A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO2</Property>
 	<Property Name="varPersistentID:{C7BDEA28-C93A-44C1-BD45-81AD8A52BE99}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI1</Property>
+	<Property Name="varPersistentID:{C90193B6-3A9A-4064-AEEA-A227AFEDC62A}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Status word</Property>
 	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/ArrayPairs</Property>
 	<Property Name="varPersistentID:{D15299F7-86F8-4128-82AA-BB6C1ACD2FAD}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FileArray</Property>
 	<Property Name="varPersistentID:{D4584EF8-59B0-4112-B8D7-822712395DBA}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI2</Property>
+	<Property Name="varPersistentID:{D5F3A503-5C5B-4D57-B9CB-2A93F06AAC87}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque</Property>
 	<Property Name="varPersistentID:{DEB7ED7C-83CD-46A3-BBF1-950F4BF0071A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI0</Property>
+	<Property Name="varPersistentID:{DED32AE5-E657-4211-BB36-94A371DBA49E}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
 	<Property Name="varPersistentID:{DEDF6B92-A950-42A0-ADAC-DE086F471ECB}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO6</Property>
 	<Property Name="varPersistentID:{E0A34AB3-6AD5-406C-8778-36F5B2F2AEFD}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
+	<Property Name="varPersistentID:{E907D560-0539-4FDE-B398-8A4B39462E52}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Touch Probe status</Property>
 	<Property Name="varPersistentID:{EC018F7C-E766-441B-B72C-1AB81EAE275F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{EC159697-A3FB-432E-8707-69F53F983BCF}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI3</Property>
 	<Property Name="varPersistentID:{EFA8ADB8-C9CE-4D6E-96BA-435E73D4A146}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TimeMsTimer</Property>
@@ -64,6 +75,7 @@
 	<Property Name="varPersistentID:{F752797F-757B-4FC4-9A83-5BC41F17A367}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO1</Property>
 	<Property Name="varPersistentID:{F9F56937-036C-4528-AF6C-BDE9CA59A40B}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI6</Property>
 	<Property Name="varPersistentID:{FED3AC59-D21B-495C-8172-5D5A431F027F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI7</Property>
+	<Property Name="varPersistentID:{FF34C502-9F6F-439B-8890-499366D65E01}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Torque actual value</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -226,6 +238,7 @@ DirectoryIndex index.htm
 		<Item Name="Clusters" Type="Folder">
 			<Item Name="AccelnetState.ctl" Type="VI" URL="../Clusters/AccelnetState.ctl"/>
 			<Item Name="IOSignals.ctl" Type="VI" URL="../Clusters/IOSignals.ctl"/>
+			<Item Name="ElmoState.ctl" Type="VI" URL="../Clusters/ElmoState.ctl"/>
 			<Item Name="SwapIn.ctl" Type="VI" URL="../Clusters/SwapIn.ctl"/>
 			<Item Name="SwapArrayCluster.ctl" Type="VI" URL="../Clusters/SwapArrayCluster.ctl"/>
 			<Item Name="ArrayPairs.ctl" Type="VI" URL="../Clusters/ArrayPairs.ctl"/>
@@ -266,6 +279,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
 				<Item Name="AccelnetInterface.vi" Type="VI" URL="../SubVIs/AccelnetInterface.vi"/>
+				<Item Name="ElmoInterface.vi" Type="VI" URL="../SubVIs/ElmoInterface.vi"/>
+			</Item>
+			<Item Name="Ctrl" Type="Folder">
+				<Item Name="ActuatorCtrl.vi" Type="VI" URL="../SubVIs/ActuatorCtrl.vi"/>
 			</Item>
 			<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
 			<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
@@ -1362,9 +1379,9 @@ DirectoryIndex index.htm
 			<Property Name="ECAT.Master.LRWEnabled" Type="Bool">true</Property>
 			<Property Name="ECAT.Master.UserShift" Type="Int">0</Property>
 			<Property Name="ECAT.Name" Type="Str">EtherCAT Master</Property>
-			<Item Name="Device" Type="ECATEnetSlave">
+			<Item Name="MainGen" Type="ECATEnetSlave">
 				<Property Name="ECAT.Description" Type="Str">BEL</Property>
-				<Property Name="ECAT.Name" Type="Str">Device</Property>
+				<Property Name="ECAT.Name" Type="Str">MainGen</Property>
 				<Property Name="ECAT.Slave.CoESupported" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.DCEnabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.DCSupported" Type="Bool">true</Property>
@@ -1531,7 +1548,272 @@ DirectoryIndex index.htm
 					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
 				</Item>
 			</Item>
+			<Item Name="PitchBlade1" Type="ECATEnetSlave">
+				<Property Name="ECAT.Description" Type="Str">Elmo Gold EtherCAT Drive 30924 Rev 10420</Property>
+				<Property Name="ECAT.Name" Type="Str">PitchBlade1</Property>
+				<Property Name="ECAT.Slave.CoESupported" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.DCEnabled" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.DCSupported" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.E2PROMSize" Type="UInt">2048</Property>
+				<Property Name="ECAT.Slave.EoESupported" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.FmmuCount" Type="UInt">2</Property>
+				<Property Name="ECAT.Slave.FoESupported" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.InitCmd.Comment0" Type="Str">Op mode</Property>
+				<Property Name="ECAT.Slave.InitCmd.Comment1" Type="Str">Cycle time</Property>
+				<Property Name="ECAT.Slave.InitCmd.Data0" Type="Str">08</Property>
+				<Property Name="ECAT.Slave.InitCmd.Data1" Type="Str">02</Property>
+				<Property Name="ECAT.Slave.InitCmd.DependOnSlot0" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.InitCmd.DependOnSlot1" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.InitCmd.DestinationState0" Type="UInt">4</Property>
+				<Property Name="ECAT.Slave.InitCmd.DestinationState1" Type="UInt">4</Property>
+				<Property Name="ECAT.Slave.InitCmd.Num" Type="UInt">2</Property>
+				<Property Name="ECAT.Slave.InitCmd.ObjectIndex0" Type="UInt">24672</Property>
+				<Property Name="ECAT.Slave.InitCmd.ObjectIndex1" Type="UInt">24770</Property>
+				<Property Name="ECAT.Slave.InitCmd.ObjectSubIndex0" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.InitCmd.ObjectSubIndex1" Type="UInt">1</Property>
+				<Property Name="ECAT.Slave.InitCmd.SourceState0" Type="UInt">2</Property>
+				<Property Name="ECAT.Slave.InitCmd.SourceState1" Type="UInt">2</Property>
+				<Property Name="ECAT.Slave.InputCorrection" Type="Int">0</Property>
+				<Property Name="ECAT.Slave.InputSyncMode" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.IsComplex" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.IsWatchdogTimeoutByScan" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.MB.PollRateByScan" Type="UInt">1</Property>
+				<Property Name="ECAT.Slave.NodeAddress" Type="UInt">4097</Property>
+				<Property Name="ECAT.Slave.OutputCorrection" Type="Int">0</Property>
+				<Property Name="ECAT.Slave.OutputSyncMode" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
+				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">1</Property>
+				<Property Name="ECAT.Slave.ProductCode" Type="UInt">198948</Property>
+				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">66592</Property>
+				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:6673:6675:6676:5632:5644:5657:5660:</Property>
+				<Property Name="ECAT.Slave.SerialNo" Type="UInt">19461834</Property>
+				<Property Name="ECAT.Slave.SMCount" Type="UInt">4</Property>
+				<Property Name="ECAT.Slave.SMWatchdogTimeoutByInc" Type="UInt">10000</Property>
+				<Property Name="ECAT.Slave.SMWDEnabled" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.SMWDTime" Type="UInt">10</Property>
+				<Property Name="ECAT.Slave.Sync0CycleByScan" Type="UInt">1</Property>
+				<Property Name="ECAT.Slave.Sync0Enabled" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.Sync0Shift" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.Sync1CycleBySync0Cycle" Type="UInt">1</Property>
+				<Property Name="ECAT.Slave.Sync1Enabled" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.Sync1Shift" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.Type" Type="Str">Elmo Drive </Property>
+				<Property Name="ECAT.Slave.VendorID" Type="UInt">154</Property>
+				<Property Name="ECAT.Slave.VendorName" Type="Str">Elmo Motion Control</Property>
+				<Property Name="ECAT.Slave.WatchdogDivider" Type="UInt">2498</Property>
+				<Property Name="NI.SortType" Type="Int">1</Property>
+				<Item Name="Inputs-Digital Inputs" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">1</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Digital Inputs</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Inputs-Position actual value" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Position actual value</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Inputs-Status word" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">2</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Status word</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Inputs-Torque actual value" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">16</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Torque actual value</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Inputs-Touch Probe status" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">17</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Touch Probe status</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Inputs-Velocity actual value" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">14</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Inputs-Velocity actual value</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Control word" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">34</Property>
+					<Property Name="ECAT.Index" Type="UInt">2</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Control word</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Digital Outputs" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">34</Property>
+					<Property Name="ECAT.Index" Type="UInt">1</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Digital Outputs</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Target Position" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">34</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Target Position</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Target Torque" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">45</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Target Torque</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Target Velocity" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">59</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Target Velocity</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="Outputs-Touch Probe Function" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">57</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">false</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">Outputs-Touch Probe Function</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"A!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+				</Item>
+			</Item>
 		</Item>
+		<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
+		<Item Name="AccelnetVelScale.vi" Type="VI" URL="../SubVIs/AccelnetVelScale.vi"/>
+		<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
+		<Item Name="ElmoVelScale.vi" Type="VI" URL="../SubVIs/ElmoVelScale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1594,13 +1876,17 @@ DirectoryIndex index.htm
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
+			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
-			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
