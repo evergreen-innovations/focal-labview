@@ -284,16 +284,24 @@ DirectoryIndex index.htm
 			<Item Name="Ctrl" Type="Folder">
 				<Item Name="ActuatorCtrl.vi" Type="VI" URL="../SubVIs/ActuatorCtrl.vi"/>
 			</Item>
-			<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
-			<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
-			<Item Name="RadToDeg.vi" Type="VI" URL="../SubVIs/RadToDeg.vi"/>
-			<Item Name="GenerateSine.vi" Type="VI" URL="../SubVIs/GenerateSine.vi"/>
-			<Item Name="GetUTCTimestamp.vi" Type="VI" URL="../SubVIs/GetUTCTimestamp.vi"/>
-			<Item Name="PlantModel.vi" Type="VI" URL="../SubVIs/PlantModel.vi"/>
-			<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
-			<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
-			<Item Name="NumBy1E6.vi" Type="VI" URL="../SubVIs/NumBy1E6.vi"/>
-			<Item Name="RadpsToRPM.vi" Type="VI" URL="../SubVIs/RadpsToRPM.vi"/>
+			<Item Name="Scaling" Type="Folder">
+				<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
+				<Item Name="AccelnetVelScale.vi" Type="VI" URL="../SubVIs/AccelnetVelScale.vi"/>
+				<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
+				<Item Name="ElmoVelScale.vi" Type="VI" URL="../SubVIs/ElmoVelScale.vi"/>
+			</Item>
+			<Item Name="Misc" Type="Folder">
+				<Item Name="PlantModel.vi" Type="VI" URL="../SubVIs/PlantModel.vi"/>
+				<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
+				<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
+				<Item Name="NumBy1E6.vi" Type="VI" URL="../SubVIs/NumBy1E6.vi"/>
+				<Item Name="RadpsToRPM.vi" Type="VI" URL="../SubVIs/RadpsToRPM.vi"/>
+				<Item Name="GetUTCTimestamp.vi" Type="VI" URL="../SubVIs/GetUTCTimestamp.vi"/>
+				<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
+				<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
+				<Item Name="RadToDeg.vi" Type="VI" URL="../SubVIs/RadToDeg.vi"/>
+				<Item Name="GenerateSine.vi" Type="VI" URL="../SubVIs/GenerateSine.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="test.vi" Type="VI" URL="../Reference/test.vi"/>
@@ -1810,10 +1818,6 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
-		<Item Name="AccelnetVelScale.vi" Type="VI" URL="../SubVIs/AccelnetVelScale.vi"/>
-		<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
-		<Item Name="ElmoVelScale.vi" Type="VI" URL="../SubVIs/ElmoVelScale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
