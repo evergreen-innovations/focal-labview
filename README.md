@@ -18,11 +18,11 @@ Labview provides a Merge and Diff tool which can be integrated with source contr
 * Download the shell script from fortranScript/compile-fortran onto the cRIO
 * Download the rosco source code from (https://github.com/nrel/rosco) and make changes as needed.
 
-* mkdir build
-* cd build
-* ./compile-fortran.sh libdiscon20200910 <name you want to give the shared lib>
-* cp <so name> /usr/local.lib/.
-* copy the shared library using SCP tool onto the local computer. I use WinSCP.
+	* mkdir build
+	* cd build
+	* ./compile-fortran.sh libdiscon20200910 <name you want to give the shared lib>
+	* cp <so name> /usr/local.lib/.
+	* copy the shared library using SCP tool onto the local computer. I use WinSCP.
 
 
 * In Eclipse, Under Properties -> C/C++ Build -> Settings -> Cross GCC Linker
