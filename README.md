@@ -21,14 +21,17 @@ Labview provides a Merge and Diff tool which can be integrated with source contr
 	* mkdir build
 	* cd build
 	* ./compile-fortran.sh libdiscon20200910 <name you want to give the shared lib>
-	* cp <so name> /usr/local.lib/.
+	* cp <so name> /usr/local/lib/.
 	* copy the shared library using SCP tool onto the local computer. I use WinSCP.
 
+* We have written a wrapper code in C, which calls the fortran shared library and acts as a bridge between Labview and ROSCO-Fortran.
 
 * In Eclipse, Under Properties -> C/C++ Build -> Settings -> Cross GCC Linker
 	* Click on Libraries. Change the -L (library search path) to the location of the shared library.
 	* Click on Miscellaneous. Update the name of the library to your .so, which is copied from cRIO and placed under the path above. (ex.  -ldiscon_20201009)
 	* Build the Eclipse code and copy the <eclipse so name>.so file to /usr/local/lib on cRIO using Eclipse
+
+To know more about how to cross compile C code (for cRIO) using Eclipse - http://www.ni.com/tutorial/52578/en/ .
 
 * Finally, on cRIO, run the below command
 	/sbin/ldconfig -v
