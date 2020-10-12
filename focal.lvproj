@@ -57,7 +57,6 @@
 	<Property Name="varPersistentID:{C4FF30A7-A7C7-4B1A-B8B9-4B7D776A1C8A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO2</Property>
 	<Property Name="varPersistentID:{C7BDEA28-C93A-44C1-BD45-81AD8A52BE99}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI1</Property>
 	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoPairs</Property>
-	<Property Name="varPersistentID:{D15299F7-86F8-4128-82AA-BB6C1ACD2FAD}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FileArray</Property>
 	<Property Name="varPersistentID:{D24564AF-9D24-4B40-8074-91235EA98B69}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Digital Inputs</Property>
 	<Property Name="varPersistentID:{D4584EF8-59B0-4112-B8D7-822712395DBA}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI2</Property>
 	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque_Nm</Property>
@@ -1898,6 +1897,9 @@ DirectoryIndex index.htm
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
 			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
+			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

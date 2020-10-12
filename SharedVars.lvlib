@@ -15,15 +15,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"A!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="FileArray" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z.1!!!"A!A!!!!!!#!!V!#A!(:7RF&lt;76O&gt;!!1!%!!!P``````````!!!!!1!"!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="IOSignals" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
