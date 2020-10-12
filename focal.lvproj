@@ -15,14 +15,14 @@
 	<Property Name="varPersistentID:{37945A78-9667-455F-8FBA-B1BB550FAED1}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
 	<Property Name="varPersistentID:{390F7A0F-E682-4A36-AB29-BDD1F3A31C7C}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO7</Property>
 	<Property Name="varPersistentID:{3CC1C2F8-E579-49B5-AC2B-EAF3A06DC247}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/IOSignals</Property>
-	<Property Name="varPersistentID:{3DC8A96F-5BB7-41F7-B50F-4A13B23B6CA2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-BladePitch</Property>
+	<Property Name="varPersistentID:{3DC8A96F-5BB7-41F7-B50F-4A13B23B6CA2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-BladePitch_rad</Property>
 	<Property Name="varPersistentID:{418EDEB8-F20E-47A2-9014-551E1D9307A7}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI2</Property>
 	<Property Name="varPersistentID:{46619678-7030-4127-98E1-0D759D5CC9EC}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI0</Property>
 	<Property Name="varPersistentID:{495B1745-50F3-422A-B78A-7A5B707ED3C5}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
 	<Property Name="varPersistentID:{56F20DDD-ADEF-40C5-8412-27C81828FF9E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI4</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>
 	<Property Name="varPersistentID:{5B6D36BD-3553-41CB-8F05-6C3218029E51}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Torque</Property>
-	<Property Name="varPersistentID:{5D469D96-FDCF-4C74-8111-696F7ED114C0}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenSpeed</Property>
+	<Property Name="varPersistentID:{5D469D96-FDCF-4C74-8111-696F7ED114C0}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenSpeed_rad_s</Property>
 	<Property Name="varPersistentID:{5EAB66BC-E138-4297-B61E-57139030B1D6}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/input 2</Property>
 	<Property Name="varPersistentID:{5F403127-C51D-4374-BB4A-5996D7CABAF6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI0</Property>
 	<Property Name="varPersistentID:{62A8B0BA-006C-4311-A547-F9B6E69819CD}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor position</Property>
@@ -51,16 +51,16 @@
 	<Property Name="varPersistentID:{AEC7851B-4FB5-4B27-A052-F6148DAF9268}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/error in</Property>
 	<Property Name="varPersistentID:{B1669A31-1E9C-4801-8AEF-63AB246AE7A6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI1</Property>
 	<Property Name="varPersistentID:{B58B7792-9BAB-41A0-BE39-87C320EA6E6D}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI3</Property>
-	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-Ta</Property>
-	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed</Property>
+	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-AeroTorque_Nm</Property>
+	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed_m_s</Property>
 	<Property Name="varPersistentID:{BB10001D-1EF6-420D-978A-BE9FA141BD71}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/output</Property>
 	<Property Name="varPersistentID:{C4FF30A7-A7C7-4B1A-B8B9-4B7D776A1C8A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO2</Property>
 	<Property Name="varPersistentID:{C7BDEA28-C93A-44C1-BD45-81AD8A52BE99}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI1</Property>
-	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/ArrayPairs</Property>
+	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoPairs</Property>
 	<Property Name="varPersistentID:{D15299F7-86F8-4128-82AA-BB6C1ACD2FAD}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FileArray</Property>
 	<Property Name="varPersistentID:{D24564AF-9D24-4B40-8074-91235EA98B69}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Digital Inputs</Property>
 	<Property Name="varPersistentID:{D4584EF8-59B0-4112-B8D7-822712395DBA}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI2</Property>
-	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque</Property>
+	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque_Nm</Property>
 	<Property Name="varPersistentID:{DEB7ED7C-83CD-46A3-BBF1-950F4BF0071A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI0</Property>
 	<Property Name="varPersistentID:{DEDF6B92-A950-42A0-ADAC-DE086F471ECB}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO6</Property>
 	<Property Name="varPersistentID:{E0A34AB3-6AD5-406C-8778-36F5B2F2AEFD}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
@@ -1830,6 +1830,8 @@ DirectoryIndex index.htm
 				<Item Name="output" Type="Variable"/>
 			</Item>
 		</Item>
+		<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
+		<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1892,17 +1894,10 @@ DirectoryIndex index.htm
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
 			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
