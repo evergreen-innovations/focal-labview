@@ -19,6 +19,7 @@
 	<Property Name="varPersistentID:{418EDEB8-F20E-47A2-9014-551E1D9307A7}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI2</Property>
 	<Property Name="varPersistentID:{46619678-7030-4127-98E1-0D759D5CC9EC}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI0</Property>
 	<Property Name="varPersistentID:{495B1745-50F3-422A-B78A-7A5B707ED3C5}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
+	<Property Name="varPersistentID:{518284B0-D92F-47D7-9133-2E5385C727F8}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-Cp</Property>
 	<Property Name="varPersistentID:{56F20DDD-ADEF-40C5-8412-27C81828FF9E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod2/DI4</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>
 	<Property Name="varPersistentID:{5B6D36BD-3553-41CB-8F05-6C3218029E51}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Torque</Property>
@@ -158,7 +159,7 @@
 	</Item>
 	<Item Name="NI-cRIO-9038-01A42455" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9038-01A42455</Property>
-		<Property Name="alias.value" Type="Str">192.168.21.31</Property>
+		<Property Name="alias.value" Type="Str">192.168.21.70</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77B9;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">77B9</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -1831,6 +1832,8 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
 		<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
+		<Item Name="WindSimulator.vi" Type="VI" URL="../SubVIs/WindSimulator.vi"/>
+		<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
