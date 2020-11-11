@@ -30,12 +30,14 @@
 	<Property Name="varPersistentID:{640B8D9C-547C-4DC1-808F-AE3ACAC02622}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
 	<Property Name="varPersistentID:{64FDB478-DD5B-4BE8-A6D0-888BE29E8E58}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
 	<Property Name="varPersistentID:{6ADFDFA5-1C61-41FE-B43F-51BEF5F1D66B}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoParams</Property>
+	<Property Name="varPersistentID:{6D81827D-8EFD-4CBE-8AA2-B07AA9BAD753}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchCtrl</Property>
 	<Property Name="varPersistentID:{6F7CF56C-1665-4A0D-990A-D5D97BBFFE3B}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO1</Property>
 	<Property Name="varPersistentID:{725070CB-4CF7-4E92-9C4A-97FF556E772C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
 	<Property Name="varPersistentID:{72B18380-E5CB-49E8-8987-A72B9B938930}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/input 1</Property>
 	<Property Name="varPersistentID:{7544A5D6-1233-4E94-A865-4F6C4764B2F6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI5</Property>
 	<Property Name="varPersistentID:{755839B5-7727-475B-AFA3-BC23A1AF2D5F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO0</Property>
 	<Property Name="varPersistentID:{7A463206-B733-4C1C-BB25-687CB6BA32A3}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI6</Property>
+	<Property Name="varPersistentID:{7BDEED11-D4DA-4BBA-9B7A-32AF035B8441}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenCtrl</Property>
 	<Property Name="varPersistentID:{7D66341A-CC51-4D6B-AA24-425082989D08}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO3</Property>
 	<Property Name="varPersistentID:{8A9F6EA4-4AF9-4113-A67B-133D8DAA2B14}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/WriteData</Property>
 	<Property Name="varPersistentID:{8B310AAE-D739-4DA4-8E8E-2B3629E6E9D6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO4</Property>
@@ -55,6 +57,7 @@
 	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-AeroTorque_Nm</Property>
 	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed_m_s</Property>
 	<Property Name="varPersistentID:{BB10001D-1EF6-420D-978A-BE9FA141BD71}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/output</Property>
+	<Property Name="varPersistentID:{C03CB20A-6D3C-42FC-B8D8-454D69F6C467}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SimulationConstants</Property>
 	<Property Name="varPersistentID:{C4FF30A7-A7C7-4B1A-B8B9-4B7D776A1C8A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AO2</Property>
 	<Property Name="varPersistentID:{C7BDEA28-C93A-44C1-BD45-81AD8A52BE99}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI1</Property>
 	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoPairs</Property>
@@ -63,6 +66,7 @@
 	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque_Nm</Property>
 	<Property Name="varPersistentID:{DEB7ED7C-83CD-46A3-BBF1-950F4BF0071A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod5/AI0</Property>
 	<Property Name="varPersistentID:{DEDF6B92-A950-42A0-ADAC-DE086F471ECB}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod4/DO6</Property>
+	<Property Name="varPersistentID:{E0270675-2629-4815-9C94-BED96C758E4A}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchSetpoint_rad</Property>
 	<Property Name="varPersistentID:{E0A34AB3-6AD5-406C-8778-36F5B2F2AEFD}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{E581A550-7294-4097-B097-07974515C50A}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/error out</Property>
 	<Property Name="varPersistentID:{E988DFCA-149C-4EE3-B20E-F7D4F8F5DB88}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Control word</Property>
@@ -247,6 +251,9 @@ DirectoryIndex index.htm
 			<Item Name="RoscoParams.ctl" Type="VI" URL="../Clusters/RoscoParams.ctl"/>
 			<Item Name="FileDataChannel.ctl" Type="VI" URL="../Clusters/FileDataChannel.ctl"/>
 			<Item Name="SwapIndexes.ctl" Type="VI" URL="../Clusters/SwapIndexes.ctl"/>
+			<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
+			<Item Name="BladePitchMode.ctl" Type="VI" URL="../Clusters/BladePitchMode.ctl"/>
+			<Item Name="PitchCtrl.ctl" Type="VI" URL="../Clusters/PitchCtrl.ctl"/>
 			<Item Name="SimulationConstants.ctl" Type="VI" URL="../Clusters/SimulationConstants.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
@@ -284,16 +291,20 @@ DirectoryIndex index.htm
 				<Item Name="ElmoInterface.vi" Type="VI" URL="../SubVIs/ElmoInterface.vi"/>
 			</Item>
 			<Item Name="Ctrl" Type="Folder">
-				<Item Name="ActuatorCtrl.vi" Type="VI" URL="../SubVIs/ActuatorCtrl.vi"/>
+				<Item Name="PitchCtrl.vi" Type="VI" URL="../SubVIs/PitchCtrl.vi"/>
 			</Item>
 			<Item Name="Scaling" Type="Folder">
 				<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
+				<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
 				<Item Name="AccelnetVelScale.vi" Type="VI" URL="../SubVIs/AccelnetVelScale.vi"/>
+				<Item Name="ScaleGenCtrl.vi" Type="VI" URL="../SubVIs/ScaleGenCtrl.vi"/>
+				<Item Name="ScalePitchCtrl.vi" Type="VI" URL="../SubVIs/ScalePitchCtrl.vi"/>
 				<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
 				<Item Name="ElmoVelScale.vi" Type="VI" URL="../SubVIs/ElmoVelScale.vi"/>
 			</Item>
 			<Item Name="Misc" Type="Folder">
 				<Item Name="PlantModel.vi" Type="VI" URL="../SubVIs/PlantModel.vi"/>
+				<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
 				<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
 				<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
 				<Item Name="NumBy1E6.vi" Type="VI" URL="../SubVIs/NumBy1E6.vi"/>
@@ -302,6 +313,7 @@ DirectoryIndex index.htm
 				<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
 				<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
 				<Item Name="RadToDeg.vi" Type="VI" URL="../SubVIs/RadToDeg.vi"/>
+				<Item Name="DegToRad.vi" Type="VI" URL="../SubVIs/DegToRad.vi"/>
 				<Item Name="GenerateSine.vi" Type="VI" URL="../SubVIs/GenerateSine.vi"/>
 			</Item>
 		</Item>
@@ -327,7 +339,6 @@ DirectoryIndex index.htm
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
 		</Item>
-		<Item Name="Ctrl" Type="Folder"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1830,10 +1841,12 @@ DirectoryIndex index.htm
 				<Item Name="output" Type="Variable"/>
 			</Item>
 		</Item>
-		<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
-		<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
 		<Item Name="WindSimulator.vi" Type="VI" URL="../SubVIs/WindSimulator.vi"/>
-		<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
+		<Item Name="GenMode.ctl" Type="VI" URL="../Clusters/GenMode.ctl"/>
+		<Item Name="ScalingEnum.ctl" Type="VI" URL="../Clusters/ScalingEnum.ctl"/>
+		<Item Name="GenCtrl.ctl" Type="VI" URL="../Clusters/GenCtrl.ctl"/>
+		<Item Name="ScaleTime.vi" Type="VI" URL="../SubVIs/ScaleTime.vi"/>
+		<Item Name="ScaleRotVel.vi" Type="VI" URL="../SubVIs/ScaleRotVel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1900,9 +1913,6 @@ DirectoryIndex index.htm
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
 			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

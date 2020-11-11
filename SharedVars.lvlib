@@ -15,6 +15,22 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"A!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="GenCtrl" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">GenCtrl.ctl</Property>
+		<Property Name="typedefName2" Type="Str">GenMode.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/GenCtrl.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Clusters/GenMode.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%O+A%!!"A!A!!!!!!&amp;!(-!]1!!!!!!!!!"#U&gt;F&lt;EVP:'5O9X2M!&amp;^!&amp;A!$&amp;U.P&lt;H.U97ZU)(:F&lt;'^D;82Z)#B$5V9J&amp;6*B&lt;8"F:#"7:7RP9WFU?3!I1V.7+1N34V.$4S!I1V.5+1!92W6O:8*B&gt;'^S)'^Q:8*B&gt;'FO:S"N&lt;W2F!!!H1!I!)%.P&lt;H.U97ZU)(:F&lt;'^D;82Z)(.F&gt;("P;7ZU)#BS='UJ!!!B1!I!'F*B&lt;8!A&gt;'&amp;S:W6U)(:F&lt;'^D;82Z)#BS='UJ!!!41!I!$6*B&lt;8!A&gt;'FN:3!I=SE!-A$R!!!!!!!!!!%,2W6O1X2S&lt;#ZD&gt;'Q!(E"1!!1!!!!"!!)!!QN(:7YA1W^O&gt;(*P&lt;!!"!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="IOSignals" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -28,6 +44,34 @@
 		<Property Name="typedefName1" Type="Str">IOSignals.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/IOSignals.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*96!)!!"A!A!!!!!!2!"N!#A!6&lt;7&amp;J&lt;E&gt;F&lt;F"P=WFU;7^O)#BS971J!"F!#A!3&lt;7&amp;J&lt;E&gt;F&lt;F2P=H&amp;V:3!I4GUJ!!!&gt;1!I!&amp;WVB;7Z(:7Z7:7RP9WFU?3!I=G&amp;E,X-J!".!"A!.&lt;7&amp;J&lt;E&gt;F&lt;F.U982V=Q!&lt;1!I!&amp;("J&gt;'.I-6"P=WFU;7^O)#BS971J!!!&gt;1!I!&amp;H"J&gt;'.I-6:F&lt;'^D;82Z)#BS971P=SE!!".!"A!-='FU9WAR5X2B&gt;(6T!!!&lt;1!I!&amp;("J&gt;'.I-F"P=WFU;7^O)#BS971J!!!&gt;1!I!&amp;H"J&gt;'.I-F:F&lt;'^D;82Z)#BS971P=SE!!".!"A!-='FU9WAS5X2B&gt;(6T!!!&lt;1!I!&amp;("J&gt;'.I-V"P=WFU;7^O)#BS971J!!!&gt;1!I!&amp;H"J&gt;'.I-V:F&lt;'^D;82Z)#BS971P=SE!!".!"A!-='FU9WAT5X2B&gt;(6T!!!:1!I!%X"J&gt;'.I-6"P=U^G=X1A+(*B:#E!'5!+!".Q;82D;$*1&lt;X.0:H.U)#BS971J!"F!#A!4='FU9WAT5'^T4W:T&gt;#!I=G&amp;E+1"-!0%!!!!!!!!!!1V*4V.J:WZB&lt;(-O9X2M!$:!5!!1!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#A!,!!Q!$1!/!!]+35]A5WFH&lt;G&amp;M=Q!!!1!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="PitchCtrl" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">BladePitchMode.ctl</Property>
+		<Property Name="typedefName2" Type="Str">PitchCtrl.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/BladePitchMode.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Clusters/PitchCtrl.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;6Q%!!"A!A!!!!!!(!!V!#A!'5#V(97FO!!"_!0%!!!!!!!!!!2*#&lt;'&amp;E:6"J&gt;'.I47^E:3ZD&gt;'Q!9U!7!!-51W^O=X2B&lt;H1A='FU9WAA97ZH&lt;'553'&amp;S&lt;7^O;7-A='FU9WAA97ZH&lt;'515E^41U]A9W^O&gt;(*P&lt;'RF:!!!'E*M972F)("J&gt;'.I)'^Q:8*B&gt;'FO:S"N&lt;W2F!!!&gt;1!I!&amp;U.P&lt;H.U97ZU)(.F&gt;("P;7ZU)#BE:7=J!"6!#A!05WFO:3"N:7&amp;O)#BE:7=J!"6!#A!/5WFO:3"B&lt;8!A+'2F:SE!!"6!#A!05WFO:3"Q:8*J&lt;W1A+(-J!$9!]1!!!!!!!!!"$6"J&gt;'.I1X2S&lt;#ZD&gt;'Q!)%"1!!9!!!!"!!)!!Q!%!!5*5'FU9WB$&gt;(*M!!%!"A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="PitchSetpoint_rad" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="RoscoPairs" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -127,6 +171,20 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SimulationConstants" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">SimulationConstants.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/SimulationConstants.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X]Q!!!"A!A!!!!!!)!!N!#A!&amp;4G&gt;F98)!%U!+!!R3&lt;X2P=EFO:8*U;7%!!".!#A!-2W6O:8*B&gt;'^S27:G!!!21!E!#V*P&gt;'^S5G&amp;E;86T!!F!#A!$5GBP!!^!!Q!*4H6N1GRB:'6T!"&amp;!#A!,5W.B&lt;'6'97.U&lt;X)!3!$R!!!!!!!!!!%85WFN&gt;7RB&gt;'FP&lt;E.P&lt;H.U97ZU=SZD&gt;'Q!+%"1!!=!!!!"!!)!!Q!%!!5!"A^4;7VV&lt;'&amp;U;7^O1W^O=X1!!1!(!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="StopLabVIEW" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
