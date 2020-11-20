@@ -1,29 +1,49 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
+	<Property Name="varPersistentID:{00FA878E-22E7-41A3-B822-F5E86B14AA9E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI8</Property>
 	<Property Name="varPersistentID:{034A6ED1-F601-404D-BA12-74A7B927FFC5}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/CurrentVSMode</Property>
+	<Property Name="varPersistentID:{03908616-D5B5-43A6-BD4B-C58DDC31571E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI5</Property>
+	<Property Name="varPersistentID:{0792952C-CB09-45D6-B57B-92F2AC1AB698}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI21</Property>
 	<Property Name="varPersistentID:{0AA0E09E-2EBB-4A38-9EBF-A3741BDB32D8}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Position actual value</Property>
 	<Property Name="varPersistentID:{0FFBD4B6-7CE7-4E52-AEFF-E7F8E2B5B1DF}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI1</Property>
+	<Property Name="varPersistentID:{135EC527-D967-40DF-9EBC-5B5D88A1CE2A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI28</Property>
 	<Property Name="varPersistentID:{14E110F5-D334-49A0-B893-92AA7FE77386}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI3</Property>
+	<Property Name="varPersistentID:{18AB6152-C42E-4CCD-84EC-4576CD3F632E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI0</Property>
+	<Property Name="varPersistentID:{1960CA56-FC7C-4B51-A4DF-6A7DD18B4201}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI14</Property>
+	<Property Name="varPersistentID:{1E86282D-D01F-4EA0-A5C6-B9BAA0259BE2}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI20</Property>
 	<Property Name="varPersistentID:{27E04791-A36A-4A64-BD14-AFE2ED09E381}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI0</Property>
 	<Property Name="varPersistentID:{29228C89-4298-4BE5-8108-6B86DDD3BEF1}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Velocity</Property>
+	<Property Name="varPersistentID:{2DC95D80-61A7-435F-B872-6C359993231D}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI26</Property>
+	<Property Name="varPersistentID:{2FCECA7F-A993-4C6C-8732-CEA0E2C1C02A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI17</Property>
+	<Property Name="varPersistentID:{3061216F-1D9E-4F03-9E02-AABFA7447EC2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchAxis1On</Property>
 	<Property Name="varPersistentID:{31B032C8-A1EF-4FEA-A51C-DFE2F2C3F360}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI2</Property>
 	<Property Name="varPersistentID:{35002986-DDE1-401F-8619-B025053E8B6C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Torque actual value</Property>
+	<Property Name="varPersistentID:{373D2F48-AB66-4751-A262-1A42E351AFFE}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI11</Property>
+	<Property Name="varPersistentID:{382D939B-710A-4FDF-85B9-9FD41802B6B8}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenTorqueSetpoint_Nm</Property>
+	<Property Name="varPersistentID:{39C536B2-36A8-4F82-A26A-B75E2F17F42E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI10</Property>
 	<Property Name="varPersistentID:{3CC1C2F8-E579-49B5-AC2B-EAF3A06DC247}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/IOSignals</Property>
 	<Property Name="varPersistentID:{3DC8A96F-5BB7-41F7-B50F-4A13B23B6CA2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-BladePitch_rad</Property>
+	<Property Name="varPersistentID:{40932FE3-D6F8-4369-8094-A8246045112C}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI22</Property>
 	<Property Name="varPersistentID:{40B6C321-2FA7-4592-B272-FB54A907ACF3}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
 	<Property Name="varPersistentID:{495B1745-50F3-422A-B78A-7A5B707ED3C5}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
+	<Property Name="varPersistentID:{4A0224AE-0BE7-44EB-9308-B144C3562446}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI2</Property>
 	<Property Name="varPersistentID:{518284B0-D92F-47D7-9133-2E5385C727F8}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-Cp</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>
 	<Property Name="varPersistentID:{5B6D36BD-3553-41CB-8F05-6C3218029E51}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Torque</Property>
 	<Property Name="varPersistentID:{5BE4074A-8ECD-4E81-8082-DD92C112BE26}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
+	<Property Name="varPersistentID:{5CBD2890-987E-445A-A5D2-4E186560BBFC}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI31</Property>
 	<Property Name="varPersistentID:{5D469D96-FDCF-4C74-8111-696F7ED114C0}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenSpeed_rad_s</Property>
 	<Property Name="varPersistentID:{5EAB66BC-E138-4297-B61E-57139030B1D6}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/input 2</Property>
+	<Property Name="varPersistentID:{62577E4D-FBE2-4F75-8CDE-CC00A93BDA94}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI7</Property>
+	<Property Name="varPersistentID:{6653F7A2-69A6-42F7-83A9-2326DB383C9C}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI12</Property>
 	<Property Name="varPersistentID:{6ADFDFA5-1C61-41FE-B43F-51BEF5F1D66B}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoParams</Property>
 	<Property Name="varPersistentID:{6D81827D-8EFD-4CBE-8AA2-B07AA9BAD753}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchCtrl</Property>
 	<Property Name="varPersistentID:{72B18380-E5CB-49E8-8987-A72B9B938930}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/input 1</Property>
+	<Property Name="varPersistentID:{73DED950-829D-43B4-A0F4-BCA683D738E6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI25</Property>
 	<Property Name="varPersistentID:{7BDEED11-D4DA-4BBA-9B7A-32AF035B8441}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenCtrl</Property>
 	<Property Name="varPersistentID:{80354A40-2FB4-401D-AF7C-3DD3293A3713}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI4</Property>
 	<Property Name="varPersistentID:{84AD330A-2026-4BEB-BA01-E7A9ACD00F15}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
+	<Property Name="varPersistentID:{8A2A2FC5-E1D8-4773-AE5A-EC9989476711}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchAxis2On</Property>
 	<Property Name="varPersistentID:{8A9F6EA4-4AF9-4113-A67B-133D8DAA2B14}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/WriteData</Property>
 	<Property Name="varPersistentID:{8BC044B4-5345-414C-A3FE-82F1C63B4844}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod6/AI0</Property>
 	<Property Name="varPersistentID:{8C4BC97E-9580-49F1-9212-7D74B760B1E4}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SwapIn</Property>
@@ -31,19 +51,35 @@
 	<Property Name="varPersistentID:{92EA55EC-687F-4DE1-8846-D525AD4E5972}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Target Torque</Property>
 	<Property Name="varPersistentID:{98A96108-F852-4671-9844-44C3ABED6057}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Position loop error</Property>
 	<Property Name="varPersistentID:{9A70C50C-252A-4061-BEA0-39D125336E8B}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI7</Property>
+	<Property Name="varPersistentID:{9BED5E63-6695-450C-BC3E-B3037E7726A4}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchAxis3On</Property>
 	<Property Name="varPersistentID:{9CAF12EB-D085-4536-B229-D081988FC08F}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
+	<Property Name="varPersistentID:{9CDCD13B-D9FA-4FB9-B770-FF213AE46ABA}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI30</Property>
+	<Property Name="varPersistentID:{A185920A-04F0-4787-99B5-07E5F51B24F8}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI4</Property>
+	<Property Name="varPersistentID:{A427D189-196E-4F9D-9928-1237082FDE3E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI15</Property>
+	<Property Name="varPersistentID:{A557726D-6D06-473E-A003-A2B8D1A8D9E0}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI1</Property>
+	<Property Name="varPersistentID:{A61AFC77-8D8E-4EA9-82F4-97B681654E16}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI13</Property>
 	<Property Name="varPersistentID:{A798A91F-1A48-4688-A997-FA4A20AE3B8B}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Position</Property>
+	<Property Name="varPersistentID:{A89C6590-7903-457C-9B84-C903700BEA28}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI24</Property>
 	<Property Name="varPersistentID:{A99ADB1D-9D73-4EB8-91D3-42F168D758D2}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Touch Probe status</Property>
+	<Property Name="varPersistentID:{AC7565B0-DFD0-4293-A493-E6ECB826825F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI16</Property>
+	<Property Name="varPersistentID:{AC9698D0-670F-4B05-9725-0D430A73599A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI29</Property>
 	<Property Name="varPersistentID:{AEC7851B-4FB5-4B27-A052-F6148DAF9268}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/error in</Property>
 	<Property Name="varPersistentID:{B0E268BF-AC0D-49CB-9770-26A23FF35753}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI2</Property>
 	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-AeroTorque_Nm</Property>
 	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed_m_s</Property>
 	<Property Name="varPersistentID:{BB10001D-1EF6-420D-978A-BE9FA141BD71}" Type="Ref">/NI-cRIO-9038-01A42455/FileWriteTiming.vi/Edge Detect/output</Property>
+	<Property Name="varPersistentID:{BEA9A68A-CF12-4B59-8817-A040C6F26E52}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI18</Property>
 	<Property Name="varPersistentID:{C03CB20A-6D3C-42FC-B8D8-454D69F6C467}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SimulationConstants</Property>
 	<Property Name="varPersistentID:{C19B15ED-6A38-42C9-8EF6-375D184E0AE9}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor velocity</Property>
+	<Property Name="varPersistentID:{C5ED8096-ADA8-4828-8828-A47C224F2D7A}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GeneratorOn</Property>
+	<Property Name="varPersistentID:{C770113E-4B1B-475B-B8A0-C4D59FCCAD00}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI3</Property>
 	<Property Name="varPersistentID:{C99BF18F-73F7-4AC8-8C50-50D761DA6491}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
+	<Property Name="varPersistentID:{CBE5388F-0D35-496D-9675-96E3F8A9291A}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenVelocitySetpoint_radps</Property>
 	<Property Name="varPersistentID:{CCDB1FC4-422D-448D-B106-11874592556F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/RoscoPairs</Property>
+	<Property Name="varPersistentID:{D20AE337-4AC0-468E-8D4C-CCE04B1ACA3F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI23</Property>
 	<Property Name="varPersistentID:{D24564AF-9D24-4B40-8074-91235EA98B69}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Digital Inputs</Property>
+	<Property Name="varPersistentID:{D61E4E5A-AA5C-4B58-B209-18ED16FDBD0F}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI27</Property>
+	<Property Name="varPersistentID:{DD2B294D-75BA-43D6-8E3A-96A311531AE7}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI19</Property>
 	<Property Name="varPersistentID:{DE479B1C-95AE-417E-B763-98B804601FDF}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-GenTorque_Nm</Property>
 	<Property Name="varPersistentID:{E0270675-2629-4815-9C94-BED96C758E4A}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchSetpoint_rad</Property>
 	<Property Name="varPersistentID:{E07F0C84-1DD1-4045-A3B8-9FC98A0CBF8A}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI5</Property>
@@ -54,6 +90,8 @@
 	<Property Name="varPersistentID:{F37C357B-8A00-45D8-B04E-9CBDAAF818F4}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Inputs-Status word</Property>
 	<Property Name="varPersistentID:{F511651A-61B8-4DD2-93F0-72D4A2398627}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{FC72312F-080A-4001-A77C-C1020EABE330}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor position</Property>
+	<Property Name="varPersistentID:{FCA5B25E-3C4C-467B-82E6-60D06D0B1050}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI9</Property>
+	<Property Name="varPersistentID:{FEA0FD21-80C7-44FD-9CFA-955D3B7C8B74}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI6</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -516,6 +554,532 @@ DirectoryIndex index.htm
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI3</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+				</Item>
+				<Item Name="Mod7" Type="RIO C Series Module">
+					<Property Name="crio.Calibration" Type="Str">1</Property>
+					<Property Name="crio.Location" Type="Str">Slot 7</Property>
+					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+					<Property Name="crio.SupportsDynamicRes" Type="Bool">true</Property>
+					<Property Name="crio.Type" Type="Str">NI 9205</Property>
+					<Property Name="cRIOModule.AI0.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI0.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI1.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI1.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI10.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI10.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI11.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI11.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI12.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI12.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI13.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI13.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI14.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI14.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI15.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI15.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI16.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI16.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI17.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI17.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI18.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI18.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI19.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI19.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI2.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI2.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI20.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI20.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI21.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI21.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI22.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI22.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI23.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI23.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI24.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI24.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI25.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI25.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI26.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI26.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI27.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI27.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI28.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI28.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI29.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI29.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI3.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI3.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI30.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI30.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI31.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI31.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI4.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI4.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI5.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI5.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI6.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI6.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI7.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI7.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI8.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI8.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI9.TerminalMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI9.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.EnableCalProperties" Type="Str">false</Property>
+					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+					<Property Name="cRIOModule.MinConvTime" Type="Str">8.000000E+0</Property>
+					<Item Name="AI0" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI0</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI1" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI1</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI2" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI2</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI3" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI3</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI4" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI4</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI5" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI6" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI7" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI7</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI8" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI8</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI9" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI9</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI10" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI10</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI11" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI11</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI12" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI12</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI13" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI13</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI14" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI14</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI15" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI15</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI16" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">16</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI16</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI17" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">17</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI17</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI18" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">18</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI18</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI19" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">19</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI19</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI20" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">20</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI20</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI21" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">21</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI21</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI22" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">22</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI22</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI23" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">23</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI23</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI24" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">24</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI24</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI25" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">25</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI25</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI26" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">26</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI26</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI27" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">27</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI27</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI28" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">28</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI28</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI29" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">29</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI29</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI30" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">30</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI30</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="AI31" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">31</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI31</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -987,6 +1551,7 @@ DirectoryIndex index.htm
 		<Item Name="AccelnetTorqueOutScale.vi" Type="VI" URL="../SubVIs/AccelnetTorqueOutScale.vi"/>
 		<Item Name="AccelnetPIDCtrl.vi" Type="VI" URL="../SubVIs/AccelnetPIDCtrl.vi"/>
 		<Item Name="GenCtrlMode.ctl" Type="VI" URL="../Clusters/GenCtrlMode.ctl"/>
+		<Item Name="ElmoPICtrl.vi" Type="VI" URL="../SubVIs/ElmoPICtrl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
