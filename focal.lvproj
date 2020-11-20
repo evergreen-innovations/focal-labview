@@ -277,8 +277,7 @@ DirectoryIndex index.htm
 				<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../SubVIs/GenerateUniqueFilename.vi"/>
 				<Item Name="WriteToFile-v1.vi" Type="VI" URL="../SubVIs/WriteToFile-v1.vi"/>
 				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
-				<Item Name="loop_subvi_v2.vi" Type="VI" URL="/04_labview/03-ctrl-bench/01-motorctrl-v1/loop_subvi_v2.vi"/>
-				<Item Name="WriteToFile-2D.vi" Type="VI" URL="../SubVIs/WriteToFile-2D.vi"/>
+				<Item Name="WriteToFile-v2.vi" Type="VI" URL="../SubVIs/WriteToFile-v2.vi"/>
 			</Item>
 			<Item Name="Calculations" Type="Folder">
 				<Item Name="CalcAeroTq.vi" Type="VI" URL="../SubVIs/CalcAeroTq.vi"/>
@@ -1413,7 +1412,7 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.SerialNo" Type="UInt">17192127</Property>
 				<Property Name="ECAT.Slave.SMCount" Type="UInt">4</Property>
 				<Property Name="ECAT.Slave.SMWatchdogTimeoutByInc" Type="UInt">1000</Property>
-				<Property Name="ECAT.Slave.SMWDEnabled" Type="Bool">true</Property>
+				<Property Name="ECAT.Slave.SMWDEnabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.SMWDTime" Type="UInt">10</Property>
 				<Property Name="ECAT.Slave.Sync0CycleByScan" Type="UInt">1</Property>
 				<Property Name="ECAT.Slave.Sync0Enabled" Type="Bool">false</Property>
@@ -1554,10 +1553,6 @@ DirectoryIndex index.htm
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
-				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
-				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
-				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
@@ -1618,6 +1613,9 @@ DirectoryIndex index.htm
 			<Item Name="GenCtrl.vi" Type="VI" URL="../SubVIs/GenCtrl.vi"/>
 			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
 			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
+			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
