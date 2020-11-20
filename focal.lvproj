@@ -365,7 +365,7 @@ DirectoryIndex index.htm
 			<Item Name="Cp_Ct_Cq.IEA15MW.txt" Type="Document" URL="../RoscoFiles/Cp_Ct_Cq.IEA15MW.txt"/>
 		</Item>
 		<Item Name="Versions" Type="Folder">
-			<Item Name="Main_v6.vi" Type="VI" URL="../Main_v6.vi"/>
+			<Item Name="FocalMain.vi" Type="VI" URL="../FocalMain.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
@@ -1655,7 +1655,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Versions/Main_v6.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Versions/FocalMain.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
