@@ -11,6 +11,7 @@
 	<Property Name="varPersistentID:{18AB6152-C42E-4CCD-84EC-4576CD3F632E}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI0</Property>
 	<Property Name="varPersistentID:{1960CA56-FC7C-4B51-A4DF-6A7DD18B4201}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI14</Property>
 	<Property Name="varPersistentID:{1E86282D-D01F-4EA0-A5C6-B9BAA0259BE2}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI20</Property>
+	<Property Name="varPersistentID:{1FE36B0B-F2D7-4511-A8F0-5C5CA2B457B6}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/CtrlLoopTime_s</Property>
 	<Property Name="varPersistentID:{27E04791-A36A-4A64-BD14-AFE2ED09E381}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI0</Property>
 	<Property Name="varPersistentID:{29228C89-4298-4BE5-8108-6B86DDD3BEF1}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Velocity</Property>
 	<Property Name="varPersistentID:{2DC95D80-61A7-435F-B872-6C359993231D}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI26</Property>
@@ -25,9 +26,11 @@
 	<Property Name="varPersistentID:{3DC8A96F-5BB7-41F7-B50F-4A13B23B6CA2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-BladePitch_rad</Property>
 	<Property Name="varPersistentID:{40932FE3-D6F8-4369-8094-A8246045112C}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI22</Property>
 	<Property Name="varPersistentID:{40B6C321-2FA7-4592-B272-FB54A907ACF3}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
+	<Property Name="varPersistentID:{46A6C9B9-3F21-42ED-8A56-629A9354033F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FromFilePitchFS_deg</Property>
 	<Property Name="varPersistentID:{495B1745-50F3-422A-B78A-7A5B707ED3C5}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
 	<Property Name="varPersistentID:{4A0224AE-0BE7-44EB-9308-B144C3562446}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI2</Property>
 	<Property Name="varPersistentID:{518284B0-D92F-47D7-9133-2E5385C727F8}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-Cp</Property>
+	<Property Name="varPersistentID:{5264E04D-CDEF-4851-AA02-8B4F8A46592C}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TorqueSensorMean_Nm</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>
 	<Property Name="varPersistentID:{5B6D36BD-3553-41CB-8F05-6C3218029E51}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/PitchBlade1/Outputs-Target Torque</Property>
 	<Property Name="varPersistentID:{5BE4074A-8ECD-4E81-8082-DD92C112BE26}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
@@ -66,6 +69,7 @@
 	<Property Name="varPersistentID:{AEC7851B-4FB5-4B27-A052-F6148DAF9268}" Type="Ref">/NI-cRIO-9038-01A42455/Utilities/Misc/FileWriteTiming.vi/Edge Detect/error in</Property>
 	<Property Name="varPersistentID:{B0E268BF-AC0D-49CB-9770-26A23FF35753}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI2</Property>
 	<Property Name="varPersistentID:{B9B6E559-EDE2-46FC-B32A-8425F53D23A2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-AeroTorque_Nm</Property>
+	<Property Name="varPersistentID:{BA4F0699-30F4-43CB-8C58-38331A7AEB2D}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FromFileVelFS_rpm</Property>
 	<Property Name="varPersistentID:{BAC8CCA8-5BC4-4E0E-BF40-BD395ED9DD15}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/SIM-WindSpeed_m_s</Property>
 	<Property Name="varPersistentID:{BB10001D-1EF6-420D-978A-BE9FA141BD71}" Type="Ref">/NI-cRIO-9038-01A42455/Utilities/Misc/FileWriteTiming.vi/Edge Detect/output</Property>
 	<Property Name="varPersistentID:{BEA9A68A-CF12-4B59-8817-A040C6F26E52}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI18</Property>
@@ -173,7 +177,7 @@
 	</Item>
 	<Item Name="NI-cRIO-9038-01A42455" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9038-01A42455</Property>
-		<Property Name="alias.value" Type="Str">192.168.21.70</Property>
+		<Property Name="alias.value" Type="Str">192.168.21.66</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77B9;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">77B9</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
