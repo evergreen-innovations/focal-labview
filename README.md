@@ -24,6 +24,9 @@ Labview provides a Merge and Diff tool which can be integrated with source contr
 	* opkg install gfortan_6.3.0 ...
 	* opkg install gfortran-symlinks_6.3.0 ...
 
+* libdiscon dependencies:
+![libdiscon ldd](images/ldd-discon.png)
+
 * Download the shell script from fortranScript/compile-fortran onto the cRIO
 * Download the rosco source code from (https://github.com/nrel/rosco) and make changes as needed.
 
