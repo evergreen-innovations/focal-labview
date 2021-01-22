@@ -43,7 +43,6 @@
 	<Property Name="varPersistentID:{6D81827D-8EFD-4CBE-8AA2-B07AA9BAD753}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/PitchCtrlMS</Property>
 	<Property Name="varPersistentID:{72B18380-E5CB-49E8-8987-A72B9B938930}" Type="Ref">/NI-cRIO-9038-01A42455/Utilities/Misc/FileWriteTiming.vi/Edge Detect/input 1</Property>
 	<Property Name="varPersistentID:{73DED950-829D-43B4-A0F4-BCA683D738E6}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod7/AI25</Property>
-	<Property Name="varPersistentID:{74A5BBD3-F5B5-4DE6-B775-03791A86D330}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TmpRampTime</Property>
 	<Property Name="varPersistentID:{7BDEED11-D4DA-4BBA-9B7A-32AF035B8441}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenCtrlMS</Property>
 	<Property Name="varPersistentID:{80354A40-2FB4-401D-AF7C-3DD3293A3713}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI4</Property>
 	<Property Name="varPersistentID:{84AD330A-2026-4BEB-BA01-E7A9ACD00F15}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
