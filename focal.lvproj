@@ -1609,6 +1609,7 @@ DirectoryIndex index.htm
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="libCallROSCO" Type="VI" URL="/usr/local/lib/libCallROSCO"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
