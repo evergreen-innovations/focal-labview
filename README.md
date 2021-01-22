@@ -5,7 +5,7 @@ The FOCAL wind turbine control is implemented in LabVIEW real-time. Pull the lat
 
 The LabVIEW code integrates with the NREL ROSCO controller. The ROSCO controller is written in FORTRAN. To use this controller in LabVIEW RT on the cRIO, a number of setup steps are required on the cRIO. This includes both C and FORTRAN compilers as outlined below.
 
-## Install required tools on the cRIO
+## Installing gcc on the cRIO
 The cRIO uses a Linux based operating system. To access the cRIO, ssh into the cRIO as follows:
 ```bash
 ssh admin@192.168.86.28
@@ -44,6 +44,32 @@ Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/core2-64/Package
 Updated source 'uri-core2-64-0'.
 Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/x64/Packages.gz.
 Updated source 'uri-x64-0'.
+```
+
+## Testing gcc on the cRIO
+At this stage, we can check if the gcc compile tools work as expected. Copy the file main_hello.c from the c-interface-test folder to the cRIO. Copying the file from the host PC to the cRIO can be done using scp, with an example given below:
+```bash
+scp main_hello.c admin@192.168.86.28:/home/admin/rosco/c-interface-test
+```
+To compile and run this file, navigate to the correct directory on the cRIO (/home/admin/rosco/c-interface-test in the above example) and
+```bash
+gcc main_hello.c -o cRIOHello
+./cRIOHello
+```
+which should return
+```bash
+Hello World. The cRIO has a working C compiler now ...
+```
+
+## Installing gFortran on the cRIO
+The NI cRIO package manager (as used for gcc install above) does unfortunately NOT include packages required for gFortran. EGI created these packages by creating a Docker container of the NI cRIO environment. All required packages, or ipk files, are located in the ipk-gfortran-2018 directory. Copy these files to the cRIO, and install in the following order:
+```bash
+opkg install libquadmath0_6.3.0-r0_core2-64.ipk
+opkg install libquadmath-dev_6.3.0-r0_core2-64.ipk
+opkg install libgfortran3_6.3.0-r0_core2-64.ipk
+opkg install libgfortran-dev_6.3.0-r0_core2-64.ipk
+opkg install gfortran_6.3.0-r0_core2-64.ipk
+opkg install gfortran-symlinks_6.3.0-r0_core2-64.ipk
 ```
 
 ## To use Sourcetree/Github desktop 
