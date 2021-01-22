@@ -11,7 +11,7 @@
 extern int callROSCO(float *inarr, int *aviFAIL, char *inputStr, char *infileName, char *outfileName);
 
 #define SWAP_SIZE 200
-#define MSG_SIZE 65536
+#define MSG_SIZE 16384
 
 #define C2F 1 // Arrays in C are zero based, FORTRAN is 1 based.
 #define INDEX_DT 3 - C2F
