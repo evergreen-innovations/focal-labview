@@ -1,4 +1,50 @@
-# FOCAL RT Labview Control Code
+# FOCAL LabVIEW Control Code and ROSCO interface
+
+## Overview
+The FOCAL wind turbine control is implemented in LabVIEW real-time. Pull the latest LabVIEW code from this repo, open the LabVIEW project in LabVIEW 2018, and execute the latest version of the FocalMainVX.vi. 
+
+The LabVIEW code integrates with the NREL ROSCO controller. The ROSCO controller is written in FORTRAN. To use this controller in LabVIEW RT on the cRIO, a number of setup steps are required on the cRIO. This includes both C and FORTRAN compilers as outlined below.
+
+## Install required tools on the cRIO
+The cRIO uses a Linux based operating system. To access the cRIO, ssh into the cRIO as follows:
+```bash
+ssh admin@192.168.86.28
+```
+where the cRIO IP address can be obtained using NI MAX, and the password is as set via the cRIO browser interface (default password is empty). Once on the cRIO, check the installed OS
+```bash
+uname -a
+```
+which for the EGI cRIO returns as
+```bash
+Linux NI-cRIO-9038-01A42455 4.9.47-rt37-6.1.0f0 #1 SMP PREEMPT RT Sat Jun 9 13:19:07 CDT 2018 x86_64 GNU/Linux
+```
+The EGI cRIO uses Linux Kernel 4.9.47 (with LabVIEW 2018 install).
+
+Before instalation, check if the cRIO is connected to the internet
+```bash
+ping 8.8.8.8
+```
+which should return traffic (via www.google.com). 
+
+To install gcc, run the following sequence of commands one-by-one
+```bash
+opkg update
+opkg ldd
+opkg install gcc gcc-symlinks
+opkg install cpp cpp-symlinks
+opkg install g++ g++-symlinks
+opkg install libc6-utils
+opkg install binutils
+```
+Each of those commands should result in a succesful installation of the components listed. The first command is key, as this establishes the link to the NI package repositry. The return from this opkg update command should look something like:
+```bash
+Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/all/Packages.gz.
+Updated source 'uri-all-0'.
+Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/core2-64/Packages.gz.
+Updated source 'uri-core2-64-0'.
+Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/x64/Packages.gz.
+Updated source 'uri-x64-0'.
+```bash
 
 ## To use Sourcetree/Github desktop 
 
