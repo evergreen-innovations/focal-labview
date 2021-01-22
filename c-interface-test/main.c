@@ -9,6 +9,7 @@
 
 // interface into lib for LabVIEW.
 extern int callROSCO(float *inarr, int *aviFAIL, char *inputStr, char *infileName, char *outfileName);
+extern float add(float, float);
 
 #define SWAP_SIZE 200
 #define MSG_SIZE 16384
@@ -22,16 +23,22 @@ int main(void)
     char msg[MSG_SIZE];
     int ret;
     int fail;
+    float a, b, sum;
+
+    a = 1.0;
+    b = 2.0;
 
     char infileName[] = "/C/rosco-data/DISCON-UMaineSemi.IN";
     char outfileName[] = "/C/rosco-data/SimOut.txt";
 
     swap[INDEX_DT] = 0.001; // set this to non-zero (ROSCO fails otherwise)
 
+    printf("Calling test function add\n");
+    sum = add(a, b);
+    printf("Result of %f + %f = %f \n\n", a, b, sum);
+
     printf("Calling ROSCO C-Interface ...\n");
-
     ret = callROSCO(swap, &fail, msg, infileName, outfileName);
-
     printf("Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n", fail, msg, ret);
 
     return 0;

@@ -38,3 +38,9 @@ int callROSCO(float *swap, int *aviFAIL, char *inputStrHndl, char *infileName, c
 
 	return 0;
 }
+
+// test function for LabVIEW to call (does not require ROSCO lib)
+float add(float a, float b)
+{
+	return a + b;
+}
