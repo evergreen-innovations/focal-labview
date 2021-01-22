@@ -20,7 +20,7 @@ Linux NI-cRIO-9038-01A42455 4.9.47-rt37-6.1.0f0 #1 SMP PREEMPT RT Sat Jun 9 13:1
 ```
 The EGI cRIO uses Linux Kernel 4.9.47 (with LabVIEW 2018 install).
 
-Before instalation, check if the cRIO is connected to the internet
+Before installation, check if the cRIO is connected to the internet
 ```bash
 ping 8.8.8.8
 ```
@@ -36,7 +36,7 @@ opkg install g++ g++-symlinks
 opkg install libc6-utils
 opkg install binutils
 ```
-Each of those commands should result in a succesful installation of the components listed. The first command is key, as this establishes the link to the NI package repositry. The return from this opkg update command should look something like:
+Each of those commands should result in a successful installation of the components listed. The first command is key, as this establishes the link to the NI package repository. The return from this opkg update command should look something like:
 ```bash
 Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/all/Packages.gz.
 Updated source 'uri-all-0'.
@@ -44,7 +44,7 @@ Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/core2-64/Package
 Updated source 'uri-core2-64-0'.
 Downloading http://download.ni.com/ni-linux-rt/feeds/2018.5/x64/x64/Packages.gz.
 Updated source 'uri-x64-0'.
-```bash
+```
 
 ## To use Sourcetree/Github desktop 
 
