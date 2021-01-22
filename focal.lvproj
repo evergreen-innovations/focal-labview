@@ -354,22 +354,16 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="test.vi" Type="VI" URL="../Reference/test.vi"/>
-			<Item Name="ODE-PredatorPrey.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Mathematics/Differential Equations - ODE/ODE-PredatorPrey.vi"/>
 			<Item Name="RT Read Text File.vi" Type="VI" URL="../Reference/RT Read Text File.vi"/>
 			<Item Name="RT Write Text File.vi" Type="VI" URL="../Reference/RT Write Text File.vi"/>
 			<Item Name="replace_string.vi" Type="VI" URL="../Reference/replace_string.vi"/>
-			<Item Name="TestRTApp.vi" Type="VI" URL="../Reference/TestRTApp.vi"/>
-		</Item>
-		<Item Name="RoscoFiles" Type="Folder">
-			<Item Name="Cp_Ct_Cq.IEA15MW.txt" Type="Document" URL="../RoscoFiles/Cp_Ct_Cq.IEA15MW.txt"/>
-		</Item>
-		<Item Name="Versions" Type="Folder">
-			<Item Name="FocalMainV0.vi" Type="VI" URL="../FocalMainV0.vi"/>
-			<Item Name="FocalMainV1.vi" Type="VI" URL="../FocalMainV1.vi"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
+		</Item>
+		<Item Name="Main" Type="Folder">
+			<Item Name="FocalMainV0.vi" Type="VI" URL="../FocalMainV0.vi"/>
+			<Item Name="FocalMainV1.vi" Type="VI" URL="../FocalMainV1.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -1548,7 +1542,6 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="focal_main_v6.html" Type="Document" URL="../focal_main_v6.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1616,8 +1609,6 @@ DirectoryIndex index.htm
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi" Type="VI" URL="/../../Documents/LabVIEW Data/MathScriptVIs/MCStatic_40275148932_9249425576578f2cef5e9c0da6b682b6.vi"/>
-			<Item Name="ode_lv.m" Type="Document" URL="/../../Documents/LabVIEW Data/ode_lv.m"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1655,11 +1646,11 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Versions/FocalMainV0.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9038-01A42455/Main/FocalMainV0.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/NI-cRIO-9038-01A42455/focal_main_v6.html</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Evergreen Innovations</Property>
