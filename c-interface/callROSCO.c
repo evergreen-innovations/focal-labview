@@ -14,6 +14,7 @@
 
 // interface into the FORTRAN compiled .so file
 extern void DISCON(float *avrSWAP, int *aviFAIL, char *accINFILE, char *avcOUTNAME, char *avcMSG);
+extern float add(float a, float b);
 
 // interface for LabVIEW to call
 int callROSCO(float *swap, int *aviFAIL, char *inputStrHndl, char *infileName, char *outfileName)
