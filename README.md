@@ -72,6 +72,35 @@ opkg install gfortran_6.3.0-r0_core2-64.ipk
 opkg install gfortran-symlinks_6.3.0-r0_core2-64.ipk
 ```
 
+## Compiling ROSCO on the cRIO
+NOTE: At this stage, we do NOT yet know which ROSCO version to use. We currently use a version from the Master branch pull on 2020-11-03, after some fixes were made to the wind speed estimator. Need to converge onto a version with NREL - work ongoing by Nicole and Alan.
+
+Download ROSCO from the NREL repo (https://github.com/nrel/rosco). We have found all of ROSCO to work on the cRIO, EXCEPT, the final call in DISCON.F90, which makes some Debug prints which do not work in LabVIEW. Comment out this line
+```fortran
+!    CALL Debug(LocalVar, CntrPar, DebugVar, avrSWAP, RootName, SIZE(avcOUTNAME))
+```
+Copy the ROSCO source code to the cRIO, and use the following directory structure:
+```bash
+build/ src/
+```
+where src contains the ROSCO source code files. Copy the compile-fortran.sh script from this repo into the build folder. To compile the ROSCO libary:
+```bash
+cd build
+./compile-fortran.sh libROSCO
+mv libROSCO.so /usr/local/lib/
+```
+To check if all the dependencies resolve correctly:
+```bash
+cd /usr/local/lib
+ldd libROSCO.so
+```
+which should return something similar to this without any broken links
+![libdiscon ldd](images/ldd-discon.png)
+
+## Compiling the LabVIEW-ROSCO interface on the cRIO
+LabVIEW does not support calls into Fortran directly. This can be resolved via a simple C->Fotran wrapper libary. LabVIEW then calls into the C wrapper, which calls into the ROSCO Fortran lib.
+
+
 ## To use Sourcetree/Github desktop 
 
 Labview provides a Merge and Diff tool which can be integrated with source control GUIs. To do this in Sourcetree, 
@@ -83,32 +112,10 @@ Labview provides a Merge and Diff tool which can be integrated with source contr
 * Diff Command: C:\Program Files\Git\bin_LVCompareWrapper.sh
 * You can click on the file, Right Click > External Diff > Show Difference
 
-## To Compile ROSCO code on cRIO
-
-* Needs gfortran installed on cRIO
-
-	* Copy ipk files to cRIO
-	* opkg install libquadmath0_6.3.0 ...
-	* opkg install libgfortran3_6.3.0 ...
-	* opkg install libgfortran-dev_6.3.0 ...
-	* opkg install libmpft4_3.1.5 ...
-	* opkg install libmpc3_1.0.3 ...
-	* opkg install gfortan_6.3.0 ...
-	* opkg install gfortran-symlinks_6.3.0 ...
+## OLD Instructions for ECLIPSE - ignore from here
 
 * libdiscon dependencies:
-![libdiscon ldd](images/ldd-discon.png)
 
-* Download the shell script from fortranScript/compile-fortran onto the cRIO
-* Download the rosco source code from (https://github.com/nrel/rosco) and make changes as needed.
-
-	* mkdir build
-	* cd build
-	* ./compile-fortran.sh libdiscon20200910 <name you want to give the shared lib>
-	* cp <so name> /usr/local/lib/.
-	* copy the shared library using SCP tool onto the local computer. I use WinSCP.
-
-* We have written a wrapper code in C, which calls the fortran shared library and acts as a bridge between Labview and ROSCO-Fortran.
 
 * In Eclipse, Under Properties -> C/C++ Build -> Settings -> Cross GCC Linker
 	* Click on Libraries. Change the -L (library search path) to the location of the shared library.
