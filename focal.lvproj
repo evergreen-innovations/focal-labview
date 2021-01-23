@@ -585,8 +585,8 @@ DirectoryIndex index.htm
 					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
 					<Property Name="crio.SupportsDynamicRes" Type="Bool">true</Property>
 					<Property Name="crio.Type" Type="Str">NI 9205</Property>
-					<Property Name="cRIOModule.AI0.TerminalMode" Type="Str">0</Property>
-					<Property Name="cRIOModule.AI0.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI0.TerminalMode" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI0.VoltageRange" Type="Str">1</Property>
 					<Property Name="cRIOModule.AI1.TerminalMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI1.VoltageRange" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI10.TerminalMode" Type="Str">0</Property>
