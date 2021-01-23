@@ -100,6 +100,25 @@ which should return something similar to this without any broken links
 ## Compiling the LabVIEW-ROSCO interface on the cRIO
 LabVIEW does not support calls into Fortran directly. This can be resolved via a simple C->Fotran wrapper libary. LabVIEW then calls into the C wrapper, which calls into the ROSCO Fortran lib.
 
+## Current ROSCO issues
+The FORTRAN ROSCO code has several issues at present that need to be resolved for LabVIEW interfacing.
+
+### String message handling
+For the gfortran compiler used on the cRIO, the TRIM function does not work as expected. Need to fix this line in DISCON.F90 from 
+```fortran
+avcMSG =  TRANSFER(TRIM(ErrMsg)//C_NULL_CHAR, avcMSG, SIZE(avcMSG))
+```
+to
+```fortran
+ErrMsg = ADJUSTL(TRIM(ErrMsg)) 
+avcMSG =  TRANSFER(ErrMsg//C_NULL_CHAR,avcMsg,len(ErrMsg)+1)
+```
+### Integrator
+Need to comment out the PI Controller in the PitchController routine. Unknown cause.
+
+### Pitch Saturation
+For PS_MODE=1, the saturation codes does not work in pitch controller. Causes seg fault. Unknow cause
+
 
 ## To use Sourcetree/Github desktop 
 
