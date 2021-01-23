@@ -28,11 +28,8 @@ extern void DISCON(float *avrSWAP, int *aviFAIL, char *accINFILE, char *avcOUTNA
 char msg[MSG_SIZE]; // one extra for the C null char
 char buf[BUF_SIZE];
 
-int callROSCO(float *swap, int *aviFAIL, char *msgIn)
+int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName)
 {
-	char infileName[] = "/C/rosco-data/DISCON-UMaineSemi.IN";
-	char outfileName[] = "/C/rosco-data/SimOut.txt";
-
 	float time;
 
 	// calculate input and output file name length for ROSCO
@@ -48,11 +45,11 @@ int callROSCO(float *swap, int *aviFAIL, char *msgIn)
 
 	if (*aviFAIL != 0)
 	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.30.\n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", (int)strlen(msg), *aviFAIL, msg);
+		sprintf(buf, "LabVIEW RT to ROSCO interface v0.32.\n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", (int)strlen(msg), *aviFAIL, msg);
 	}
 	else
 	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.30.\n\nSuccesfully called interface at t = %f", time);
+		sprintf(buf, "LabVIEW RT to ROSCO interface v0.32.\n\nSuccesfully called interface at t = %f", time);
 	}
 
 	strcpy(msgIn, buf);
