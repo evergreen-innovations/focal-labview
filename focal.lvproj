@@ -264,6 +264,7 @@ DirectoryIndex index.htm
 			<Item Name="FileDataChannel.ctl" Type="VI" URL="../Clusters/FileDataChannel.ctl"/>
 			<Item Name="SwapIndexes.ctl" Type="VI" URL="../Clusters/SwapIndexes.ctl"/>
 			<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
+			<Item Name="IndicatorScale.ctl" Type="VI" URL="../Clusters/IndicatorScale.ctl"/>
 			<Item Name="GenMode.ctl" Type="VI" URL="../Clusters/GenMode.ctl"/>
 			<Item Name="BladePitchMode.ctl" Type="VI" URL="../Clusters/BladePitchMode.ctl"/>
 			<Item Name="PitchCtrl.ctl" Type="VI" URL="../Clusters/PitchCtrl.ctl"/>
