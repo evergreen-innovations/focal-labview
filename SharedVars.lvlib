@@ -264,7 +264,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">RoscoParams.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/RoscoParams.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$FY1!!!"A!A!!!!!!)!!V!#1!(:7RF&lt;76O&gt;!!51%!!!@````]!!!&gt;B&gt;H*46U&amp;1!!V!!Q!(98:J2E&amp;*4!!11$$`````"G&amp;W9UVT:Q!!%5!$!!N3:82V=GZ797RV:1!;1$$`````%'2J=W.P&lt;EFO2GFM:5ZB&lt;75!!"2!-0````],&lt;X6U2GFM:5ZB&lt;75!0!$R!!!!!!!!!!%05G^T9W^198*B&lt;8-O9X2M!#2!5!!'!!%!!A!$!!1!"1!'$&amp;*05U.0)&amp;"B=G&amp;N=Q!!!1!(!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"`1!!!"A!A!!!!!!*!!V!#1!(:7RF&lt;76O&gt;!!51%!!!@````]!!!&gt;B&gt;H*46U&amp;1!!V!!Q!(98:J2E&amp;*4!!51$$`````#G.V=H*F&lt;H2.=W=!!"&amp;!!Q!,5G6U&gt;8*O6G&amp;M&gt;75!'E!Q`````R"E;8.D&lt;WZ*&lt;E:J&lt;'6/97VF!!!51$$`````#W^V&gt;%:J&lt;'6/97VF!"*!-0````]):GFS=X2.=W=!!$Y!]1!!!!!!!!!"$V*P=W.P5'&amp;S97VT,G.U&lt;!!G1&amp;!!"Q!"!!)!!Q!%!!5!"A!($&amp;*05U.0)&amp;"B=G&amp;N=Q!!!1!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="StopLabVIEW" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
