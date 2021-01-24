@@ -11,13 +11,13 @@
 // make sure libs can be found: export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 // interface into lib for LabVIEW.
-extern int callROSCO(float *inarr, int *aviFAIL, char *inputStr); //, char *infileName, char *outfileName);
+extern int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName);
 extern float add(float, float);
 
 #define SWAP_SIZE 200
 #define STEPS 5
 
-#define MSG_SIZE 4096
+#define MSG_SIZE 8192
 
 #define C2F 1 // Arrays in C are zero based, FORTRAN is 1 based.
 #define INDEX_ISTATUS 1 - C2F
@@ -40,9 +40,6 @@ int main(void)
 
     char infileName[] = "/C/rosco-data/DISCON-UMaineSemi.IN";
     char outfileName[] = "/C/rosco-data/SimOut.txt";
-
-    //char infileName[] = "/Users/jspinnek/rosco-data/DISCON-UMaineSemi.IN";
-    //char outfileName[] = "/Users/jspinnek/rosco-data/SimOut.txt";
 
     printf("Calling test function add\n");
     sum = add(a, b);
@@ -70,7 +67,7 @@ int main(void)
         swap[INDEX_TIME] = (float)i * dt;
         swap[INDEX_DT] = dt;
         printf("Calling ROSCO C-Interface step %u of %u ...\n", i, STEPS);
-        ret = callROSCO(swap, &fail, msg);
+        ret = callROSCO(swap, &fail, msg, infileName, outfileName);
         printf("Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n\n", fail, msg, ret);
     }
 
