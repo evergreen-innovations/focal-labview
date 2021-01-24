@@ -1,9 +1,6 @@
 #!/bin/bash
-# Compile rosco code
-
-if ["$1" == ""]; then
-  echo "enter the so name"
-fi
+# Compile rosco code using:
+# ./compile-fortran.sh libROSCO
 
 gfortran -fdefault-real-8 -fdefault-double-8 -ffree-form -fPIC -DIMPLICIT_DLLEXPORT -ffree-line-length-0 -c ../src/Constants.f90 
 gfortran -fdefault-real-8 -fdefault-double-8 -ffree-form -fPIC -DIMPLICIT_DLLEXPORT -ffree-line-length-0 -c ../src/ROSCO_Types.f90 
