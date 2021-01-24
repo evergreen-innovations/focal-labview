@@ -14,7 +14,7 @@
 extern int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName);
 extern float add(float, float);
 
-#define SWAP_SIZE 200
+#define SWAP_SIZE 500
 #define STEPS 5
 
 #define MSG_SIZE 8192
@@ -40,6 +40,8 @@ int main(void)
 
     char infileName[] = "/C/rosco-data/DISCON-UMaineSemi.IN";
     char outfileName[] = "/C/rosco-data/SimOut.txt";
+
+    printf("Float size = %u\n ", sizeof(float));
 
     printf("Calling test function add\n");
     sum = add(a, b);

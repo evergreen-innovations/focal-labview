@@ -93,7 +93,8 @@ CONTAINS
             ITermLast(inst) = I0
             
             FirstCall(inst) = 0
-            PIController = I0
+            !PIController = I0
+            PIController = saturate(ITerm(inst), minValue, maxValue)
         ELSE
             PTerm = kp*error
             ITerm(inst) = ITerm(inst) + DT*ki*error
@@ -409,7 +410,7 @@ CONTAINS
         
         ! Lookup
         CPfunction = exp(-CP(1)/lambda)*(CP(2)/lambda-CP(3))+CP(4)*lambda
-        CPfunction = saturate(CPfunction, 0.001D0, 1.0D0)
+        CPfunction = saturate(real(CPfunction,8), real(0.001D0,8), real(1.0D0,8))
         
     END FUNCTION CPfunction
 !-------------------------------------------------------------------------------------------------------------------------------
