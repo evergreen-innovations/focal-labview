@@ -6,7 +6,9 @@ The FOCAL wind turbine control is implemented in LabVIEW real-time. Pull the lat
 The LabVIEW code integrates with the NREL ROSCO controller. The ROSCO controller is written in FORTRAN. To use this controller in LabVIEW RT on the cRIO, a number of setup steps are required on the cRIO. This includes both C and FORTRAN compilers as outlined below.
 
 ## Installing gcc on the cRIO
-The cRIO uses a Linux based operating system. To access the cRIO, ssh into the cRIO as follows:
+The cRIO uses a Linux based operating system. To enable SSH access, go to the cRIO browser access (via Windows Internet Explorer to cRIO IP address), and enable the SSHD access tick box. Restart the cRIO for this change to take place.
+
+To access the cRIO, ssh into the cRIO as follows:
 ```bash
 ssh admin@192.168.86.28
 ```
@@ -99,6 +101,24 @@ which should return something similar to this without any broken links
 
 ## Compiling the LabVIEW-ROSCO interface on the cRIO
 LabVIEW does not support calls into Fortran directly. This can be resolved via a simple C->Fotran wrapper libary. LabVIEW then calls into the C wrapper, which calls into the ROSCO Fortran lib.
+
+The LabVIEW->C->Fortran interface is coded in a single C file, callROSCO.c in the folder c-interface in this repo. Copy this file onto the cRIO,
+```bash
+scp callROSCO.c admin@192.168.86.28:/home/admin/rosco/c-interface
+```
+and compile as follows
+```bash
+ gcc -Wall -fmessage-length=0 -fPIC -shared -L/usr/local/lib -o libCallROSCO.so callROSCO.c -lROSCO
+ mv libCallROSCO.so /usr/local/lib
+```
+Both libs, libROSCO.so and libCallROSCO.so, should now be in usr/local/lib. To check:
+```bash
+ls /usr/local/lib/
+```
+which should return
+```bash
+libCallROSCO.so* libROSCO.so*     libvisa.so@
+```
 
 ## Current ROSCO issues
 The FORTRAN ROSCO code has several issues at present that need to be resolved for LabVIEW interfacing.
