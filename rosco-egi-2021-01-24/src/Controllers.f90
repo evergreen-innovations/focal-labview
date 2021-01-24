@@ -67,9 +67,9 @@ CONTAINS
         
         ! Compute the collective pitch command associated with the proportional and integral gains:
         IF (LocalVar%iStatus == 0) THEN
-            LocalVar%PC_PitComT = PIController(LocalVar%PC_SpdErr, LocalVar%PC_KP, LocalVar%PC_KI, CntrPar%PC_FinePit, LocalVar%PC_MaxPit, LocalVar%DT, LocalVar%PitCom(1), .TRUE., objInst%instPI)
+          !  LocalVar%PC_PitComT = PIController(LocalVar%PC_SpdErr, LocalVar%PC_KP, LocalVar%PC_KI, CntrPar%PC_FinePit, LocalVar%PC_MaxPit, LocalVar%DT, LocalVar%PitCom(1), .TRUE., objInst%instPI)
         ELSE
-            LocalVar%PC_PitComT = PIController(LocalVar%PC_SpdErr, LocalVar%PC_KP, LocalVar%PC_KI, LocalVar%PC_MinPit, LocalVar%PC_MaxPit, LocalVar%DT, LocalVar%BlPitch(1), .FALSE., objInst%instPI)
+          !  LocalVar%PC_PitComT = PIController(LocalVar%PC_SpdErr, LocalVar%PC_KP, LocalVar%PC_KI, LocalVar%PC_MinPit, LocalVar%PC_MaxPit, LocalVar%DT, LocalVar%BlPitch(1), .FALSE., objInst%instPI)
         END IF
         
         ! Find individual pitch control contribution
@@ -88,8 +88,8 @@ CONTAINS
         
         ! Pitch Saturation
         IF (CntrPar%PS_Mode == 1) THEN
-            LocalVar%PC_MinPit = PitchSaturation(LocalVar,CntrPar,objInst,DebugVar)
-            LocalVar%PC_MinPit = max(LocalVar%PC_MinPit, CntrPar%PC_FinePit)
+          !  LocalVar%PC_MinPit = PitchSaturation(LocalVar,CntrPar,objInst,DebugVar)
+          !  LocalVar%PC_MinPit = max(LocalVar%PC_MinPit, CntrPar%PC_FinePit)
         ELSE
             LocalVar%PC_MinPit = CntrPar%PC_FinePit
         ENDIF

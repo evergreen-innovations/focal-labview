@@ -77,6 +77,8 @@ IF ((LocalVar%iStatus >= 0) .AND. (aviFAIL >= 0))  THEN  ! Only compute control 
 !    CALL Debug(LocalVar, CntrPar, DebugVar, avrSWAP, RootName, SIZE(avcOUTNAME))
 END IF
 
-avcMSG = TRANSFER(TRIM(ErrMsg)//C_NULL_CHAR, avcMSG, SIZE(avcMSG))
+ErrMsg = ADJUSTL(TRIM(ErrMsg)) 
+avcMSG =  TRANSFER(ErrMsg//C_NULL_CHAR,avcMsg,len(ErrMsg)+1)
+!avcMSG = TRANSFER(TRIM(ErrMsg)//C_NULL_CHAR, avcMSG, SIZE(avcMSG))
 RETURN
 END SUBROUTINE DISCON
