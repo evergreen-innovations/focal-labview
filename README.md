@@ -149,8 +149,14 @@ Compile and run on the cRIO
 gcc -L/usr/local/lib -o testCInterface main.c -lCallROSCO
 ./testCInterface 
 ```
+When running for the first time, without the relevant DISCON files places on the cRIO, this test should return something like this:
+```bash
+At line 44 of file ../src/ReadSetParameters.f90 (unit = 89)
+Fortran runtime error: Cannot open file '/C/rosco-data/DISCON-UMaineSemi.IN': No such file or directory
+```
+Place the required DISCON file in the appropriate directory on the cRIO (e.g. /C/rosco-data), and repeat this test until ROSCO runs without errors from the command line.
 
-We can now run the LabVIEW code, which should call into the C and FORTRAN libs.
+We can now run the LabVIEW code.
 
 ## Current ROSCO issues
 The FORTRAN ROSCO code has several issues at present that need to be resolved for LabVIEW interfacing.
