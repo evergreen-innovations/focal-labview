@@ -135,6 +135,20 @@ which should return
 ```bash
 libCallROSCO.so* libROSCO.so*     libvisa.so@
 ```
+With both libs installed, restart the cRIO, or run
+```bash
+/sbin/ldconfig -v
+```
+## Testing ROSCO from the command line
+Debugging/testing ROSCO from LabVIEW can be difficult, as LabVIEW does not return error messages or warnings that are available on the command line. We have written a C testing program to debug ROSCO from the command line. Copy main.c from the c-interface-test directory to the cRIO
+```bash
+scp main.c admin@192.168.86.28:/home/admin/rosco/c-interface-test
+```
+Compile and run on the cRIO
+```bash
+gcc -L/usr/local/lib -o testCInterface main.c -lCallROSCO
+./testCInterface 
+```
 
 We can now run the LabVIEW code, which should call into the C and FORTRAN libs.
 
