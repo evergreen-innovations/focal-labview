@@ -59,7 +59,6 @@ mkdir rosco
 cd rosco/
 mkdir c-interface-test
 mkdir c-interface 
-mkdir fortran 
 ```
 
 ## Testing gcc on the cRIO
@@ -94,17 +93,15 @@ opkg install gfortran-symlinks_6.3.0-r0_core2-64.ipk
 ```
 
 ## Compiling ROSCO on the cRIO
-NOTE: At this stage, we do NOT yet know which ROSCO version to use. We currently use a version from the Master branch pull on 2020-11-03, after some fixes were made to the wind speed estimator. We need to converge onto a version with NREL - work ongoing by Nicole and Alan. The below documentation is written assuming we pull the version of the ROSCO github.
+NOTE: At this stage, we do NOT yet know which ROSCO version to use. We currently use a version from the Master branch pull on 2020-11-03, after some fixes were made to the wind speed estimator. We need to converge onto a version with NREL - work ongoing by Nicole and Alan. 
 
-Download ROSCO from the NREL repo (https://github.com/nrel/rosco). We have found all of ROSCO to work on the cRIO, EXCEPT, the final call in DISCON.F90, which makes some Debug prints which do not work in LabVIEW. Comment out this line
-```fortran
-!    CALL Debug(LocalVar, CntrPar, DebugVar, avrSWAP, RootName, SIZE(avcOUTNAME))
-```
-Copy the ROSCO source code to the cRIO, and use the following directory structure:
+The below documentation is for the local rosco version contained in this repo, which excludes several lines that do not currently work on the cRIO. THIS MUST BE FIXED! 
+
+Copy the version from this repo to the cRIO
 ```bash
-build/ src/
+scp -r rosco-egi-2021-01-24 admin@192.168.86.28:/home/admin/rosco
 ```
-where src contains the ROSCO source code files. Copy the compile-fortran.sh script from this repo into the build folder. To compile the ROSCO libary:
+The src dir contains the ROSCO source code files, and the build dir contains the compile script. To compile the ROSCO libary:
 ```bash
 cd build
 ./compile-fortran.sh libROSCO
@@ -119,7 +116,7 @@ which should return something similar to this without any broken links
 ![libdiscon ldd](images/ldd-discon.png)
 
 ## Compiling the LabVIEW-ROSCO interface on the cRIO
-LabVIEW does not support calls into Fortran directly. This can be resolved via a simple C->Fotran wrapper libary. LabVIEW then calls into the C wrapper, which calls into the ROSCO Fortran lib.
+LabVIEW does not support calls into Fortran directly. This can be resolved via a simple C->Fotran wrapper libary. LabVIEW then calls into the C wrapper, which in turn calls into the ROSCO Fortran lib.
 
 The LabVIEW->C->Fortran interface is coded in a single C file, callROSCO.c in the folder c-interface in this repo. Copy this file onto the cRIO,
 ```bash
@@ -127,8 +124,8 @@ scp callROSCO.c admin@192.168.86.28:/home/admin/rosco/c-interface
 ```
 and compile as follows
 ```bash
- gcc -Wall -fmessage-length=0 -fPIC -shared -L/usr/local/lib -o libCallROSCO.so callROSCO.c -lROSCO
- mv libCallROSCO.so /usr/local/lib
+gcc -Wall -fmessage-length=0 -fPIC -shared -L/usr/local/lib -o libCallROSCO.so callROSCO.c -lROSCO
+mv libCallROSCO.so /usr/local/lib
 ```
 Both libs, libROSCO.so and libCallROSCO.so, should now be in usr/local/lib. To check:
 ```bash
@@ -138,6 +135,8 @@ which should return
 ```bash
 libCallROSCO.so* libROSCO.so*     libvisa.so@
 ```
+
+We can now run the LabVIEW code, which should call into the C and FORTRAN libs.
 
 ## Current ROSCO issues
 The FORTRAN ROSCO code has several issues at present that need to be resolved for LabVIEW interfacing.
