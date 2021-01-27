@@ -35,7 +35,7 @@ IMPLICIT NONE
 
 CONTAINS
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION saturate(inputValue, minValue, maxValue)
+    REAL(8) FUNCTION saturate(inputValue, minValue, maxValue)
     ! Saturates inputValue. Makes sure it is not smaller than minValue and not larger than maxValue
 
         IMPLICIT NONE
@@ -44,11 +44,11 @@ CONTAINS
         REAL(8), INTENT(IN)     :: minValue
         REAL(8), INTENT(IN)     :: maxValue
 
-        saturate = MIN(MAX(inputValue,minValue), maxValue)
+        saturate = real(MIN(MAX(inputValue,minValue), maxValue),8)
 
     END FUNCTION saturate
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION ratelimit(inputSignal, inputSignalPrev, minRate, maxRate, DT)
+    REAL(8) FUNCTION ratelimit(inputSignal, inputSignalPrev, minRate, maxRate, DT)
     ! Saturates inputValue. Makes sure it is not smaller than minValue and not larger than maxValue
         IMPLICIT NONE
 
@@ -66,7 +66,7 @@ CONTAINS
 
     END FUNCTION ratelimit
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION PIController(error, kp, ki, minValue, maxValue, DT, I0, reset, inst)
+    REAL(8) FUNCTION PIController(error, kp, ki, minValue, maxValue, DT, I0, reset, inst)
     ! PI controller, with output saturation
 
         IMPLICIT NONE
@@ -93,12 +93,12 @@ CONTAINS
             ITermLast(inst) = I0
             
             FirstCall(inst) = 0
-            !PIController = I0
-            PIController = saturate(ITerm(inst), minValue, maxValue)
+            PIController = I0
+          !  PIController = saturate(ITerm(inst), minValue, maxValue)
         ELSE
             PTerm = kp*error
-            ITerm(inst) = ITerm(inst) + DT*ki*error
-            ITerm(inst) = saturate(ITerm(inst), minValue, maxValue)
+            ITerm(inst) = saturate(ITerm(inst) + DT*ki*error,minValue,maxValue)
+            !ITerm(inst) = saturate(ITerm(inst), minValue, maxValue)
             PIController = saturate(PTerm + ITerm(inst), minValue, maxValue)
         
             ITermLast(inst) = ITerm(inst)
@@ -157,7 +157,7 @@ CONTAINS
         
     END FUNCTION PIIController
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION interp1d(xData, yData, xq)
+    REAL(8) FUNCTION interp1d(xData, yData, xq)
     ! interp1d 1-D interpolation (table lookup), xData should be monotonically increasing
 
         IMPLICIT NONE
@@ -185,7 +185,7 @@ CONTAINS
         
     END FUNCTION interp1d
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION interp2d(xData, yData, zData, xq, yq)
+    REAL(8) FUNCTION interp2d(xData, yData, zData, xq, yq)
     ! interp2d 2-D interpolation (table lookup). Query done using bilinear interpolation. 
     ! Note that the interpolated matrix with associated query vectors may be different than "standard", - zData should be formatted accordingly
     ! - xData follows the matrix from left to right
@@ -400,7 +400,7 @@ CONTAINS
 
     END SUBROUTINE ColemanTransformInverse
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION CPfunction(CP, lambda)
+    REAL(8) FUNCTION CPfunction(CP, lambda)
     ! Paremeterized Cp(lambda) function for a fixed pitch angle. Circumvents the need of importing a look-up table
         IMPLICIT NONE
         
@@ -414,7 +414,7 @@ CONTAINS
         
     END FUNCTION CPfunction
 !-------------------------------------------------------------------------------------------------------------------------------
-    REAL FUNCTION AeroDynTorque(LocalVar, CntrPar, PerfData)
+    REAL(8) FUNCTION AeroDynTorque(LocalVar, CntrPar, PerfData)
     ! Function for computing the aerodynamic torque, divided by the effective rotor torque of the turbine, for use in wind speed estimation
         
         USE ROSCO_Types, ONLY : LocalVariables, ControlParameters, PerformanceData
@@ -458,7 +458,7 @@ CONTAINS
         CHARACTER(29), PARAMETER                    :: FmtDat = "(F10.3,TR5,99(ES10.3E2,TR5:))"   ! The format of the debugging data
         INTEGER(4), PARAMETER                       :: UnDb = 85        ! I/O unit for the debugging information
         INTEGER(4), PARAMETER                       :: UnDb2 = 86       ! I/O unit for the debugging information, avrSWAP
-        REAL(C_FLOAT), INTENT(INOUT)                :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from, the DLL controller.
+        REAL(C_DOUBLE), INTENT(INOUT)                :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from, the DLL controller.
         CHARACTER(size_avcOUTNAME-1), INTENT(IN)    :: RootName     ! a Fortran version of the input C string (not considered an array here)    [subtract 1 for the C null-character]
         
         CHARACTER(10)                               :: DebugOutStr1,  DebugOutStr2, DebugOutStr3, DebugOutStr4, DebugOutStr5, &

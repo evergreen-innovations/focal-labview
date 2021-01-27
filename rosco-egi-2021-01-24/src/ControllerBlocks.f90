@@ -115,7 +115,7 @@ CONTAINS
         TYPE(PerformanceData),      INTENT(INOUT)       :: PerfData
         TYPE(DebugVariables),       INTENT(INOUT)       :: DebugVar
         ! Allocate Variables
-        REAL(C_FLOAT), INTENT(INOUT)    :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from the DLL controller.
+        REAL(C_DOUBLE), INTENT(INOUT)    :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from the DLL controller.
         
         REAL(8)                 :: F_WECornerFreq   ! Corner frequency (-3dB point) for first order low pass filter for measured hub height wind speed [Hz]
 

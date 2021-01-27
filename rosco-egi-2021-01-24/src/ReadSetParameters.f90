@@ -291,7 +291,7 @@ CONTAINS
     SUBROUTINE ReadAvrSWAP(avrSWAP, LocalVar)
         USE ROSCO_Types, ONLY : LocalVariables
     
-        REAL(C_FLOAT), INTENT(INOUT) :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from, the DLL controller.
+        REAL(C_DOUBLE), INTENT(INOUT) :: avrSWAP(*)   ! The swap array, used to pass data to, and receive data from, the DLL controller.
         TYPE(LocalVariables), INTENT(INOUT) :: LocalVar
         
         ! Load variables from calling program (See Appendix A of Bladed User's Guide):
@@ -337,7 +337,7 @@ CONTAINS
         TYPE(ControlParameters), INTENT(IN)     :: CntrPar
         TYPE(LocalVariables), INTENT(IN)        :: LocalVar
         INTEGER(4), INTENT(IN)                  :: size_avcMSG
-        REAL(C_FLOAT), INTENT(IN)               :: avrSWAP(*)          ! The swap array, used to pass data to, and receive data from, the DLL controller.
+        REAL(C_DOUBLE), INTENT(IN)               :: avrSWAP(*)          ! The swap array, used to pass data to, and receive data from, the DLL controller.
         
         ! Outputs
         INTEGER(C_INT), INTENT(OUT)             :: aviFAIL             ! A flag used to indicate the success of this DLL call set as follows: 0 if the DLL call was successful, >0 if the DLL call was successful but cMessage should be issued as a warning messsage, <0 if the DLL call was unsuccessful or for any other reason the simulation is to be stopped at this point with cMessage as the error message.
@@ -499,7 +499,7 @@ CONTAINS
         TYPE(ObjectInstances), INTENT(INOUT) :: objInst
         TYPE(PerformanceData), INTENT(INOUT) :: PerfData
 
-        REAL(C_FLOAT), INTENT(INOUT) :: avrSWAP(*)          ! The swap array, used to pass data to, and receive data from, the DLL controller.
+        REAL(C_DOUBLE), INTENT(INOUT) :: avrSWAP(*)          ! The swap array, used to pass data to, and receive data from, the DLL controller.
         INTEGER(C_INT), INTENT(OUT) :: aviFAIL              ! A flag used to indicate the success of this DLL call set as follows: 0 if the DLL call was successful, >0 if the DLL call was successful but cMessage should be issued as a warning messsage, <0 if the DLL call was unsuccessful or for any other reason the simulation is to be stopped at this point with cMessage as the error message.
         CHARACTER(KIND=C_CHAR), INTENT(IN)      :: accINFILE(NINT(avrSWAP(50)))     ! The name of the parameter input file
         CHARACTER(size_avcMSG-1), INTENT(OUT) :: ErrMsg     ! a Fortran version of the C string argument (not considered an array here) [subtract 1 for the C null-character]
@@ -537,7 +537,7 @@ CONTAINS
             aviFAIL = 1
             ErrMsg = '                                                                              '//NEW_LINE('A')// &
                      '------------------------------------------------------------------------------'//NEW_LINE('A')// &
-                     'EGI v0.40 for UMaine FOCAL testing. Last updated 2021-01-24                   '//NEW_LINE('A')// &
+                     'EGI v0.43 for UMaine FOCAL testing. Last updated 2021-01-24                   '//NEW_LINE('A')// &
                      'Running a controller implemented through NREL''s ROSCO Toolbox                '//NEW_LINE('A')// &
                      'A wind turbine controller framework for public use in the scientific field    '//NEW_LINE('A')// &
                      'Developed in collaboration: National Renewable Energy Laboratory              '//NEW_LINE('A')// &

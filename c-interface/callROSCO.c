@@ -21,21 +21,21 @@
 #define BUF_SIZE 8192
 
 // interface into the FORTRAN compiled .so file
-extern void DISCON(float *avrSWAP, int *aviFAIL, char *accINFILE, char *avcOUTNAME, char *avcMSG);
+extern void DISCON(double *avrSWAP, int *aviFAIL, char *accINFILE, char *avcOUTNAME, char *avcMSG);
 
 // interface for LabVIEW to call
 
 char msg[MSG_SIZE]; // one extra for the C null char
 char buf[BUF_SIZE];
 
-int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName)
+int callROSCO(double *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName)
 {
-	float time;
+	double time;
 
 	// calculate input and output file name length for ROSCO
-	swap[INDEX_IN_FILE_LEN] = (float)strlen(infileName);
-	swap[INDEX_OUT_FILE_LEN] = (float)strlen(outfileName);
-	swap[INDEX_AVCMSG_SIZE] = (float)MSG_SIZE;
+	swap[INDEX_IN_FILE_LEN] = (double)strlen(infileName);
+	swap[INDEX_OUT_FILE_LEN] = (double)strlen(outfileName);
+	swap[INDEX_AVCMSG_SIZE] = (double)MSG_SIZE;
 	swap[INDEX_NUM_BL] = 3;
 
 	// call into ROSCO lib
@@ -45,11 +45,11 @@ int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *ou
 
 	if (*aviFAIL != 0)
 	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.35.\n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", (int)strlen(msg), *aviFAIL, msg);
+		sprintf(buf, "LabVIEW RT to ROSCO interface v0.37.\n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", (int)strlen(msg), *aviFAIL, msg);
 	}
 	else
 	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.35.\n\nSuccesfully called interface at t = %f", time);
+		sprintf(buf, "LabVIEW RT to ROSCO interface v0.37.\n\nSuccesfully called interface at t = %f", time);
 	}
 
 	strcpy(msgIn, buf);

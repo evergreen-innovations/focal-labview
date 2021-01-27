@@ -11,11 +11,11 @@
 // make sure libs can be found: export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 // interface into lib for LabVIEW.
-extern int callROSCO(float *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName);
+extern int callROSCO(double *swap, int *aviFAIL, char *msgIn, char *infileName, char *outfileName);
 extern float add(float, float);
 
 #define SWAP_SIZE 500
-#define STEPS 5
+#define STEPS 20
 
 #define MSG_SIZE 8192
 
@@ -25,6 +25,8 @@ extern float add(float, float);
 #define INDEX_DT 3 - C2F
 #define INDEX_AVCMSG_SIZE 49 - C2F
 #define INDEX_NUM_BL 61 - C2F
+#define INDEX_GEN_SPEED 20 - C2F
+#define INDEX_ROT_SPEED 21 - C2F
 
 int main(void)
 {
@@ -33,7 +35,7 @@ int main(void)
     int fail, iStatus;
     float a, b, sum;
 
-    float dt = 0.1;
+    double dt = 0.1;
     a = 1.0;
     b = 2.0;
     fail = -100;
@@ -48,9 +50,9 @@ int main(void)
     printf("Result of %f + %f = %f \n\n", a, b, sum);
 
     // fix the length of the return message
-    float swap[SWAP_SIZE] = {};
+    double swap[SWAP_SIZE] = {};
 
-    swap[INDEX_AVCMSG_SIZE] = (float)MSG_SIZE;
+    swap[INDEX_AVCMSG_SIZE] = (double)MSG_SIZE;
     swap[INDEX_NUM_BL] = 3;
 
     for (int i = 0; i <= STEPS; i++)
@@ -66,11 +68,18 @@ int main(void)
         }
 
         swap[INDEX_ISTATUS] = iStatus;
-        swap[INDEX_TIME] = (float)i * dt;
+        swap[INDEX_TIME] = (double)i * dt;
         swap[INDEX_DT] = dt;
-        printf("Calling ROSCO C-Interface step %u of %u ...\n", i, STEPS);
+
+        if (i > 2)
+        {
+            swap[INDEX_GEN_SPEED] = 1; // rad/s
+            swap[INDEX_ROT_SPEED] = 1;
+        }
+
+        printf("V0.10 Calling ROSCO C-Interface step %u of %u ...\n", i, STEPS);
         ret = callROSCO(swap, &fail, msg, infileName, outfileName);
-        printf("Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n\n", fail, msg, ret);
+        printf("V0.10 Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n\n", fail, msg, ret);
     }
 
     return 0;
