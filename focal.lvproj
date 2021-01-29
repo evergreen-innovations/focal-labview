@@ -11,7 +11,6 @@
 	<Property Name="varPersistentID:{0B9BF640-23C7-4A81-9E97-9966108EDE74}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AI16</Property>
 	<Property Name="varPersistentID:{0BCE69C3-73ED-4FC0-B0F0-F34DAD93B7C8}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 4-Status__Diag</Property>
 	<Property Name="varPersistentID:{0D9CF451-6306-46DC-9A58-1BAB8ECA9E2F}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Samples 1 Channel 1-Samples__ARRAY [0]</Property>
-	<Property Name="varPersistentID:{0DB88A0D-C9E8-4E0F-A42A-C7A41D2CC4C2}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TmpPIDOut</Property>
 	<Property Name="varPersistentID:{0E63F3F8-824E-49A8-9E2F-A5C6A013DB18}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{0F32AC8E-F07B-4DDD-9269-FD66EFCB28AE}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Timestamp Channel 1-StartTimeNextLatch__Low</Property>
 	<Property Name="varPersistentID:{0FB61E6E-96BF-4325-A863-71C1CF41313C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 8-Status__Overrange</Property>
@@ -54,14 +53,12 @@
 	<Property Name="varPersistentID:{3C2F6201-7E98-4C79-B1A8-24B41A6869D2}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 2-Status__Error</Property>
 	<Property Name="varPersistentID:{3CC1C2F8-E579-49B5-AC2B-EAF3A06DC247}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/IOSignals</Property>
 	<Property Name="varPersistentID:{3FC0C88A-7474-4615-9D1A-8B7EAB03B01B}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/GenCtrlFS</Property>
-	<Property Name="varPersistentID:{4206843C-BCAE-483E-BFE8-26748419A711}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TmpPIDDt</Property>
 	<Property Name="varPersistentID:{42E066E9-9274-4363-BE74-2BA1388F40B1}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/MMS Acceleration X-Axis-Value</Property>
 	<Property Name="varPersistentID:{44DC11D2-4019-4CBF-B081-8525FE4F726A}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{46A6C9B9-3F21-42ED-8A56-629A9354033F}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/FromFilePitchFS_deg</Property>
 	<Property Name="varPersistentID:{4A780055-D1D9-4A30-A861-19FF2A7BE7D7}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Error</Property>
 	<Property Name="varPersistentID:{4C121973-E6CD-4D37-BCE3-B2B55F1C6D84}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AI1</Property>
 	<Property Name="varPersistentID:{4F75ED02-A397-4A33-9957-FF4DC4E71744}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AI3</Property>
-	<Property Name="varPersistentID:{5264E04D-CDEF-4851-AA02-8B4F8A46592C}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/TorqueSensorMean_Nm</Property>
 	<Property Name="varPersistentID:{52A5D310-6C5A-4E6D-ACC5-927339ABE52C}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Samples 1 Channel 4-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{5752EBA6-6B01-4B4D-BCC9-07D1AF7D7BF7}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AI20</Property>
 	<Property Name="varPersistentID:{57B2E8A5-7AFC-407A-AD98-AA383440F028}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/StopLabVIEW</Property>

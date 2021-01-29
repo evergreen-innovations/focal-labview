@@ -15,7 +15,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">SimulationConstants.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/SimulationConstants.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X]Q!!!"A!A!!!!!!)!!N!#A!&amp;4G&gt;F98)!%U!+!!R3&lt;X2P=EFO:8*U;7%!!".!#A!-2W6O:8*B&gt;'^S27:G!!!21!E!#V*P&gt;'^S5G&amp;E;86T!!F!#A!$5GBP!!^!!Q!*4H6N1GRB:'6T!"&amp;!#A!,5W.B&lt;'6'97.U&lt;X)!3!$R!!!!!!!!!!%85WFN&gt;7RB&gt;'FP&lt;E.P&lt;H.U97ZU=SZD&gt;'Q!+%"1!!=!!!!"!!)!!Q!%!!5!"A^4;7VV&lt;'&amp;U;7^O1W^O=X1!!1!(!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@'Q%!!"A!A!!!!!!)!!N!#A!&amp;4G&gt;F98)!%U!+!!R(:7ZF=G&amp;U&lt;X*&amp;:G9!!"&amp;!#1!,5G^U&lt;X*3972J&gt;8-!$U!$!!F/&gt;7V#&lt;'&amp;E:8-!%5!+!!N49W&amp;M:5:B9X2P=A!B1!I!'V*P=W.P37ZJ&gt;#"N;7YA=X"F:71A+(*B:#^T+1!D1!I!(&amp;*P=W.P37ZJ&gt;#"N;7YA&gt;'^S=86F)#B/&lt;3EA2F-!!%A!]1!!!!!!!!!"&amp;V.J&lt;86M982J&lt;WZ$&lt;WZT&gt;'&amp;O&gt;(-O9X2M!#B!5!!(!!!!!1!#!!-!"!!&amp;!!905WFN&gt;7RB&gt;'FP&lt;E.P&lt;H.U!!%!"Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CtrlLoopTime_s" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -305,42 +305,6 @@
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')B!%!!"A!A!!!!!!/!"6!#1!01GRB:'61;82D;#BS971J!"&gt;!#1!25G^U&lt;X*4='6F:#BS971P=SE!'U!*!"6(:7ZF=G&amp;U&lt;X*4='6F:#BS971P=SE!'U!*!"1A2W6O:8*B&gt;'^S6'^S=86F+%ZN+1!!'U!*!"1A2W6O:8*B&gt;'^S)&amp;"P&gt;W6S+&amp;=J)!!!&amp;5!*!!]A6WFO:&amp;.Q:76E+'UP=SE!%U!*!!RB&gt;GF.5U&gt;-:7ZH&gt;'A!!".!#1!-37ZG;7RF4'6O:X2I!!!41!E!$5^V&gt;':J&lt;'6-:7ZH&gt;'A!$5!*!!&gt;J5X2B&gt;(6T!!N!#1!%6'FN:1!!#5!*!!*%&gt;!!!&amp;5!*!!Z/&gt;7VC:8*P:E*M972F=Q!!0Q$R!!!!!!!!!!%+5X&gt;B=%FO,G.U&lt;!!M1&amp;!!$1!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-"F.X98"*&lt;A!!!1!.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="TimeMsTimer" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="TmpPIDDt" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="TmpPIDOut" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="TorqueSensorMean_Nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
