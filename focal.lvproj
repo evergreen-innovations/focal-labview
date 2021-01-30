@@ -234,7 +234,7 @@
 	<Property Name="varPersistentID:{BD890AC1-EC79-4A0B-9264-96FAF247ED55}" Type="Ref">/NI-cRIO-9038-01A42455/Chassis/Real-Time Scan Resources/Mod1/AI11</Property>
 	<Property Name="varPersistentID:{BEB3680D-38D6-4D8D-A52F-6AD45525BE59}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{BFECE3B5-B502-4639-ADF9-23B432F152B5}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Samples 1 Channel 8-Samples__ARRAY [0]</Property>
-	<Property Name="varPersistentID:{C03CB20A-6D3C-42FC-B8D8-454D69F6C467}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/Constants</Property>
+	<Property Name="varPersistentID:{C03CB20A-6D3C-42FC-B8D8-454D69F6C467}" Type="Ref">/NI-cRIO-9038-01A42455/SharedVars.lvlib/Const</Property>
 	<Property Name="varPersistentID:{C09F9516-28C8-4EB0-A995-7A6FEB0420CE}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 4-Status__Diag</Property>
 	<Property Name="varPersistentID:{C196166C-F336-428A-AF81-6C01D1A80F06}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 7-Status__Overrange</Property>
 	<Property Name="varPersistentID:{C2B8B267-63D0-4E32-8334-6F7B63FC34C9}" Type="Ref">/NI-cRIO-9038-01A42455/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__Overrange</Property>
@@ -5589,6 +5589,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="BeckhoffInputScale.vi" Type="VI" URL="../SubVIs/BeckhoffInputScale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -5659,6 +5660,7 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
+			<Item Name="AccInputScale.vi" Type="VI" URL="../SubVIs/AccInputScale.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
