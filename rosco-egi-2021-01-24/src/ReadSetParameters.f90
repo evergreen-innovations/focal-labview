@@ -537,7 +537,7 @@ CONTAINS
             aviFAIL = 1
             ErrMsg = '                                                                              '//NEW_LINE('A')// &
                      '------------------------------------------------------------------------------'//NEW_LINE('A')// &
-                     'EGI v0.43 for UMaine FOCAL testing. Last updated 2021-01-24                   '//NEW_LINE('A')// &
+                     'EGI v0.44 for UMaine FOCAL testing. Last updated 2021-01-24                   '//NEW_LINE('A')// &
                      'Running a controller implemented through NREL''s ROSCO Toolbox                '//NEW_LINE('A')// &
                      'A wind turbine controller framework for public use in the scientific field    '//NEW_LINE('A')// &
                      'Developed in collaboration: National Renewable Energy Laboratory              '//NEW_LINE('A')// &

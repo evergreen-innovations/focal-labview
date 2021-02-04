@@ -177,14 +177,14 @@ CONTAINS
                 lambda = LocalVar%RotSpeed * CntrPar%WE_BladeRadius/v_h
                 xh = RESHAPE((/om_r, v_t, v_m/),(/3,1/))
                 P = RESHAPE((/0.01, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 1.0/),(/3,3/))
-                K = RESHAPE((/0.0,0.0,0.0/),(/3,1/))
-                
+                K = RESHAPE((/0.0,0.0,0.0/),(/3,1/))    
+
             ELSE
                 ! Find estimated operating Cp and system pole
                 A_op = interp1d(CntrPar%WE_FOPoles_v,CntrPar%WE_FOPoles,v_h)
 
                 ! TEST INTERP2D
-                lambda = LocalVar%RotSpeed * CntrPar%WE_BladeRadius/v_h
+                lambda = LocalVar%RotSpeed * CntrPar%WE_BladeRadius/v_h  
                 Cp_op = interp2d(PerfData%Beta_vec,PerfData%TSR_vec,PerfData%Cp_mat, LocalVar%BlPitch(1)*R2D, lambda )
                 Cp_op = max(0.0,Cp_op)
                 
@@ -194,7 +194,7 @@ CONTAINS
                 F(1,3) = 1.0/(2.0*CntrPar%WE_Jtot) * CntrPar%WE_RhoAir * PI *CntrPar%WE_BladeRadius**2.0 * 1/om_r * 3.0 * Cp_op * v_h**2.0
                 F(2,2) = - PI * v_m/(2.0*L)
                 F(2,3) = - PI * v_t/(2.0*L)
-                
+               
                 ! Update process noise covariance
                 Q(1,1) = 0.00001
                 Q(2,2) =(PI * (v_m**3.0) * (Ti**2.0)) / L
@@ -207,7 +207,7 @@ CONTAINS
                 dxh(2,1) = -a*v_t
                 dxh(3,1) = 0.0
                 
-                xh = xh + LocalVar%DT * dxh ! state update
+                xh = xh + LocalVar%DT * dxh ! state update 
                 P = P + LocalVar%DT*(MATMUL(F,P) + MATMUL(P,TRANSPOSE(F)) + Q - MATMUL(K * R_m, TRANSPOSE(K))) 
                 
                 ! Measurement update
@@ -216,23 +216,14 @@ CONTAINS
                 xh = xh + K*(LocalVar%RotSpeedF - om_r)
                 P = MATMUL(identity(3) - MATMUL(K,H),P)
                 
-                
+
                 ! Wind Speed Estimate
                 om_r = xh(1,1)
                 v_t = xh(2,1)
                 v_m = xh(3,1)
                 v_h = v_t + v_m
                 LocalVar%WE_Vw = v_m + v_t
-
-                ! EGI mod for debugging
-                !avrSWAP(493) = LocalVar%BlPitch(1)*R2D
-                !avrSWAP(494) = Cp_op
-                !avrSWAP(495) = LocalVar%VS_LastGenTrqF
-                !avrSWAP(496) = LocalVar%RotSpeedF 
-                !avrSWAP(497) = v_h               
-                !avrSWAP(498) = Tau_r             
-                !avrSWAP(499) = lambda            
-
+                
             ENDIF
             ! Debug Outputs
             DebugVar%WE_Cp = Cp_op

@@ -27,6 +27,7 @@ extern float add(float, float);
 #define INDEX_NUM_BL 61 - C2F
 #define INDEX_GEN_SPEED 20 - C2F
 #define INDEX_ROT_SPEED 21 - C2F
+#define INDEX_HorWindV 27 - C2F
 
 int main(void)
 {
@@ -61,6 +62,7 @@ int main(void)
         if (i == 0)
         {
             iStatus = 0;
+            swap[INDEX_HorWindV] = 5;
         }
         else
         {
