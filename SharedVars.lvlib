@@ -154,7 +154,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">IOSignals.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/IOSignals.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,EY!)!!"A!A!!!!!!6!"N!#A!6&lt;7&amp;J&lt;E&gt;F&lt;F"P=WFU;7^O)#BS971J!"N!#A!6&lt;7^U&lt;X*$&gt;8*S:7ZU6'^S=3!I4GUJ!"V!#A!8&lt;7&amp;J&lt;E&gt;F&lt;F:F&lt;'^D;82Z)#BS971P=SE!%U!'!!VN97FO2W6O5X2B&gt;(6T!"N!#A!5='FU9WAR5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAR6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$&amp;4&gt;'&amp;U&gt;8-!!"N!#A!5='FU9WAS5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAS6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$*4&gt;'&amp;U&gt;8-!!"N!#A!5='FU9WAT5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAT6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$.4&gt;'&amp;U&gt;8-!!"F!#A!4='FU9WAR5'^T4W:T&gt;#!I=G&amp;E+1!:1!I!%X"J&gt;'.I-F"P=U^G=X1A+(*B:#E!'5!+!".Q;82D;$.1&lt;X.0:H.U)#BS971J!"&gt;!#A!2&gt;'^S=86F5W6O=W^S)#B/&lt;3E!'5!+!"*O97.F&lt;'RF17.D7#!I&lt;3^T-CE!!"F!#A!3&lt;G&amp;D:7RM:5&amp;D9VEA+'UP=T)J!!!:1!I!%GZB9W6M&lt;'6"9W.;)#BN,X-S+1!!6!$R!!!!!!!!!!%.35^4;7&gt;O97RT,G.U&lt;!!_1&amp;!!&amp;!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3!"-+35]A5WFH&lt;G&amp;M=Q!!!1!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,!P!)!!"A!A!!!!!!6!"N!#A!6&lt;7&amp;J&lt;E&gt;F&lt;F"P=WFU;7^O)#BS971J!"N!#A!6&lt;7^U&lt;X*$&gt;8*S:7ZU6'^S=3!I4GUJ!"V!#A!8&lt;7&amp;J&lt;E&gt;F&lt;F:F&lt;'^D;82Z)#BS971P=SE!%U!'!!VN97FO2W6O5X2B&gt;(6T!"N!#A!5='FU9WAR5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAR6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$&amp;4&gt;'&amp;U&gt;8-!!"N!#A!5='FU9WAS5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAS6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$*4&gt;'&amp;U&gt;8-!!"N!#A!5='FU9WAT5'^T;82J&lt;WYA+(*B:#E!!"V!#A!7='FU9WAT6G6M&lt;W.J&gt;(EA+(*B:#^T+1!!%U!'!!RQ;82D;$.4&gt;'&amp;U&gt;8-!!"&gt;!#A!2&gt;'^S=86F5W6O=W^S)#B/&lt;3E!'5!+!"*O97.F&lt;'RF17.D7#!I&lt;3^T-CE!!"F!#A!3&lt;G&amp;D:7RM:5&amp;D9VEA+'UP=T)J!!!:1!I!%GZB9W6M&lt;'6"9W.;)#BN,X-S+1!!&amp;%!B$H"J&gt;'.I-5BP&lt;76'&lt;'&amp;H!!!51#%/='FU9WAS3'^N:5:M97=!!"2!)1ZQ;82D;$.)&lt;WVF2GRB:Q!!6!$R!!!!!!!!!!%.35^4;7&gt;O97RT,G.U&lt;!!_1&amp;!!&amp;!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3!"-+35]A5WFH&lt;G&amp;M=Q!!!1!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="MotorDemandTorque_Nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -168,44 +168,47 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="PitchAxis1On" Type="Variable">
+	<Item Name="PitchAxis1State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">ElmoState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/ElmoState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$/SA!!!"A!A!!!!!!(!":!)2"&amp;&lt;'VP)%^Q:8*B&gt;'FP&lt;G&amp;M!!!31#%-27RN&lt;S"898*O;7ZH!!!11#%+27RN&lt;S"'986M&gt;!!!%%!B#U*M972F)%BP&lt;76E!"*!)1R#&lt;'&amp;E:3")&lt;WVJ&lt;G=!!".!#A!.3'^N:6"P=S!I=G&amp;E+1"!!0%!!!!!!!!!!1V&amp;&lt;'VP5X2B&gt;'5O9X2M!#J!5!!'!!!!!1!#!!-!"!!&amp;%E6M&lt;7]A5X2B&gt;'5A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="PitchAxis2On" Type="Variable">
+	<Item Name="PitchAxis2State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">ElmoState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/ElmoState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$/SA!!!"A!A!!!!!!(!":!)2"&amp;&lt;'VP)%^Q:8*B&gt;'FP&lt;G&amp;M!!!31#%-27RN&lt;S"898*O;7ZH!!!11#%+27RN&lt;S"'986M&gt;!!!%%!B#U*M972F)%BP&lt;76E!"*!)1R#&lt;'&amp;E:3")&lt;WVJ&lt;G=!!".!#A!.3'^N:6"P=S!I=G&amp;E+1"!!0%!!!!!!!!!!1V&amp;&lt;'VP5X2B&gt;'5O9X2M!#J!5!!'!!!!!1!#!!-!"!!&amp;%E6M&lt;7]A5X2B&gt;'5A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="PitchAxis3On" Type="Variable">
+	<Item Name="PitchAxis3State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">ElmoState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Clusters/ElmoState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$/SA!!!"A!A!!!!!!(!":!)2"&amp;&lt;'VP)%^Q:8*B&gt;'FP&lt;G&amp;M!!!31#%-27RN&lt;S"898*O;7ZH!!!11#%+27RN&lt;S"'986M&gt;!!!%%!B#U*M972F)%BP&lt;76E!"*!)1R#&lt;'&amp;E:3")&lt;WVJ&lt;G=!!".!#A!.3'^N:6"P=S!I=G&amp;E+1"!!0%!!!!!!!!!!1V&amp;&lt;'VP5X2B&gt;'5O9X2M!#J!5!!'!!!!!1!#!!-!"!!&amp;%E6M&lt;7]A5X2B&gt;'5A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PitchCtrlFS" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -221,7 +224,7 @@
 		<Property Name="typedefName2" Type="Str">PitchCtrl.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/BladePitchMode.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../Clusters/PitchCtrl.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@7Q%!!"A!A!!!!!!*!!V!#A!'5#V(97FO!!"O!0%!!!!!!!!!!2*#&lt;'&amp;E:6"J&gt;'.I47^E:3ZD&gt;'Q!5U!8!!1+7G6S&lt;S"Q;82D;!N$&lt;WZT&gt;#"Q;82D;!F'=G^N)%:J&lt;'5+5E^41U]A1X2S&lt;!!;1GRB:'5A='FU9WAA&lt;X"F=G&amp;U;7ZH)'VP:'5!!"V!#A!81W^O=X2B&lt;H1A=W6U='^J&lt;H1A+'2F:SE!$5!+!!:*,5&gt;B;7Y!!!Z!)1F"?'FT)$%A4WY!$E!B#5&amp;Y;8-A-C"0&lt;A!/1#%*18BJ=S!T)%^O!"N!#A!65'FU9WAA:H*P&lt;3"';7RF)#BE:7=J!$I!]1!!!!!!!!!"$6"J&gt;'.I1X2S&lt;#ZD&gt;'Q!*%"1!!A!!!!"!!)!!Q!%!!5!"A!(#6"J&gt;'.I1X2S&lt;!!"!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4DQ%!!"A!A!!!!!!*!!V!#A!'5#V(97FO!!"O!0%!!!!!!!!!!2*#&lt;'&amp;E:6"J&gt;'.I47^E:3ZD&gt;'Q!5U!8!!1+7G6S&lt;S"Q;82D;!N$&lt;WZT&gt;#"Q;82D;!F'=G^N)%:J&lt;'5+5E^41U]A1X2S&lt;!!;1GRB:'5A='FU9WAA&lt;X"F=G&amp;U;7ZH)'VP:'5!!"V!#A!81W^O=X2B&lt;H1A=W6U='^J&lt;H1A+'2F:SE!$5!+!!:*,5&gt;B;7Y!!"N!#A!65'FU9WAA:H*P&lt;3"';7RF)#BE:7=J!"&gt;!#A!13'^N;7ZH)(:F&lt;#!I=H"N+1!!%U!+!!V.98AA&gt;G6M)#BS='UJ!"^!#A!947&amp;Y)(:F&lt;#"D;'&amp;O:W5A+(*Q&lt;3^N;7YJ!!![!0%!!!!!!!!!!1V1;82D;%.U=GQO9X2M!#2!5!!)!!!!!1!#!!-!"!!&amp;!!9!"QF1;82D;%.U=GQ!!1!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PitchCtrlMS" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -237,7 +240,7 @@
 		<Property Name="typedefName2" Type="Str">PitchCtrl.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/BladePitchMode.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../Clusters/PitchCtrl.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@7Q%!!"A!A!!!!!!*!!V!#A!'5#V(97FO!!"O!0%!!!!!!!!!!2*#&lt;'&amp;E:6"J&gt;'.I47^E:3ZD&gt;'Q!5U!8!!1+7G6S&lt;S"Q;82D;!N$&lt;WZT&gt;#"Q;82D;!F'=G^N)%:J&lt;'5+5E^41U]A1X2S&lt;!!;1GRB:'5A='FU9WAA&lt;X"F=G&amp;U;7ZH)'VP:'5!!"V!#A!81W^O=X2B&lt;H1A=W6U='^J&lt;H1A+'2F:SE!$5!+!!:*,5&gt;B;7Y!!!Z!)1F"?'FT)$%A4WY!$E!B#5&amp;Y;8-A-C"0&lt;A!/1#%*18BJ=S!T)%^O!"N!#A!65'FU9WAA:H*P&lt;3"';7RF)#BE:7=J!$I!]1!!!!!!!!!"$6"J&gt;'.I1X2S&lt;#ZD&gt;'Q!*%"1!!A!!!!"!!)!!Q!%!!5!"A!(#6"J&gt;'.I1X2S&lt;!!"!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4DQ%!!"A!A!!!!!!*!!V!#A!'5#V(97FO!!"O!0%!!!!!!!!!!2*#&lt;'&amp;E:6"J&gt;'.I47^E:3ZD&gt;'Q!5U!8!!1+7G6S&lt;S"Q;82D;!N$&lt;WZT&gt;#"Q;82D;!F'=G^N)%:J&lt;'5+5E^41U]A1X2S&lt;!!;1GRB:'5A='FU9WAA&lt;X"F=G&amp;U;7ZH)'VP:'5!!"V!#A!81W^O=X2B&lt;H1A=W6U='^J&lt;H1A+'2F:SE!$5!+!!:*,5&gt;B;7Y!!"N!#A!65'FU9WAA:H*P&lt;3"';7RF)#BE:7=J!"&gt;!#A!13'^N;7ZH)(:F&lt;#!I=H"N+1!!%U!+!!V.98AA&gt;G6M)#BS='UJ!"^!#A!947&amp;Y)(:F&lt;#"D;'&amp;O:W5A+(*Q&lt;3^N;7YJ!!![!0%!!!!!!!!!!1V1;82D;%.U=GQO9X2M!#2!5!!)!!!!!1!#!!-!"!!&amp;!!9!"QF1;82D;%.U=GQ!!1!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PitchSetpoint_rad" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
