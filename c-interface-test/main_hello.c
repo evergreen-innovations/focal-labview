@@ -6,6 +6,6 @@
 
 int main(void)
 {
-    printf("Hello World. The cRIO has a working C compiler now ...\n");
+    printf("Some - Hello World. The cRIO has a working C compiler now ...\n");
     return 0;
 }
