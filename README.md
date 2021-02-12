@@ -189,6 +189,10 @@ Labview provides a Merge and Diff tool which can be integrated with source contr
 * Diff Command: C:\Program Files\Git\bin_LVCompareWrapper.sh
 * You can click on the file, Right Click > External Diff > Show Difference
 
+## cRIO Config
+Add files from /esi/ to local directory for Labview
+e.g. C:\Program Files (x86)\National Instruments\LabVIEW 2018\resource\Framework\Providers\indcomecat\DD
+
 ## OLD Instructions for ECLIPSE - ignore from here
 
 * libdiscon dependencies:
