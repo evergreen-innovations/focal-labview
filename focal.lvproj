@@ -8699,9 +8699,6 @@ DirectoryIndex index.htm
 			<Item Name="GenCtrl.vi" Type="VI" URL="../SubVIs/GenCtrl.vi"/>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			<Item Name="ReadPLC.vi" Type="VI" URL="../SubVIs/ReadPLC.vi"/>
 			<Item Name="TwrBotInputScale.vi" Type="VI" URL="../SubVIs/TwrBotInputScale.vi"/>
