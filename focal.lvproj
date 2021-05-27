@@ -1819,7 +1819,7 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.DataRate" Type="Str">1</Property>
 					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-					<Property Name="cRIOModule.ExcitationVoltage" Type="Str">0</Property>
+					<Property Name="cRIOModule.ExcitationVoltage" Type="Str">3</Property>
 					<Property Name="cRIOModule.ExternalClockSource" Type="Str"></Property>
 					<Property Name="cRIOModule.ExtTimeBaseType" Type="Str"></Property>
 					<Property Name="cRIOModule.HalfBridgeEnable" Type="Str">0</Property>
@@ -8699,6 +8699,9 @@ DirectoryIndex index.htm
 			<Item Name="GenCtrl.vi" Type="VI" URL="../SubVIs/GenCtrl.vi"/>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			<Item Name="ReadPLC.vi" Type="VI" URL="../SubVIs/ReadPLC.vi"/>
 			<Item Name="TwrBotInputScale.vi" Type="VI" URL="../SubVIs/TwrBotInputScale.vi"/>
