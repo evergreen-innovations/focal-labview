@@ -622,6 +622,7 @@ DirectoryIndex index.htm
 			<Item Name="CtrlSignals.ctl" Type="VI" URL="../Clusters/CtrlSignals.ctl"/>
 			<Item Name="ElmoState.ctl" Type="VI" URL="../Clusters/ElmoState.ctl"/>
 			<Item Name="FileDataChannel.ctl" Type="VI" URL="../Clusters/FileDataChannel.ctl"/>
+			<Item Name="GenCtrl.ctl" Type="VI" URL="../Clusters/GenCtrl.ctl"/>
 			<Item Name="GenCtrlMode.ctl" Type="VI" URL="../Clusters/GenCtrlMode.ctl"/>
 			<Item Name="GenMode.ctl" Type="VI" URL="../Clusters/GenMode.ctl"/>
 			<Item Name="IndicatorScale.ctl" Type="VI" URL="../Clusters/IndicatorScale.ctl"/>
@@ -638,10 +639,13 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
+			<Item Name="ReadPLC.vi" Type="VI" URL="../SubVIs/ReadPLC.vi"/>
+			<Item Name="WritePLC.vi" Type="VI" URL="../SubVIs/WritePLC.vi"/>
 		</Item>
 		<Item Name="Main" Type="Folder">
 			<Item Name="FocalMainV0.vi" Type="VI" URL="../FocalMainV0.vi"/>
 			<Item Name="FocalMainV1.vi" Type="VI" URL="../FocalMainV1.vi"/>
+			<Item Name="FocalMainV2.vi" Type="VI" URL="../FocalMainV2.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="replace_string.vi" Type="VI" URL="../Reference/replace_string.vi"/>
@@ -667,9 +671,11 @@ DirectoryIndex index.htm
 				<Item Name="AccelnetTorqueOutScale.vi" Type="VI" URL="../SubVIs/AccelnetTorqueOutScale.vi"/>
 				<Item Name="AccelnetVelInScale.vi" Type="VI" URL="../SubVIs/AccelnetVelInScale.vi"/>
 				<Item Name="AccelnetVelOutScale.vi" Type="VI" URL="../SubVIs/AccelnetVelOutScale.vi"/>
+				<Item Name="AccInputScale.vi" Type="VI" URL="../SubVIs/AccInputScale.vi"/>
 				<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
 				<Item Name="ElmoVelInScale.vi" Type="VI" URL="../SubVIs/ElmoVelInScale.vi"/>
 				<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
+				<Item Name="TwrBotInputScale.vi" Type="VI" URL="../SubVIs/TwrBotInputScale.vi"/>
 			</Item>
 			<Item Name="CallRosco" Type="Folder">
 				<Item Name="CallRosco.vi" Type="VI" URL="../SubVIs/CallRosco.vi"/>
@@ -678,8 +684,9 @@ DirectoryIndex index.htm
 			<Item Name="Ctrl" Type="Folder">
 				<Item Name="AccelnetPIDCtrl.vi" Type="VI" URL="../SubVIs/AccelnetPIDCtrl.vi"/>
 				<Item Name="ElmoPICtrl.vi" Type="VI" URL="../SubVIs/ElmoPICtrl.vi"/>
-				<Item Name="GenCtrl.ctl" Type="VI" URL="../Clusters/GenCtrl.ctl"/>
+				<Item Name="GenCtrl.vi" Type="VI" URL="../SubVIs/GenCtrl.vi"/>
 				<Item Name="PitchCtrl.vi" Type="VI" URL="../SubVIs/PitchCtrl.vi"/>
+				<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			</Item>
 			<Item Name="FileWriting" Type="Folder">
 				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
@@ -688,6 +695,7 @@ DirectoryIndex index.htm
 				<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../SubVIs/GenerateUniqueFilename.vi"/>
 				<Item Name="WriteToFile-v1.vi" Type="VI" URL="../SubVIs/WriteToFile-v1.vi"/>
 				<Item Name="WriteToFile-v2.vi" Type="VI" URL="../SubVIs/WriteToFile-v2.vi"/>
+				<Item Name="WriteToFile-v3.vi" Type="VI" URL="../SubVIs/WriteToFile-v3.vi"/>
 			</Item>
 			<Item Name="Froude Scaling" Type="Folder">
 				<Item Name="ScaleForce.vi" Type="VI" URL="../SubVIs/ScaleForce.vi"/>
@@ -702,9 +710,12 @@ DirectoryIndex index.htm
 			<Item Name="Initialization" Type="Folder">
 				<Item Name="AssignStatus.vi" Type="VI" URL="../SubVIs/AssignStatus.vi"/>
 				<Item Name="AssignStatus_v2.vi" Type="VI" URL="../SubVIs/AssignStatus_v2.vi"/>
+				<Item Name="CheckWindSetpointFile.vi" Type="VI" URL="../SubVIs/CheckWindSetpointFile.vi"/>
+				<Item Name="ReadSetpointFile-v2.vi" Type="VI" URL="../SubVIs/ReadSetpointFile-v2.vi"/>
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
 				<Item Name="AccelnetInterface.vi" Type="VI" URL="../SubVIs/AccelnetInterface.vi"/>
+				<Item Name="ElmoDigIn2HomeFlag.vi" Type="VI" URL="../SubVIs/ElmoDigIn2HomeFlag.vi"/>
 				<Item Name="ElmoInterface.vi" Type="VI" URL="../SubVIs/ElmoInterface.vi">
 					<Item Name="Edge Detect" Type="IIO Function Block">
 						<Item Name="error in" Type="Variable"/>
@@ -2123,7 +2134,6 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="ElmoDigIn2HomeFlag.vi" Type="VI" URL="../SubVIs/ElmoDigIn2HomeFlag.vi"/>
 		<Item Name="EtherCAT Master" Type="ECATMaster">
 			<Property Name="ECAT.Adapter.Index" Type="UInt">1</Property>
 			<Property Name="ECAT.Master.Comments" Type="Str"></Property>
@@ -8694,18 +8704,12 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AccInputScale.vi" Type="VI" URL="../SubVIs/AccInputScale.vi"/>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
-			<Item Name="GenCtrl.vi" Type="VI" URL="../SubVIs/GenCtrl.vi"/>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
-			<Item Name="ReadPLC.vi" Type="VI" URL="../SubVIs/ReadPLC.vi"/>
-			<Item Name="TwrBotInputScale.vi" Type="VI" URL="../SubVIs/TwrBotInputScale.vi"/>
-			<Item Name="WritePLC.vi" Type="VI" URL="../SubVIs/WritePLC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
