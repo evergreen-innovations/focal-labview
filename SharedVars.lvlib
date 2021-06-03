@@ -282,17 +282,6 @@
 		<Property Name="typedefPath1" Type="PathRel">../Clusters/CtrlSignals.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#AH!!!!"A!A!!!!!!'!!R!)1:&amp;&lt;G&amp;C&lt;'5!!!B!)1*0&lt;A!!%%!B#V*F=W6U)%:B&gt;7RU!!V!!Q!(4H6N:8*J9Q!=1%!!!@````]!!QZ7:7RP9WFU?3!I6E:%+1!!/!$R!!!!!!!!!!%01X2S&lt;&amp;.J:WZB&lt;(-O9X2M!#"!5!!%!!!!!1!#!!1-1X2S&lt;#"4;7&gt;O97RT!!!"!!5!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="PLCInputSignals" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">PLCSignals.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../Clusters/PLCSignals.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$#PA!!!"A!A!!!!!!(!!R!)1&gt;#&lt;W^M:7&amp;O!"2!1!!"`````Q!!"U6O97*M:71!%%"!!!(`````!!!#4WY!!"*!1!!"`````Q!!"5:B&gt;7RU!!V!!Q!(4H6N:8*J9Q!;1%!!!@````]!"!R7:7RP9WFU?6^72E1!!$5!]1!!!!!!!!!"$F"-1V.J:WZB&lt;(-O9X2M!"Z!5!!%!!%!!A!$!!5+5%R$5WFH&lt;G&amp;M=Q!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="RoscoPairs" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
