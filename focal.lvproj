@@ -8743,7 +8743,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F18F133-3139-4A3D-97DE-60A31600BE34}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -8757,7 +8757,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A298BF6E-A7E4-41E6-A8DC-B9BFB3A2DD71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D846DA81-429F-47EA-A6F3-E2D024DE4BC3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9036-01B82934/Main/FocalMainV2.vi</Property>
@@ -8766,7 +8766,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/www/FocalMainV2.html</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/NI-cRIO-9036-01B82934/Clusters &amp; Ctrl Defs/SimulationConstants.ctl</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Maine</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">focalV2</Property>
 				<Property Name="TgtF_internalName" Type="Str">focalV2</Property>
