@@ -339,6 +339,7 @@
 	<Property Name="varPersistentID:{A9E9F288-E544-48B4-A648-6E0A1FA68315}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{AA6E6F0E-9CCD-4E87-AF82-D8F86167CEEB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Inputs-Digital Inputs</Property>
 	<Property Name="varPersistentID:{AAAD2DD1-589F-4DDE-949B-80EDA195AC31}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up In Inputs-Status__Limit 2</Property>
+	<Property Name="varPersistentID:{AAC4D1D2-A1DF-4345-A4ED-2E92182019B6}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/RS232Read</Property>
 	<Property Name="varPersistentID:{AC7C43D6-2853-4AB1-A835-BA454638321D}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI27</Property>
 	<Property Name="varPersistentID:{AC93E406-ECE4-4BB1-8554-CA864A5CC8BD}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{AC9AC018-CCBE-4CDE-8568-2EA0A573BF7F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Inputs-Position actual value</Property>
@@ -673,10 +674,12 @@ DirectoryIndex index.htm
 				<Item Name="AccelnetVelInScale.vi" Type="VI" URL="../SubVIs/AccelnetVelInScale.vi"/>
 				<Item Name="AccelnetVelOutScale.vi" Type="VI" URL="../SubVIs/AccelnetVelOutScale.vi"/>
 				<Item Name="AccInputScale.vi" Type="VI" URL="../SubVIs/AccInputScale.vi"/>
+				<Item Name="AnemoASCIIConversion.vi" Type="VI" URL="../SubVIs/AnemoASCIIConversion.vi"/>
 				<Item Name="ElmoPosScale.vi" Type="VI" URL="../SubVIs/ElmoPosScale.vi"/>
 				<Item Name="ElmoVelInScale.vi" Type="VI" URL="../SubVIs/ElmoVelInScale.vi"/>
 				<Item Name="ElmoVelOutScale.vi" Type="VI" URL="../SubVIs/ElmoVelOutScale.vi"/>
 				<Item Name="TwrBotInputScale.vi" Type="VI" URL="../SubVIs/TwrBotInputScale.vi"/>
+				<Item Name="UltrasonicAnemoInputScale.vi" Type="VI" URL="../SubVIs/UltrasonicAnemoInputScale.vi"/>
 			</Item>
 			<Item Name="CallRosco" Type="Folder">
 				<Item Name="CallRosco.vi" Type="VI" URL="../SubVIs/CallRosco.vi"/>
@@ -8717,6 +8720,9 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
