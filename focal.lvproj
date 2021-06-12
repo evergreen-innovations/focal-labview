@@ -94,6 +94,7 @@
 	<Property Name="varPersistentID:{2B4268E5-C8E0-4712-B2FC-C2AC95AB62A3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{2BE20C72-B97C-415D-BCDC-460610FDA5FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 3-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{2C039FB1-1471-443E-8DC5-DB47119BFADD}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchCtrlFS</Property>
+	<Property Name="varPersistentID:{2C1090AB-2257-4FE2-B82D-988A5DA1E348}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/AnemometerData</Property>
 	<Property Name="varPersistentID:{2D1D7099-1AB7-4A37-B918-DF44F55BBCF4}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/towerTop6DOF/Reading Data-FxGage0</Property>
 	<Property Name="varPersistentID:{2D1EABA9-D46B-468D-985E-46671347C8C3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{2F32F57A-A425-4212-A987-3397169372A3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__Overrange</Property>
@@ -225,6 +226,7 @@
 	<Property Name="varPersistentID:{6EEF428D-CAD3-4E1B-93B3-649A9A4537CF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__Overrange</Property>
 	<Property Name="varPersistentID:{6EFBEFF1-D562-43D8-B5F6-93125CEB2790}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/towerTop6DOF/Control Codes-Control 1</Property>
 	<Property Name="varPersistentID:{6F6100D4-1AC5-4555-BEC1-3A27D809195C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/towerTop6DOF/Reading Data-Sample Counter</Property>
+	<Property Name="varPersistentID:{6F8B5131-6244-463D-916C-BD09AF5B3026}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FanSetpoint_VFD</Property>
 	<Property Name="varPersistentID:{700A8207-566E-4F94-98E4-8C7CC6692D7A}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI11</Property>
 	<Property Name="varPersistentID:{70658BD9-BD65-4475-8087-B00BF5F98D6E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 2-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{70EACF59-8776-4F7A-9483-C67AD8DFB90C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__TxPDO Toggle</Property>
@@ -339,7 +341,6 @@
 	<Property Name="varPersistentID:{A9E9F288-E544-48B4-A648-6E0A1FA68315}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{AA6E6F0E-9CCD-4E87-AF82-D8F86167CEEB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Inputs-Digital Inputs</Property>
 	<Property Name="varPersistentID:{AAAD2DD1-589F-4DDE-949B-80EDA195AC31}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up In Inputs-Status__Limit 2</Property>
-	<Property Name="varPersistentID:{AAC4D1D2-A1DF-4345-A4ED-2E92182019B6}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/RS232Read</Property>
 	<Property Name="varPersistentID:{AC7C43D6-2853-4AB1-A835-BA454638321D}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI27</Property>
 	<Property Name="varPersistentID:{AC93E406-ECE4-4BB1-8554-CA864A5CC8BD}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{AC9AC018-CCBE-4CDE-8568-2EA0A573BF7F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Inputs-Position actual value</Property>
@@ -363,7 +364,6 @@
 	<Property Name="varPersistentID:{BA4F0699-30F4-43CB-8C58-38331A7AEB2D}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FromFileVelFS_rpm</Property>
 	<Property Name="varPersistentID:{BB12DBA4-3BB9-4257-8AB7-86C72CD61137}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Value</Property>
 	<Property Name="varPersistentID:{BC6DC458-840E-4835-B05D-56A5483F44FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__Overrange</Property>
-	<Property Name="varPersistentID:{BC8C2471-3DC2-4F16-8D0B-89ACF078453C}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PLCCtrlSignals</Property>
 	<Property Name="varPersistentID:{BCD831B1-1F17-4606-92C6-A783E7D9B9DB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 3-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{BD209CA5-F2AF-47FD-9140-5E5FEE306F8B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 4-Status__Diag</Property>
 	<Property Name="varPersistentID:{BE8BF172-3A72-4B08-B75C-5EE81669F399}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/output</Property>
@@ -537,9 +537,9 @@
 	</Item>
 	<Item Name="NI-cRIO-9036-01B82934" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9036-01B82934</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.177</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77DC;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">77DC</Property>
+		<Property Name="alias.value" Type="Str">192.168.21.246</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77B9;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">77B9</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -766,6 +766,7 @@ DirectoryIndex index.htm
 				<Item Name="FocalMainV2.html" Type="Document" URL="../www/FocalMainV2.html"/>
 			</Item>
 		</Item>
+		<Item Name="AnemometerData.ctl" Type="VI" URL="../Clusters/AnemometerData.ctl"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
