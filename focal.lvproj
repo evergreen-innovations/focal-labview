@@ -31,6 +31,7 @@
 	<Property Name="varPersistentID:{0EE2269B-8B7E-46C7-B160-9FFF2C4F9AD5}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{0F25890A-F385-4333-94EB-98592A902543}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 4-Status__Overrange</Property>
 	<Property Name="varPersistentID:{0F76A7A0-19A0-45FF-B2C3-E4835CFEA86F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 2-Status__Input cycle counter</Property>
+	<Property Name="varPersistentID:{0F8A9E94-75A4-4510-B3FA-B5E8558A7E62}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 6</Property>
 	<Property Name="varPersistentID:{0FBD3CEF-0819-4E28-8DB6-3EA71A161B0F}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO10</Property>
 	<Property Name="varPersistentID:{11AA367E-4BD4-446F-9DF2-EC6B97D48CA5}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{11F20A67-32FB-4FDD-9B42-68E193CB524C}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/ExpTime_s</Property>
@@ -54,6 +55,7 @@
 	<Property Name="varPersistentID:{19243399-B0CE-4175-B710-AA999483BC44}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 3-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{19AEDEDC-7957-4DBA-B58D-3A73753751B6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 1-Status__Error</Property>
 	<Property Name="varPersistentID:{19C7185B-98B1-487D-9C60-8A02A062D035}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO3</Property>
+	<Property Name="varPersistentID:{1A0AD9FD-9FC5-4295-93D7-B146F79881C0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 6</Property>
 	<Property Name="varPersistentID:{1B338402-D3E2-40DE-9FE1-B993212F9E3A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
 	<Property Name="varPersistentID:{1C06CF9C-A63C-49C7-B6CC-495B534283B8}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 2-Status__Overrange</Property>
 	<Property Name="varPersistentID:{1C5FA3B4-B0DE-497E-9AA4-3E52753F5557}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI12</Property>
@@ -61,6 +63,7 @@
 	<Property Name="varPersistentID:{1C8FF7F3-A21C-43FD-B6F9-0ACCA18D88F0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{1D28FB21-5FF4-40E7-A4C7-7B045845A887}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI12</Property>
 	<Property Name="varPersistentID:{1D727207-DFFB-453D-8380-F0CA7B774990}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI5</Property>
+	<Property Name="varPersistentID:{1DBB03F7-3FE9-41DF-B9C9-6A10602168D3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 7</Property>
 	<Property Name="varPersistentID:{1E0773A5-F3CD-4A74-93F9-19ACA2BE8816}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade2/Inputs-Torque actual value</Property>
 	<Property Name="varPersistentID:{1E4A086E-1BA5-4025-A0FB-302D9C8607B7}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 3-Status__Overrange</Property>
 	<Property Name="varPersistentID:{1E8A6869-E100-46EE-8A9C-7CB55579FBCA}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__Overrange</Property>
@@ -87,6 +90,7 @@
 	<Property Name="varPersistentID:{29372D35-CF1B-4BD6-BBFB-6095A4784C06}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 4-Status__Error</Property>
 	<Property Name="varPersistentID:{294C215D-967F-4A0B-A55F-04C1485ACDD8}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 7-Status__Overrange</Property>
 	<Property Name="varPersistentID:{2954FD34-1BB5-423C-9977-20373E6BFECB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__Diag</Property>
+	<Property Name="varPersistentID:{2A42CDD3-29F4-453D-ADD2-3AF0E00973A8}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 4</Property>
 	<Property Name="varPersistentID:{2ACD3054-517F-4FA3-82BB-8D2AAFA14631}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 6-Status__Error</Property>
 	<Property Name="varPersistentID:{2B136DEF-BA6C-466E-ABE5-C4E31C8154FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 1-Status__Diag</Property>
 	<Property Name="varPersistentID:{2B4268E5-C8E0-4712-B2FC-C2AC95AB62A3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__TxPDO State</Property>
@@ -134,6 +138,7 @@
 	<Property Name="varPersistentID:{40C54E6B-E019-48EC-9D0D-2ED028343EE3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
 	<Property Name="varPersistentID:{41193720-32A3-4643-B723-7EA20F117DD4}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{41640532-0572-4765-8B12-5E9B31C35A44}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Error</Property>
+	<Property Name="varPersistentID:{4188B851-09DE-4BD6-A3F5-FF6FE79D716F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 5</Property>
 	<Property Name="varPersistentID:{41A9A004-AAF1-4CD2-957F-C8E9B09C23A3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{4248379C-05A5-4E3B-93AF-C2C01576B6FE}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__Underrange</Property>
 	<Property Name="varPersistentID:{42BD0C41-C5E7-40AE-97D1-6E998F46D93C}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI13</Property>
@@ -208,6 +213,7 @@
 	<Property Name="varPersistentID:{6506C9F6-D183-46DD-B6F9-7F6CB01AC99A}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO5</Property>
 	<Property Name="varPersistentID:{67598926-EFB6-442C-9229-8C032C433A80}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__Diag</Property>
 	<Property Name="varPersistentID:{67A7C5E6-574C-4E2B-931E-7DE2DDA29445}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__Underrange</Property>
+	<Property Name="varPersistentID:{67F0E9F8-3634-4FD6-8CE1-A6AB2A2EDFB6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 2</Property>
 	<Property Name="varPersistentID:{69830169-3E0C-4484-95A6-788065FB981F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__Underrange</Property>
 	<Property Name="varPersistentID:{6ADFDFA5-1C61-41FE-B43F-51BEF5F1D66B}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/RoscoParams</Property>
 	<Property Name="varPersistentID:{6B57E81D-676D-4891-BFFC-961599F5C276}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__Error</Property>
@@ -232,6 +238,7 @@
 	<Property Name="varPersistentID:{753A4E22-1608-47B8-B76F-5457A6B721F6}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect/output</Property>
 	<Property Name="varPersistentID:{759293D2-42C4-4E9A-9562-0D4C9584B7A4}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI7</Property>
 	<Property Name="varPersistentID:{75B99973-E183-4CFA-B76F-16310C91EE19}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Timestamp-Timestamp</Property>
+	<Property Name="varPersistentID:{75DCA378-37DF-4FD8-B5C5-D6324CF3A676}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 3</Property>
 	<Property Name="varPersistentID:{76111CDD-4AFC-4596-B255-37A9B2147590}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI14</Property>
 	<Property Name="varPersistentID:{76B16218-1632-4074-9C25-0FD7B652BEF1}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI17</Property>
 	<Property Name="varPersistentID:{76C5032B-F4E9-47B7-8631-C95F1E493225}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__TxPDO State</Property>
@@ -268,12 +275,15 @@
 	<Property Name="varPersistentID:{8ACD7810-D6EF-432B-851D-FB6C15579449}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__Diag</Property>
 	<Property Name="varPersistentID:{8B399CF4-9A39-4EAE-89CC-92872E9E500C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Z-Axis-Value</Property>
 	<Property Name="varPersistentID:{8C4BC97E-9580-49F1-9212-7D74B760B1E4}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/SwapIn</Property>
+	<Property Name="varPersistentID:{8DAB4A4F-5630-4603-9093-6A62FE456AAA}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 3</Property>
 	<Property Name="varPersistentID:{8E7E1F4E-2E4D-4875-BC37-123434D705B2}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/input 1</Property>
 	<Property Name="varPersistentID:{8EC4DB15-D9BD-4305-AEFC-57A0548707E9}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 2-Status__Underrange</Property>
 	<Property Name="varPersistentID:{8ED9FD6C-8099-4340-A94F-F21D48DC344E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 8-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{8EE44FC1-0927-4906-8554-6EB6D174B82B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 4-Status__Diag</Property>
+	<Property Name="varPersistentID:{8EFDB289-21E2-46A5-9766-25F7EF05D2DE}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 2</Property>
 	<Property Name="varPersistentID:{8F171DD2-EC93-4270-B7B1-F3B31FF334B4}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Outputs-Digital Outputs</Property>
 	<Property Name="varPersistentID:{90A03BB7-81C7-430A-A691-4561754C182E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 4-Status__TxPDO State</Property>
+	<Property Name="varPersistentID:{91835F90-4C1B-4EF5-AB3C-04D512A546FD}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 7</Property>
 	<Property Name="varPersistentID:{9197B8EA-0737-4E54-A695-2E0C4F250F43}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{923A582F-5881-4CCC-BB4D-25D6E829B479}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI16</Property>
 	<Property Name="varPersistentID:{940D4F59-7F76-4E9B-9690-9FCEEE44718E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__Overrange</Property>
@@ -302,6 +312,7 @@
 	<Property Name="varPersistentID:{9D1FF7ED-759B-4404-AFD2-8471A75CBF77}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 2-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{9D849243-E73B-4439-9506-526ACC0C8365}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{9DD73949-7C84-4234-B21B-D49CB5D4274C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 6-Status__No of Samples</Property>
+	<Property Name="varPersistentID:{9E5EAE8B-4046-458C-A103-E8027995649C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 8</Property>
 	<Property Name="varPersistentID:{9EA697FD-8A1B-4672-8D88-E69506C9552F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__Error</Property>
 	<Property Name="varPersistentID:{9F2DF9C2-7904-4FEB-B50E-F930C678412B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up Out Inputs-Status__Limit 1</Property>
 	<Property Name="varPersistentID:{9FC73C1C-6024-443A-ADEA-C5C4C5BFE68C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__Error</Property>
@@ -350,6 +361,7 @@
 	<Property Name="varPersistentID:{B6B9498C-DA17-4FAE-BF46-D217DAF4DE41}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI3</Property>
 	<Property Name="varPersistentID:{B77570D3-F3C2-42D5-91DF-09716591E428}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 3-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{B785C55F-E16E-4D4A-B374-E1A56C49534A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__TxPDO State</Property>
+	<Property Name="varPersistentID:{B899A76F-AD4E-4AD7-93CE-13FC3BB63503}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 4</Property>
 	<Property Name="varPersistentID:{B8CA0686-8202-4CDF-98BA-C267382D98DC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Target velocity</Property>
 	<Property Name="varPersistentID:{B9F5AABE-3D0B-42D4-BB61-775D551B8614}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI13</Property>
 	<Property Name="varPersistentID:{BA4F0699-30F4-43CB-8C58-38331A7AEB2D}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FromFileVelFS_rpm</Property>
@@ -366,6 +378,7 @@
 	<Property Name="varPersistentID:{C21D9876-E9AA-455E-9387-169B6B9CA22E}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect/input 2</Property>
 	<Property Name="varPersistentID:{C2DA96EA-669F-49A4-820A-809E422996D6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 2-Status__Overrange</Property>
 	<Property Name="varPersistentID:{C2F81221-BB61-4A5A-A695-CFDA20070A87}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Inputs-Status word</Property>
+	<Property Name="varPersistentID:{C42B0A28-3B80-4097-B2FE-520AEF50CC90}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 1</Property>
 	<Property Name="varPersistentID:{C43D769C-5198-4292-BDD1-DC299E4FD2A0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Samples 1 Channel 1-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{C4EA1461-9DCA-4708-9136-099317F0385B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Number of samples</Property>
 	<Property Name="varPersistentID:{C5D14D02-E598-4E79-B3E7-9517CB7BEC15}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade2/Outputs-Target Torque</Property>
@@ -394,6 +407,7 @@
 	<Property Name="varPersistentID:{D0E935BD-A18A-4CC8-A30E-A0CA4E187135}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/error out</Property>
 	<Property Name="varPersistentID:{D185972F-3F2C-4E4C-A2A1-2F65D431E59B}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI23</Property>
 	<Property Name="varPersistentID:{D1F1D9C6-D4B9-4EB8-B656-D74B44B1D411}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__Input cycle counter</Property>
+	<Property Name="varPersistentID:{D3B4E0BB-45C1-475D-8730-F5A5E19EB10C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 5</Property>
 	<Property Name="varPersistentID:{D3FC2C47-2254-4CF2-9371-E0364F6C04BF}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect/input 1</Property>
 	<Property Name="varPersistentID:{D4A0DB85-EFA0-4486-A366-39D847A6D5F0}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI0</Property>
 	<Property Name="varPersistentID:{D4E0FC12-54F5-4783-B294-FA03133B0411}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Outputs-Target Velocity</Property>
@@ -402,7 +416,9 @@
 	<Property Name="varPersistentID:{D7526048-24D0-4431-A59A-98AFF0C0213B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade2/Outputs-Target Position</Property>
 	<Property Name="varPersistentID:{D772B11C-21DE-4F89-A024-B6211542873F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 3-Status__Error</Property>
 	<Property Name="varPersistentID:{D7E910EF-C400-4CBC-9638-77DAB0DF5777}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 4-Status__No of Samples</Property>
+	<Property Name="varPersistentID:{D909CA2D-9F20-4096-B833-3CE11FDCA25D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 1</Property>
 	<Property Name="varPersistentID:{DB6175E4-93D7-45FE-82FA-9F03E6A182AB}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI9</Property>
+	<Property Name="varPersistentID:{DB6F8A1F-1012-40D8-BA2E-BA1A2EC4CA10}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 8</Property>
 	<Property Name="varPersistentID:{DC718C2F-B372-487D-B7AD-0C1D9B2F8DAF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 7-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{DCA7831F-854F-4174-92CC-135DE15E65C1}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 8-Status__Error</Property>
 	<Property Name="varPersistentID:{DCFA18D2-F322-4445-B48A-1247527D5725}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/input 2</Property>
@@ -6676,33 +6692,33 @@ DirectoryIndex index.htm
 					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 			</Item>
-			<Item Name="Device" Type="ECATEnetSlave">
-				<Property Name="ECAT.Description" Type="Str">CU1128 6x EtherCAT junction</Property>
-				<Property Name="ECAT.Name" Type="Str">Device</Property>
-				<Property Name="ECAT.Slave.CoESupported" Type="Bool">false</Property>
+			<Item Name="BX8" Type="ECATEnetSlave">
+				<Property Name="ECAT.Description" Type="Str">GSV-8</Property>
+				<Property Name="ECAT.Name" Type="Str">BX8</Property>
+				<Property Name="ECAT.Slave.CoESupported" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.DCEnabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.DCSupported" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.E2PROMSize" Type="UInt">2048</Property>
 				<Property Name="ECAT.Slave.EoESupported" Type="Bool">false</Property>
-				<Property Name="ECAT.Slave.FmmuCount" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.FmmuCount" Type="UInt">3</Property>
 				<Property Name="ECAT.Slave.FoESupported" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.InputCorrection" Type="Int">0</Property>
 				<Property Name="ECAT.Slave.InputSyncMode" Type="UInt">0</Property>
-				<Property Name="ECAT.Slave.IsComplex" Type="Bool">false</Property>
+				<Property Name="ECAT.Slave.IsComplex" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.IsWatchdogTimeoutByScan" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.MB.PollRateByScan" Type="UInt">1</Property>
-				<Property Name="ECAT.Slave.NodeAddress" Type="UInt">4108</Property>
+				<Property Name="ECAT.Slave.NodeAddress" Type="UInt">4101</Property>
 				<Property Name="ECAT.Slave.OutputCorrection" Type="Int">0</Property>
 				<Property Name="ECAT.Slave.OutputSyncMode" Type="UInt">0</Property>
 				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">0</Property>
-				<Property Name="ECAT.Slave.ProductCode" Type="UInt">73946162</Property>
-				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">131072</Property>
-				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str"></Property>
-				<Property Name="ECAT.Slave.SerialNo" Type="UInt">0</Property>
-				<Property Name="ECAT.Slave.SMCount" Type="UInt">0</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">7</Property>
+				<Property Name="ECAT.Slave.ProductCode" Type="UInt">524288</Property>
+				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">65589</Property>
+				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
+				<Property Name="ECAT.Slave.SerialNo" Type="UInt">21156009</Property>
+				<Property Name="ECAT.Slave.SMCount" Type="UInt">4</Property>
 				<Property Name="ECAT.Slave.SMWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.SMWDEnabled" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.SMWDTime" Type="UInt">10</Property>
@@ -6712,11 +6728,283 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.Sync1CycleBySync0Cycle" Type="UInt">1</Property>
 				<Property Name="ECAT.Slave.Sync1Enabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.Sync1Shift" Type="UInt">0</Property>
-				<Property Name="ECAT.Slave.Type" Type="Str">CU1128</Property>
-				<Property Name="ECAT.Slave.VendorID" Type="UInt">2</Property>
-				<Property Name="ECAT.Slave.VendorName" Type="Str">Beckhoff Automation GmbH &amp; Co. KG</Property>
+				<Property Name="ECAT.Slave.Type" Type="Str">GSV-8</Property>
+				<Property Name="ECAT.Slave.VendorID" Type="UInt">624</Property>
+				<Property Name="ECAT.Slave.VendorName" Type="Str">ME Messsysteme GmbH</Property>
 				<Property Name="ECAT.Slave.WatchdogDivider" Type="UInt">2498</Property>
 				<Property Name="NI.SortType" Type="Int">1</Property>
+				<Item Name="TxPdo-Map  AI Status 1" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">8</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 1</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 2" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">9</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 2</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 3" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">10</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 3</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 4" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">11</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 4</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 5" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">12</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 5</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 6" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">13</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 6</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 7" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">14</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 7</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map  AI Status 8" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">15</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map  AI Status 8</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;A!!!"A!A!!!!!!"!!5!"1!!!1!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 1" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">0</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 1</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 2" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">1</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 2</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 3" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">2</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 3</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 4" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">3</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 4</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 5" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">4</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 5</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 6" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">5</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 6</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 7" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">6</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 7</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="TxPdo-Map FLOAT Process Value 8" Type="Variable">
+					<Property Name="_pdoIndex" Type="UInt">0</Property>
+					<Property Name="ECAT.Index" Type="UInt">7</Property>
+					<Property Name="ECAT.PDO.IsTxPDO" Type="Bool">true</Property>
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">TxPdo-Map FLOAT Process Value 8</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"A!A!!!!!!"!!5!#1!!!1!!!!!!!!!!!!!</Property>
+				</Item>
 			</Item>
 			<Item Name="MainGen" Type="ECATEnetSlave">
 				<Property Name="ECAT.Description" Type="Str">BEL</Property>
@@ -6940,7 +7228,7 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">8</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">9</Property>
 				<Property Name="ECAT.Slave.ProductCode" Type="UInt">198948</Property>
 				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">66592</Property>
 				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:6673:6675:6676:5632:5644:5657:5660:</Property>
@@ -7213,7 +7501,7 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">9</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">10</Property>
 				<Property Name="ECAT.Slave.ProductCode" Type="UInt">198948</Property>
 				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">66592</Property>
 				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:6673:6675:6676:5632:5644:5657:5660:</Property>
@@ -7486,7 +7774,7 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">true</Property>
 				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">10</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">11</Property>
 				<Property Name="ECAT.Slave.ProductCode" Type="UInt">198948</Property>
 				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">66592</Property>
 				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:6673:6675:6676:5632:5644:5657:5660:</Property>
@@ -7744,7 +8032,7 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 				<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">false</Property>
 				<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">11</Property>
+				<Property Name="ECAT.Slave.PositionAddress" Type="UInt">12</Property>
 				<Property Name="ECAT.Slave.ProductCode" Type="UInt">72166482</Property>
 				<Property Name="ECAT.Slave.RevisionNo" Type="UInt">1179648</Property>
 				<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
@@ -7785,7 +8073,7 @@ DirectoryIndex index.htm
 					<Property Name="ECAT.Slave.PDIWatchdogTimeoutByInc" Type="UInt">1000</Property>
 					<Property Name="ECAT.Slave.PDIWDEnabled" Type="Bool">false</Property>
 					<Property Name="ECAT.Slave.PDIWDTime" Type="UInt">10</Property>
-					<Property Name="ECAT.Slave.PositionAddress" Type="UInt">12</Property>
+					<Property Name="ECAT.Slave.PositionAddress" Type="UInt">13</Property>
 					<Property Name="ECAT.Slave.ProductCode" Type="UInt">203436114</Property>
 					<Property Name="ECAT.Slave.RevisionNo" Type="UInt">1310720</Property>
 					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:6658:6660:6662:</Property>
