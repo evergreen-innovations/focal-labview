@@ -29,6 +29,7 @@
 	<Property Name="varPersistentID:{0E2A77F7-3387-4432-B91C-40FAA8A17A59}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Inputs-Velocity actual value</Property>
 	<Property Name="varPersistentID:{0E8E3ED6-CAFE-40B6-8440-8107DA28E4BF}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI2</Property>
 	<Property Name="varPersistentID:{0EE2269B-8B7E-46C7-B160-9FFF2C4F9AD5}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
+	<Property Name="varPersistentID:{0EE54803-D246-4FC2-BC28-A345A7F88FEC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Target velocity</Property>
 	<Property Name="varPersistentID:{0F25890A-F385-4333-94EB-98592A902543}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 4-Status__Overrange</Property>
 	<Property Name="varPersistentID:{0F76A7A0-19A0-45FF-B2C3-E4835CFEA86F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 2-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{0F8A9E94-75A4-4510-B3FA-B5E8558A7E62}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 6</Property>
@@ -40,10 +41,10 @@
 	<Property Name="varPersistentID:{135FA3FF-8977-456D-A1FE-849FC4952420}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 2-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{13EF1C07-32B3-47A4-8454-47D989C382B6}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI31</Property>
 	<Property Name="varPersistentID:{1428BB55-81BB-4329-AAAC-91869AC4323D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__Limit 1</Property>
-	<Property Name="varPersistentID:{145313EE-A1F5-462E-9C5B-401AEE595EB9}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor velocity</Property>
 	<Property Name="varPersistentID:{152D3973-BE8B-4322-862D-3BEB31BC2A2C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 1-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{15496551-8AC9-444D-AC77-1F33009A0292}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Value</Property>
 	<Property Name="varPersistentID:{15B41100-14C4-4147-BCAD-569BDFFA4353}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO0</Property>
+	<Property Name="varPersistentID:{15E72415-5890-4F44-9E34-C5E2DCC1089D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor velocity</Property>
 	<Property Name="varPersistentID:{161FD858-147B-4A0A-B710-89E584CC1670}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Diag</Property>
 	<Property Name="varPersistentID:{162A2BE8-5FBB-456B-AC62-E55BC79EFFE6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{16DFCC7D-1322-4B5C-A4D9-591B31D1C8DB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up Out Inputs-Value</Property>
@@ -56,7 +57,6 @@
 	<Property Name="varPersistentID:{19AEDEDC-7957-4DBA-B58D-3A73753751B6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 1-Status__Error</Property>
 	<Property Name="varPersistentID:{19C7185B-98B1-487D-9C60-8A02A062D035}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO3</Property>
 	<Property Name="varPersistentID:{1A0AD9FD-9FC5-4295-93D7-B146F79881C0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 6</Property>
-	<Property Name="varPersistentID:{1B338402-D3E2-40DE-9FE1-B993212F9E3A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
 	<Property Name="varPersistentID:{1C06CF9C-A63C-49C7-B6CC-495B534283B8}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 2-Status__Overrange</Property>
 	<Property Name="varPersistentID:{1C5FA3B4-B0DE-497E-9AA4-3E52753F5557}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI12</Property>
 	<Property Name="varPersistentID:{1C7DD9C4-19F1-43A4-8D54-0EB9F189662F}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI31</Property>
@@ -97,6 +97,7 @@
 	<Property Name="varPersistentID:{2BE20C72-B97C-415D-BCDC-460610FDA5FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 3-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{2C039FB1-1471-443E-8DC5-DB47119BFADD}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchCtrlFS</Property>
 	<Property Name="varPersistentID:{2C1090AB-2257-4FE2-B82D-988A5DA1E348}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/AnemometerData</Property>
+	<Property Name="varPersistentID:{2C4BF118-8AC3-4B65-B327-D17CC980D2D2}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Control word</Property>
 	<Property Name="varPersistentID:{2D1EABA9-D46B-468D-985E-46671347C8C3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{2F32F57A-A425-4212-A987-3397169372A3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__Overrange</Property>
 	<Property Name="varPersistentID:{2F42165C-C688-4C6F-A4AC-60B0C7AA0769}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO8</Property>
@@ -132,10 +133,8 @@
 	<Property Name="varPersistentID:{3CC1C2F8-E579-49B5-AC2B-EAF3A06DC247}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/IOSignals</Property>
 	<Property Name="varPersistentID:{3D4E315F-F8FF-40FF-AA80-2DCD3D7B4470}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchAxis2State</Property>
 	<Property Name="varPersistentID:{3F15CCEC-9FBB-4456-82EE-D107A69117A6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Overrun</Property>
-	<Property Name="varPersistentID:{3F750CB4-FBE6-4843-BAE6-E5ABF28A65BE}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Torque offset</Property>
 	<Property Name="varPersistentID:{3FC0C88A-7474-4615-9D1A-8B7EAB03B01B}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/GenCtrlFS</Property>
 	<Property Name="varPersistentID:{4024311B-7EC8-44BE-BAF8-D632AFFD0923}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__Error</Property>
-	<Property Name="varPersistentID:{40C54E6B-E019-48EC-9D0D-2ED028343EE3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
 	<Property Name="varPersistentID:{41193720-32A3-4643-B723-7EA20F117DD4}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 1-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{41640532-0572-4765-8B12-5E9B31C35A44}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Error</Property>
 	<Property Name="varPersistentID:{4188B851-09DE-4BD6-A3F5-FF6FE79D716F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 5</Property>
@@ -153,7 +152,6 @@
 	<Property Name="varPersistentID:{46AAFDF7-CB5D-429D-9404-11ED82F11736}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Device Inputs-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{477D90F3-AAE1-4052-A07F-C5076D22ECC0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 1-Status__Underrange</Property>
 	<Property Name="varPersistentID:{479E8059-BD8A-4205-82C6-29102239C5E1}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 2-Status__Input cycle counter</Property>
-	<Property Name="varPersistentID:{48E2422B-5BEA-43CC-BDC4-F833EE037B2F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor position</Property>
 	<Property Name="varPersistentID:{49B05FB5-2EA2-42F6-BE8F-908A038298EC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up In Inputs-Status__Overrange</Property>
 	<Property Name="varPersistentID:{49E0F8EB-9DE3-4CCF-A04B-6818938B0DE5}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Status-Status__Sensor Ovr</Property>
 	<Property Name="varPersistentID:{49E989AB-CF7C-492F-8CCB-CBD938024D36}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
@@ -165,12 +163,14 @@
 	<Property Name="varPersistentID:{4C6ECC53-DCA1-4631-AA49-8F3109AD9621}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 1-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{4C8FF462-72A1-4BCE-9FBF-D08E25B371D6}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__Underrange</Property>
 	<Property Name="varPersistentID:{4CA63FA8-6B6D-47B8-8BAC-DFC765CEC440}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade2/Inputs-Touch Probe status</Property>
+	<Property Name="varPersistentID:{4CBFD773-D2C2-4F1D-9B99-F071BF219C13}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Actual motor position</Property>
 	<Property Name="varPersistentID:{4EB6BD8E-B1E6-41BD-A83A-BFF60498AF6F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 4-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{4F017589-9051-45DD-BADC-487832251658}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI0</Property>
 	<Property Name="varPersistentID:{50D6A7A7-CBA6-45B2-8B10-1CCEF6C6B25D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__Error</Property>
 	<Property Name="varPersistentID:{51AD1ABA-51A9-4A78-B426-CF32FAC20AF1}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade3/Inputs-Position actual value</Property>
 	<Property Name="varPersistentID:{51AFA114-1BC0-4514-AEA0-CB126D495B6A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up Out Inputs-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{51E0B976-66F1-436B-80AE-056737D01676}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Up In Inputs-Status__Underrange</Property>
+	<Property Name="varPersistentID:{51FCED06-F490-4860-AEE5-FEF32A65BB8F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Position loop error</Property>
 	<Property Name="varPersistentID:{5207E84E-91C7-4F45-AF4B-78CBCCDCF0B7}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 7-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{5253469C-0BBD-4272-A603-0F0C41E23ACC}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO4</Property>
 	<Property Name="varPersistentID:{531172D0-7871-4905-BA23-47BF52A913E0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Voltage Us In Inputs-Status__TxPDO Toggle</Property>
@@ -249,7 +249,6 @@
 	<Property Name="varPersistentID:{7A567495-BBC9-4ABB-A2DD-1A63B7A7E857}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 6-Status__Underrange</Property>
 	<Property Name="varPersistentID:{7B6CEC84-AB05-4483-9843-2457B120CA50}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Timestamp Channel 1-StartTimeNextLatch__Low</Property>
 	<Property Name="varPersistentID:{7BDEED11-D4DA-4BBA-9B7A-32AF035B8441}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/GenCtrlMS</Property>
-	<Property Name="varPersistentID:{7C03C700-D976-433F-805E-BC0B295569D5}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Position loop error</Property>
 	<Property Name="varPersistentID:{7E02D8FD-EA42-483B-BF3A-EE3D6825DBDA}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__Diag</Property>
 	<Property Name="varPersistentID:{7E267FE9-EFC1-49D1-A647-CA3DE84F2E6D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 6-Status__Underrange</Property>
 	<Property Name="varPersistentID:{812A56B1-D967-422C-8479-083E4F5B6827}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI7</Property>
@@ -362,8 +361,8 @@
 	<Property Name="varPersistentID:{B77570D3-F3C2-42D5-91DF-09716591E428}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 3-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{B785C55F-E16E-4D4A-B374-E1A56C49534A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 8-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{B899A76F-AD4E-4AD7-93CE-13FC3BB63503}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map  AI Status 4</Property>
-	<Property Name="varPersistentID:{B8CA0686-8202-4CDF-98BA-C267382D98DC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Target velocity</Property>
 	<Property Name="varPersistentID:{B9F5AABE-3D0B-42D4-BB61-775D551B8614}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod2/AI13</Property>
+	<Property Name="varPersistentID:{BA0D43F3-F608-4432-87DC-8BC307AF7B05}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
 	<Property Name="varPersistentID:{BA4F0699-30F4-43CB-8C58-38331A7AEB2D}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FromFileVelFS_rpm</Property>
 	<Property Name="varPersistentID:{BB12DBA4-3BB9-4257-8AB7-86C72CD61137}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Value</Property>
 	<Property Name="varPersistentID:{BC6DC458-840E-4835-B05D-56A5483F44FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__Overrange</Property>
@@ -388,7 +387,6 @@
 	<Property Name="varPersistentID:{C8EABFB4-AE99-4804-B4A9-614919E97AA5}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 1-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{C9991B36-75E7-4C77-881E-718059D440F5}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade2/Outputs-Touch Probe Function</Property>
 	<Property Name="varPersistentID:{C9FADEC9-0505-41D8-B75B-D443FCD6CB28}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__Underrange</Property>
-	<Property Name="varPersistentID:{CABFD6EA-13EF-433B-90F3-B6140D63E547}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Control word</Property>
 	<Property Name="varPersistentID:{CAE0F281-DD44-4A3A-9EEA-09A363A7C5F4}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO15</Property>
 	<Property Name="varPersistentID:{CBE5388F-0D35-496D-9675-96E3F8A9291A}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/GenVelocitySetpoint_radps</Property>
 	<Property Name="varPersistentID:{CBED283E-AAB3-4D4B-87AE-3C2E79A9FB4A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 5-Status__Diag</Property>
@@ -405,6 +403,7 @@
 	<Property Name="varPersistentID:{CF7F6C23-5A4C-4DA3-A1F5-64294E3B63E7}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchAxis1State</Property>
 	<Property Name="varPersistentID:{D0B9AA27-3DCF-4ED3-9759-6DEE7F18142D}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 4-Status__Overrange</Property>
 	<Property Name="varPersistentID:{D0E935BD-A18A-4CC8-A30E-A0CA4E187135}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/error out</Property>
+	<Property Name="varPersistentID:{D11DB2B7-F0CC-476E-846F-FFA59005A370}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 6 CSV-Torque offset</Property>
 	<Property Name="varPersistentID:{D185972F-3F2C-4E4C-A2A1-2F65D431E59B}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI23</Property>
 	<Property Name="varPersistentID:{D1F1D9C6-D4B9-4EB8-B656-D74B44B1D411}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__Input cycle counter</Property>
 	<Property Name="varPersistentID:{D3B4E0BB-45C1-475D-8730-F5A5E19EB10C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BX8/TxPdo-Map FLOAT Process Value 5</Property>
@@ -455,6 +454,7 @@
 	<Property Name="varPersistentID:{F7F2DED3-CC3E-4D40-BC26-4EF8AC908AD7}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI25</Property>
 	<Property Name="varPersistentID:{F8E88521-2994-486B-BB1C-70101307D224}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 4-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{F9412500-9A72-414E-B148-99D0E8CEEACA}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod3/AI8</Property>
+	<Property Name="varPersistentID:{FAD115F3-DACF-4014-AB52-7B810253D782}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Status word</Property>
 	<Property Name="varPersistentID:{FB351CE3-B4D3-4E64-B196-4ADE8A8FD121}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 2-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{FC5A47B8-BC72-45ED-93E3-A6F5247D5843}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__No of Samples</Property>
 	<Property Name="varPersistentID:{FD03E906-9424-48C3-BC46-5A1CCECBDB9F}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 4-Status__Limit 2</Property>
