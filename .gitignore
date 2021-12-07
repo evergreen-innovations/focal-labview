@@ -2,3 +2,7 @@ c-interface-test/testCInterface
 rosco-egi-2021-01-24/src/rosco_types.mod
 .gitignore
 rosco-egi-2021-01-24/src/constants.mod
+*.png
+*.pptx
+*.ccd
+*.ccx

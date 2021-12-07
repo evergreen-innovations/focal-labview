@@ -41,7 +41,7 @@ int main(void)
     b = 2.0;
     fail = -100;
 
-    char infileName[] = "/C/rosco-data/IEA15MW_FOCAL_0_DISCON.IN";
+    char infileName[] = "/C/rosco-data/IEA15MW_FOCAL_02_DISCON.IN";
     char outfileName[] = "/C/rosco-data/SimOut.txt";
 
     printf("Float size = %u\n ", sizeof(float));
