@@ -505,9 +505,9 @@
 	</Item>
 	<Item Name="NI-cRIO-9036-01B82934" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9036-01B82934</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.177</Property>
-		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,77DC;TARGET_TYPE,RT;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">77DC</Property>
+		<Property Name="alias.value" Type="Str">192.168.2.246</Property>
+		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,77B9;TARGET_TYPE,RT;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">77B9</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
