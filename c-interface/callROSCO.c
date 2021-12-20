@@ -43,14 +43,7 @@ int callROSCO(double *swap, int *aviFAIL, char *msgIn, char *infileName, char *o
 
 	time = swap[INDEX_TIME];
 
-	if (*aviFAIL != 0)
-	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.37.\n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", (int)strlen(msg), *aviFAIL, msg);
-	}
-	else
-	{
-		sprintf(buf, "LabVIEW RT to ROSCO interface v0.37.\n\nSuccesfully called interface at t = %f", time);
-	}
+	sprintf(buf, "LabVIEW RT to ROSCO interface v0.371. Called at t = %f, \n\nReceived at total of %i chars from ROSCO.\n\n AVIFail = %i\n\nContent %s", time, (int)strlen(msg), *aviFAIL, msg);
 
 	strcpy(msgIn, buf);
 

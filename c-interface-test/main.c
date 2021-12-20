@@ -15,7 +15,7 @@ extern int callROSCO(double *swap, int *aviFAIL, char *msgIn, char *infileName, 
 extern float add(float, float);
 
 #define SWAP_SIZE 500
-#define STEPS 20
+#define STEPS 3
 
 #define MSG_SIZE 8192
 
@@ -41,7 +41,7 @@ int main(void)
     b = 2.0;
     fail = -100;
 
-    char infileName[] = "/C/rosco-data/DISCON-UMaineSemi.IN";
+    char infileName[] = "/C/rosco-data/IEA15MW_FOCAL_02_DISCON.IN";
     char outfileName[] = "/C/rosco-data/SimOut.txt";
 
     printf("Float size = %u\n ", sizeof(float));
@@ -79,9 +79,9 @@ int main(void)
             swap[INDEX_ROT_SPEED] = 1;
         }
 
-        printf("V0.10 Calling ROSCO C-Interface step %u of %u ...\n", i, STEPS);
+        printf("V0.11 Calling ROSCO C-Interface step %u of %u ...\n", i, STEPS);
         ret = callROSCO(swap, &fail, msg, infileName, outfileName);
-        printf("V0.10 Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n\n", fail, msg, ret);
+        printf("V0.11 Finished calling ROSCO C-Interface. Avi fail = %i, msg = %s. Ret = %i\n\n", fail, msg, ret);
     }
 
     return 0;

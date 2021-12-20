@@ -1,0 +1,11 @@
+The steps required to change between CST and CSV are:
+
+Close LabVIEW
+Replace ESI file in LabVIEW EtherCAT directory
+Open LabVIEW
+Remove drive in EtherCAT Master
+Add new drive in EtherCAT Master
+Rename to "MainGen"
+Change the broken inputs and outputs between the two files. They are in the state loop (control word) and the main control loop (output setpoint). If you cannot find them, simply start LabVIEW, and follow the errors.
+Change scaling to either velocity or torque
+Update mode of operation, TOP block in the sequence on the very left, to either 9 or 10 as per comments next to that block
