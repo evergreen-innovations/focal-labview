@@ -650,7 +650,7 @@ DirectoryIndex index.htm
 				<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			</Item>
 			<Item Name="FileWriting" Type="Folder">
-				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
+				<Item Name="CheckFileWriteStatus-v1.vi" Type="VI" URL="../SubVIs/CheckFileWriteStatus-v1.vi"/>
 				<Item Name="ConfigFileExists.vi" Type="VI" URL="../SubVIs/ConfigFileExists.vi"/>
 				<Item Name="FileBuffer.vi" Type="VI" URL="../SubVIs/FileBuffer.vi"/>
 				<Item Name="WriteToFile-v3.vi" Type="VI" URL="../SubVIs/WriteToFile-v3.vi"/>
