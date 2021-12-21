@@ -604,12 +604,10 @@ DirectoryIndex index.htm
 			<Item Name="PLCSignals.ctl" Type="VI" URL="../Clusters/PLCSignals.ctl"/>
 			<Item Name="PLCTravSignals.ctl" Type="VI" URL="../Clusters/PLCTravSignals.ctl"/>
 			<Item Name="RoscoParams.ctl" Type="VI" URL="../Clusters/RoscoParams.ctl"/>
+			<Item Name="ScalingEnum.ctl" Type="VI" URL="../Clusters/ScalingEnum.ctl"/>
 			<Item Name="SimulationConstants.ctl" Type="VI" URL="../Clusters/SimulationConstants.ctl"/>
 			<Item Name="SwapArrayCluster.ctl" Type="VI" URL="../Clusters/SwapArrayCluster.ctl"/>
 			<Item Name="SwapIn.ctl" Type="VI" URL="../Clusters/SwapIn.ctl"/>
-			<Item Name="SwapIndexes.ctl" Type="VI" URL="../Clusters/SwapIndexes.ctl"/>
-			<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
-			<Item Name="WindSimMode.ctl" Type="VI" URL="../Clusters/WindSimMode.ctl"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
@@ -617,28 +615,13 @@ DirectoryIndex index.htm
 			<Item Name="WritePLC.vi" Type="VI" URL="../SubVIs/WritePLC.vi"/>
 		</Item>
 		<Item Name="Main" Type="Folder">
-			<Item Name="FocalMainV0.vi" Type="VI" URL="../FocalMainV0.vi"/>
-			<Item Name="FocalMainV1.vi" Type="VI" URL="../FocalMainV1.vi"/>
 			<Item Name="FocalMainV2.vi" Type="VI" URL="../FocalMainV2.vi"/>
 			<Item Name="FocalMainWakeStudyV3.vi" Type="VI" URL="../FocalMainWakeStudyV3.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="replace_string.vi" Type="VI" URL="../Reference/replace_string.vi"/>
-			<Item Name="RT Read Text File.vi" Type="VI" URL="../Reference/RT Read Text File.vi"/>
-			<Item Name="RT Write Text File.vi" Type="VI" URL="../Reference/RT Write Text File.vi"/>
-		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="ArrayFunctions" Type="Folder">
-				<Item Name="CreateSwapArray.vi" Type="VI" URL="../SubVIs/CreateSwapArray.vi"/>
-				<Item Name="CreateSwapArray_v2.vi" Type="VI" URL="../SubVIs/CreateSwapArray_v2.vi"/>
 				<Item Name="CreateSwapArray_v4.vi" Type="VI" URL="../SubVIs/CreateSwapArray_v4.vi"/>
-				<Item Name="InsertIntoArray.vi" Type="VI" URL="../SubVIs/InsertIntoArray.vi"/>
 				<Item Name="InsertIntoArray_v2.vi" Type="VI" URL="../SubVIs/InsertIntoArray_v2.vi"/>
-				<Item Name="InsertIntoArray_v3.vi" Type="VI" URL="../SubVIs/InsertIntoArray_v3.vi"/>
-			</Item>
-			<Item Name="Calculations" Type="Folder">
-				<Item Name="CalcAeroTq.vi" Type="VI" URL="../SubVIs/CalcAeroTq.vi"/>
-				<Item Name="CalcTSR.vi" Type="VI" URL="../SubVIs/CalcTSR.vi"/>
 			</Item>
 			<Item Name="Calibration" Type="Folder">
 				<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
@@ -656,7 +639,6 @@ DirectoryIndex index.htm
 				<Item Name="UltrasonicAnemoInputScale.vi" Type="VI" URL="../SubVIs/UltrasonicAnemoInputScale.vi"/>
 			</Item>
 			<Item Name="CallRosco" Type="Folder">
-				<Item Name="CallRosco.vi" Type="VI" URL="../SubVIs/CallRosco.vi"/>
 				<Item Name="CallRosco_v2.vi" Type="VI" URL="../SubVIs/CallRosco_v2.vi"/>
 			</Item>
 			<Item Name="Ctrl" Type="Folder">
@@ -671,9 +653,6 @@ DirectoryIndex index.htm
 				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
 				<Item Name="ConfigFileExists.vi" Type="VI" URL="../SubVIs/ConfigFileExists.vi"/>
 				<Item Name="FileBuffer.vi" Type="VI" URL="../SubVIs/FileBuffer.vi"/>
-				<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../SubVIs/GenerateUniqueFilename.vi"/>
-				<Item Name="WriteToFile-v1.vi" Type="VI" URL="../SubVIs/WriteToFile-v1.vi"/>
-				<Item Name="WriteToFile-v2.vi" Type="VI" URL="../SubVIs/WriteToFile-v2.vi"/>
 				<Item Name="WriteToFile-v3.vi" Type="VI" URL="../SubVIs/WriteToFile-v3.vi"/>
 			</Item>
 			<Item Name="Froude Scaling" Type="Folder">
@@ -685,10 +664,8 @@ DirectoryIndex index.htm
 				<Item Name="ScaleTime.vi" Type="VI" URL="../SubVIs/ScaleTime.vi"/>
 				<Item Name="ScaleTorque.vi" Type="VI" URL="../SubVIs/ScaleTorque.vi"/>
 				<Item Name="ScaleVel.vi" Type="VI" URL="../SubVIs/ScaleVel.vi"/>
-				<Item Name="ScalingEnum.ctl" Type="VI" URL="../Clusters/ScalingEnum.ctl"/>
 			</Item>
 			<Item Name="Initialization" Type="Folder">
-				<Item Name="AssignStatus.vi" Type="VI" URL="../SubVIs/AssignStatus.vi"/>
 				<Item Name="AssignStatus_v2.vi" Type="VI" URL="../SubVIs/AssignStatus_v2.vi"/>
 				<Item Name="CheckWindSetpointFile.vi" Type="VI" URL="../SubVIs/CheckWindSetpointFile.vi"/>
 				<Item Name="ReadSetpointFile-v2.vi" Type="VI" URL="../SubVIs/ReadSetpointFile-v2.vi"/>
@@ -715,9 +692,7 @@ DirectoryIndex index.htm
 				<Item Name="Traverse_Sub_Read_Position.vi" Type="VI" URL="../SubVIs/Traverse_Sub_Read_Position.vi"/>
 			</Item>
 			<Item Name="Misc" Type="Folder">
-				<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
 				<Item Name="DegToRad.vi" Type="VI" URL="../SubVIs/DegToRad.vi"/>
-				<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
 				<Item Name="FileWriteTiming.vi" Type="VI" URL="../SubVIs/FileWriteTiming.vi">
 					<Item Name="Edge Detect" Type="IIO Function Block">
 						<Item Name="error in" Type="Variable"/>
@@ -728,15 +703,11 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="GenerateSine.vi" Type="VI" URL="../SubVIs/GenerateSine.vi"/>
-				<Item Name="GetUTCTimestamp.vi" Type="VI" URL="../SubVIs/GetUTCTimestamp.vi"/>
 				<Item Name="NumBy1E6.vi" Type="VI" URL="../SubVIs/NumBy1E6.vi"/>
-				<Item Name="PlantModel.vi" Type="VI" URL="../SubVIs/PlantModel.vi"/>
 				<Item Name="RadpsToRPM.vi" Type="VI" URL="../SubVIs/RadpsToRPM.vi"/>
 				<Item Name="RadToDeg.vi" Type="VI" URL="../SubVIs/RadToDeg.vi"/>
 				<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
-				<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
 				<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
-				<Item Name="WindSimulator.vi" Type="VI" URL="../SubVIs/WindSimulator.vi"/>
 			</Item>
 			<Item Name="www" Type="Folder">
 				<Item Name="FocalMainV2.html" Type="Document" URL="../www/FocalMainV2.html"/>
@@ -8055,9 +8026,6 @@ DirectoryIndex index.htm
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -8073,36 +8041,27 @@ DirectoryIndex index.htm
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -8118,7 +8077,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
