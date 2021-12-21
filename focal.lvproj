@@ -713,6 +713,7 @@ DirectoryIndex index.htm
 				<Item Name="FocalMainV2.html" Type="Document" URL="../www/FocalMainV2.html"/>
 			</Item>
 		</Item>
+		<Item Name="AssignFileChannels.vi" Type="VI" URL="../SubVIs/AssignFileChannels.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
