@@ -645,6 +645,7 @@ DirectoryIndex index.htm
 				<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			</Item>
 			<Item Name="FileWriting" Type="Folder">
+				<Item Name="AssignFileChannels.vi" Type="VI" URL="../SubVIs/AssignFileChannels.vi"/>
 				<Item Name="CheckFileWriteStatus-v1.vi" Type="VI" URL="../SubVIs/CheckFileWriteStatus-v1.vi"/>
 				<Item Name="ConfigFileExists.vi" Type="VI" URL="../SubVIs/ConfigFileExists.vi"/>
 				<Item Name="FileBuffer.vi" Type="VI" URL="../SubVIs/FileBuffer.vi"/>
@@ -708,7 +709,6 @@ DirectoryIndex index.htm
 				<Item Name="FocalMainV2.html" Type="Document" URL="../www/FocalMainV2.html"/>
 			</Item>
 		</Item>
-		<Item Name="AssignFileChannels.vi" Type="VI" URL="../SubVIs/AssignFileChannels.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
