@@ -5,7 +5,6 @@
 	<Property Name="varPersistentID:{0256125E-0DF1-482C-882D-B0D5B9B2D725}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Y-Axis-Value</Property>
 	<Property Name="varPersistentID:{02C66191-A09E-452F-ACF7-3BFD718C07BA}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 4-Status__Limit 1</Property>
 	<Property Name="varPersistentID:{02F73E85-524C-4E87-AC00-359A7210DA99}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 6-Status__No of Samples</Property>
-	<Property Name="varPersistentID:{034A6ED1-F601-404D-BA12-74A7B927FFC5}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/CurrentVSMode</Property>
 	<Property Name="varPersistentID:{047E9ADB-E8DD-4736-9EAA-C1A21D51921A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{04E6BBEF-9532-4F35-882B-80A96200589B}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO7</Property>
 	<Property Name="varPersistentID:{04FEBB1B-8637-4C8D-B308-709669B125CC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Inputs-Status word</Property>
@@ -84,7 +83,6 @@
 	<Property Name="varPersistentID:{2BA9BEB6-7A1E-427D-94AC-94F9B19EC71A}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI8</Property>
 	<Property Name="varPersistentID:{2BE20C72-B97C-415D-BCDC-460610FDA5FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 3-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{2C039FB1-1471-443E-8DC5-DB47119BFADD}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchCtrlFS</Property>
-	<Property Name="varPersistentID:{2C1090AB-2257-4FE2-B82D-988A5DA1E348}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/AnemometerData</Property>
 	<Property Name="varPersistentID:{2D1EABA9-D46B-468D-985E-46671347C8C3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{2DE6BE1A-3195-425E-AAE2-E976746A9E76}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
 	<Property Name="varPersistentID:{2EA4E121-6D85-41C8-BC81-34145C46306B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
@@ -205,7 +203,6 @@
 	<Property Name="varPersistentID:{6E1615A1-D46D-4D67-88C2-9F7230B8939A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 7-Status__Error</Property>
 	<Property Name="varPersistentID:{6E711624-E49D-4205-8A2A-8504694D5254}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO12</Property>
 	<Property Name="varPersistentID:{6EEF428D-CAD3-4E1B-93B3-649A9A4537CF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__Overrange</Property>
-	<Property Name="varPersistentID:{6F8B5131-6244-463D-916C-BD09AF5B3026}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FanSetpoint_VFD</Property>
 	<Property Name="varPersistentID:{6FD4A3AB-ACCE-489F-A8A7-D58BDF0F397C}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI1</Property>
 	<Property Name="varPersistentID:{70658BD9-BD65-4475-8087-B00BF5F98D6E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 2-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{70EACF59-8776-4F7A-9483-C67AD8DFB90C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__TxPDO Toggle</Property>
@@ -245,7 +242,6 @@
 	<Property Name="varPersistentID:{8A9F6EA4-4AF9-4113-A67B-133D8DAA2B14}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/WriteData</Property>
 	<Property Name="varPersistentID:{8ACD7810-D6EF-432B-851D-FB6C15579449}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__Diag</Property>
 	<Property Name="varPersistentID:{8B399CF4-9A39-4EAE-89CC-92872E9E500C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Z-Axis-Value</Property>
-	<Property Name="varPersistentID:{8C4BC97E-9580-49F1-9212-7D74B760B1E4}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/SwapIn</Property>
 	<Property Name="varPersistentID:{8D445863-3532-4C86-B752-3EE9BD6BED96}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI31</Property>
 	<Property Name="varPersistentID:{8E526706-D4C6-4154-B694-943F4B8F5333}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/ATI6DOF/Reading Data-FzGage2</Property>
 	<Property Name="varPersistentID:{8E7E1F4E-2E4D-4875-BC37-123434D705B2}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/input 1</Property>
@@ -403,7 +399,6 @@
 	<Property Name="varPersistentID:{EE6864E5-85CE-4C6C-B35F-16C42BA860CB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{EF40EE0B-4F58-411D-98DA-5EC6CFDCB7C3}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect/error in</Property>
 	<Property Name="varPersistentID:{EF62B05E-6D30-4348-B911-69A07E4C2C0B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 3-Status__TxPDO State</Property>
-	<Property Name="varPersistentID:{EFA8ADB8-C9CE-4D6E-96BA-435E73D4A146}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/TimeMsTimer</Property>
 	<Property Name="varPersistentID:{EFDBD0F2-71E0-4031-A3C8-DE7615614DF7}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__Limit 2</Property>
 	<Property Name="varPersistentID:{F04D011A-95AE-4F59-9679-92CAC0B1E15D}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchAxis3State</Property>
 	<Property Name="varPersistentID:{F05CC05F-8959-4656-95A6-3527BB9583D0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 3-Status__Diag</Property>
