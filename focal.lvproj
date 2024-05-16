@@ -5,7 +5,6 @@
 	<Property Name="varPersistentID:{0256125E-0DF1-482C-882D-B0D5B9B2D725}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Y-Axis-Value</Property>
 	<Property Name="varPersistentID:{02C66191-A09E-452F-ACF7-3BFD718C07BA}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 4-Status__Limit 1</Property>
 	<Property Name="varPersistentID:{02F73E85-524C-4E87-AC00-359A7210DA99}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI02/PAI Status Channel 6-Status__No of Samples</Property>
-	<Property Name="varPersistentID:{034A6ED1-F601-404D-BA12-74A7B927FFC5}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/CurrentVSMode</Property>
 	<Property Name="varPersistentID:{047E9ADB-E8DD-4736-9EAA-C1A21D51921A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 5-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{04E6BBEF-9532-4F35-882B-80A96200589B}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO7</Property>
 	<Property Name="varPersistentID:{04FEBB1B-8637-4C8D-B308-709669B125CC}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/PitchBlade1/Inputs-Status word</Property>
@@ -84,7 +83,6 @@
 	<Property Name="varPersistentID:{2BA9BEB6-7A1E-427D-94AC-94F9B19EC71A}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI8</Property>
 	<Property Name="varPersistentID:{2BE20C72-B97C-415D-BCDC-460610FDA5FF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 3-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{2C039FB1-1471-443E-8DC5-DB47119BFADD}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchCtrlFS</Property>
-	<Property Name="varPersistentID:{2C1090AB-2257-4FE2-B82D-988A5DA1E348}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/AnemometerData</Property>
 	<Property Name="varPersistentID:{2D1EABA9-D46B-468D-985E-46671347C8C3}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 1-Status__TxPDO Toggle</Property>
 	<Property Name="varPersistentID:{2DE6BE1A-3195-425E-AAE2-E976746A9E76}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Receive PDO 7 CST-Control word</Property>
 	<Property Name="varPersistentID:{2EA4E121-6D85-41C8-BC81-34145C46306B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/MainGen/Transmit PDO 5-Torque actual value</Property>
@@ -205,7 +203,6 @@
 	<Property Name="varPersistentID:{6E1615A1-D46D-4D67-88C2-9F7230B8939A}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 7-Status__Error</Property>
 	<Property Name="varPersistentID:{6E711624-E49D-4205-8A2A-8504694D5254}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod8/AO12</Property>
 	<Property Name="varPersistentID:{6EEF428D-CAD3-4E1B-93B3-649A9A4537CF}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__Overrange</Property>
-	<Property Name="varPersistentID:{6F8B5131-6244-463D-916C-BD09AF5B3026}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/FanSetpoint_VFD</Property>
 	<Property Name="varPersistentID:{6FD4A3AB-ACCE-489F-A8A7-D58BDF0F397C}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI1</Property>
 	<Property Name="varPersistentID:{70658BD9-BD65-4475-8087-B00BF5F98D6E}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Samples 1 Channel 2-Samples__ARRAY [0]</Property>
 	<Property Name="varPersistentID:{70EACF59-8776-4F7A-9483-C67AD8DFB90C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 2-Status__TxPDO Toggle</Property>
@@ -245,7 +242,6 @@
 	<Property Name="varPersistentID:{8A9F6EA4-4AF9-4113-A67B-133D8DAA2B14}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/WriteData</Property>
 	<Property Name="varPersistentID:{8ACD7810-D6EF-432B-851D-FB6C15579449}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo02/PAI Status Channel 3-Status__Diag</Property>
 	<Property Name="varPersistentID:{8B399CF4-9A39-4EAE-89CC-92872E9E500C}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/MMS Acceleration Z-Axis-Value</Property>
-	<Property Name="varPersistentID:{8C4BC97E-9580-49F1-9212-7D74B760B1E4}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/SwapIn</Property>
 	<Property Name="varPersistentID:{8D445863-3532-4C86-B752-3EE9BD6BED96}" Type="Ref">/NI-cRIO-9036-01B82934/Chassis/Real-Time Scan Resources/Mod1/AI31</Property>
 	<Property Name="varPersistentID:{8E526706-D4C6-4154-B694-943F4B8F5333}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/ATI6DOF/Reading Data-FzGage2</Property>
 	<Property Name="varPersistentID:{8E7E1F4E-2E4D-4875-BC37-123434D705B2}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect 1/input 1</Property>
@@ -403,7 +399,6 @@
 	<Property Name="varPersistentID:{EE6864E5-85CE-4C6C-B35F-16C42BA860CB}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__TxPDO State</Property>
 	<Property Name="varPersistentID:{EF40EE0B-4F58-411D-98DA-5EC6CFDCB7C3}" Type="Ref">/NI-cRIO-9036-01B82934/Utilities/Interfaces/ElmoInterface.vi/Edge Detect/error in</Property>
 	<Property Name="varPersistentID:{EF62B05E-6D30-4348-B911-69A07E4C2C0B}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/Piezo01/PAI Status Channel 3-Status__TxPDO State</Property>
-	<Property Name="varPersistentID:{EFA8ADB8-C9CE-4D6E-96BA-435E73D4A146}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/TimeMsTimer</Property>
 	<Property Name="varPersistentID:{EFDBD0F2-71E0-4031-A3C8-DE7615614DF7}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/RemoteCoupler/RemoteAI/AI Standard Channel 3-Status__Limit 2</Property>
 	<Property Name="varPersistentID:{F04D011A-95AE-4F59-9679-92CAC0B1E15D}" Type="Ref">/NI-cRIO-9036-01B82934/SharedVars.lvlib/PitchAxis3State</Property>
 	<Property Name="varPersistentID:{F05CC05F-8959-4656-95A6-3527BB9583D0}" Type="Ref">/NI-cRIO-9036-01B82934/EtherCAT Master/BusCoupler/AI01/PAI Status Channel 3-Status__Diag</Property>
@@ -505,9 +500,9 @@
 	</Item>
 	<Item Name="NI-cRIO-9036-01B82934" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9036-01B82934</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.177</Property>
-		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,77DC;TARGET_TYPE,RT;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">77DC</Property>
+		<Property Name="alias.value" Type="Str">192.168.2.246</Property>
+		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,77B9;TARGET_TYPE,RT;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">77B9</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -604,12 +599,10 @@ DirectoryIndex index.htm
 			<Item Name="PLCSignals.ctl" Type="VI" URL="../Clusters/PLCSignals.ctl"/>
 			<Item Name="PLCTravSignals.ctl" Type="VI" URL="../Clusters/PLCTravSignals.ctl"/>
 			<Item Name="RoscoParams.ctl" Type="VI" URL="../Clusters/RoscoParams.ctl"/>
+			<Item Name="ScalingEnum.ctl" Type="VI" URL="../Clusters/ScalingEnum.ctl"/>
 			<Item Name="SimulationConstants.ctl" Type="VI" URL="../Clusters/SimulationConstants.ctl"/>
 			<Item Name="SwapArrayCluster.ctl" Type="VI" URL="../Clusters/SwapArrayCluster.ctl"/>
 			<Item Name="SwapIn.ctl" Type="VI" URL="../Clusters/SwapIn.ctl"/>
-			<Item Name="SwapIndexes.ctl" Type="VI" URL="../Clusters/SwapIndexes.ctl"/>
-			<Item Name="WindSimCtrl.ctl" Type="VI" URL="../Clusters/WindSimCtrl.ctl"/>
-			<Item Name="WindSimMode.ctl" Type="VI" URL="../Clusters/WindSimMode.ctl"/>
 		</Item>
 		<Item Name="IO" Type="Folder">
 			<Item Name="ReadIO.vi" Type="VI" URL="../SubVIs/ReadIO.vi"/>
@@ -617,28 +610,13 @@ DirectoryIndex index.htm
 			<Item Name="WritePLC.vi" Type="VI" URL="../SubVIs/WritePLC.vi"/>
 		</Item>
 		<Item Name="Main" Type="Folder">
-			<Item Name="FocalMainV0.vi" Type="VI" URL="../FocalMainV0.vi"/>
-			<Item Name="FocalMainV1.vi" Type="VI" URL="../FocalMainV1.vi"/>
 			<Item Name="FocalMainV2.vi" Type="VI" URL="../FocalMainV2.vi"/>
 			<Item Name="FocalMainWakeStudyV3.vi" Type="VI" URL="../FocalMainWakeStudyV3.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="replace_string.vi" Type="VI" URL="../Reference/replace_string.vi"/>
-			<Item Name="RT Read Text File.vi" Type="VI" URL="../Reference/RT Read Text File.vi"/>
-			<Item Name="RT Write Text File.vi" Type="VI" URL="../Reference/RT Write Text File.vi"/>
-		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="ArrayFunctions" Type="Folder">
-				<Item Name="CreateSwapArray.vi" Type="VI" URL="../SubVIs/CreateSwapArray.vi"/>
-				<Item Name="CreateSwapArray_v2.vi" Type="VI" URL="../SubVIs/CreateSwapArray_v2.vi"/>
 				<Item Name="CreateSwapArray_v4.vi" Type="VI" URL="../SubVIs/CreateSwapArray_v4.vi"/>
-				<Item Name="InsertIntoArray.vi" Type="VI" URL="../SubVIs/InsertIntoArray.vi"/>
 				<Item Name="InsertIntoArray_v2.vi" Type="VI" URL="../SubVIs/InsertIntoArray_v2.vi"/>
-				<Item Name="InsertIntoArray_v3.vi" Type="VI" URL="../SubVIs/InsertIntoArray_v3.vi"/>
-			</Item>
-			<Item Name="Calculations" Type="Folder">
-				<Item Name="CalcAeroTq.vi" Type="VI" URL="../SubVIs/CalcAeroTq.vi"/>
-				<Item Name="CalcTSR.vi" Type="VI" URL="../SubVIs/CalcTSR.vi"/>
 			</Item>
 			<Item Name="Calibration" Type="Folder">
 				<Item Name="AccelnetPosScale.vi" Type="VI" URL="../SubVIs/AccelnetPosScale.vi"/>
@@ -656,7 +634,6 @@ DirectoryIndex index.htm
 				<Item Name="UltrasonicAnemoInputScale.vi" Type="VI" URL="../SubVIs/UltrasonicAnemoInputScale.vi"/>
 			</Item>
 			<Item Name="CallRosco" Type="Folder">
-				<Item Name="CallRosco.vi" Type="VI" URL="../SubVIs/CallRosco.vi"/>
 				<Item Name="CallRosco_v2.vi" Type="VI" URL="../SubVIs/CallRosco_v2.vi"/>
 			</Item>
 			<Item Name="Ctrl" Type="Folder">
@@ -668,12 +645,10 @@ DirectoryIndex index.htm
 				<Item Name="PLCCtrl.vi" Type="VI" URL="../SubVIs/PLCCtrl.vi"/>
 			</Item>
 			<Item Name="FileWriting" Type="Folder">
-				<Item Name="CheckFIleWriteStatus.vi" Type="VI" URL="../SubVIs/CheckFIleWriteStatus.vi"/>
+				<Item Name="AssignFileChannels.vi" Type="VI" URL="../SubVIs/AssignFileChannels.vi"/>
+				<Item Name="CheckFileWriteStatus-v1.vi" Type="VI" URL="../SubVIs/CheckFileWriteStatus-v1.vi"/>
 				<Item Name="ConfigFileExists.vi" Type="VI" URL="../SubVIs/ConfigFileExists.vi"/>
 				<Item Name="FileBuffer.vi" Type="VI" URL="../SubVIs/FileBuffer.vi"/>
-				<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../SubVIs/GenerateUniqueFilename.vi"/>
-				<Item Name="WriteToFile-v1.vi" Type="VI" URL="../SubVIs/WriteToFile-v1.vi"/>
-				<Item Name="WriteToFile-v2.vi" Type="VI" URL="../SubVIs/WriteToFile-v2.vi"/>
 				<Item Name="WriteToFile-v3.vi" Type="VI" URL="../SubVIs/WriteToFile-v3.vi"/>
 			</Item>
 			<Item Name="Froude Scaling" Type="Folder">
@@ -685,10 +660,8 @@ DirectoryIndex index.htm
 				<Item Name="ScaleTime.vi" Type="VI" URL="../SubVIs/ScaleTime.vi"/>
 				<Item Name="ScaleTorque.vi" Type="VI" URL="../SubVIs/ScaleTorque.vi"/>
 				<Item Name="ScaleVel.vi" Type="VI" URL="../SubVIs/ScaleVel.vi"/>
-				<Item Name="ScalingEnum.ctl" Type="VI" URL="../Clusters/ScalingEnum.ctl"/>
 			</Item>
 			<Item Name="Initialization" Type="Folder">
-				<Item Name="AssignStatus.vi" Type="VI" URL="../SubVIs/AssignStatus.vi"/>
 				<Item Name="AssignStatus_v2.vi" Type="VI" URL="../SubVIs/AssignStatus_v2.vi"/>
 				<Item Name="CheckWindSetpointFile.vi" Type="VI" URL="../SubVIs/CheckWindSetpointFile.vi"/>
 				<Item Name="ReadSetpointFile-v2.vi" Type="VI" URL="../SubVIs/ReadSetpointFile-v2.vi"/>
@@ -715,9 +688,7 @@ DirectoryIndex index.htm
 				<Item Name="Traverse_Sub_Read_Position.vi" Type="VI" URL="../SubVIs/Traverse_Sub_Read_Position.vi"/>
 			</Item>
 			<Item Name="Misc" Type="Folder">
-				<Item Name="Area.vi" Type="VI" URL="../SubVIs/Area.vi"/>
 				<Item Name="DegToRad.vi" Type="VI" URL="../SubVIs/DegToRad.vi"/>
-				<Item Name="EditDisconFile.vi" Type="VI" URL="../SubVIs/EditDisconFile.vi"/>
 				<Item Name="FileWriteTiming.vi" Type="VI" URL="../SubVIs/FileWriteTiming.vi">
 					<Item Name="Edge Detect" Type="IIO Function Block">
 						<Item Name="error in" Type="Variable"/>
@@ -728,15 +699,11 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="GenerateSine.vi" Type="VI" URL="../SubVIs/GenerateSine.vi"/>
-				<Item Name="GetUTCTimestamp.vi" Type="VI" URL="../SubVIs/GetUTCTimestamp.vi"/>
 				<Item Name="NumBy1E6.vi" Type="VI" URL="../SubVIs/NumBy1E6.vi"/>
-				<Item Name="PlantModel.vi" Type="VI" URL="../SubVIs/PlantModel.vi"/>
 				<Item Name="RadpsToRPM.vi" Type="VI" URL="../SubVIs/RadpsToRPM.vi"/>
 				<Item Name="RadToDeg.vi" Type="VI" URL="../SubVIs/RadToDeg.vi"/>
 				<Item Name="RPMToRadps.vi" Type="VI" URL="../SubVIs/RPMToRadps.vi"/>
-				<Item Name="StateSpaceEqn.vi" Type="VI" URL="../SubVIs/StateSpaceEqn.vi"/>
 				<Item Name="StringInit.vi" Type="VI" URL="../SubVIs/StringInit.vi"/>
-				<Item Name="WindSimulator.vi" Type="VI" URL="../SubVIs/WindSimulator.vi"/>
 			</Item>
 			<Item Name="www" Type="Folder">
 				<Item Name="FocalMainV2.html" Type="Document" URL="../www/FocalMainV2.html"/>
@@ -8055,9 +8022,6 @@ DirectoryIndex index.htm
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -8073,36 +8037,27 @@ DirectoryIndex index.htm
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -8118,7 +8073,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="libCallROSCO.so" Type="Document" URL="/usr/local/lib/libCallROSCO.so"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
